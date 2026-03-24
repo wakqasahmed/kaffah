@@ -1,340 +1,824 @@
 [
   {
-    "question_text": "Which sin is the GREATEST of all major sins and the only one Allah has declared unforgivable if died upon?",
+    "question_text": "Which is the only sin Allah explicitly declares He will NOT forgive if someone dies upon it?",
     "question_data": {
       "sin_key": "shirk",
       "sin_arabic": "الشِّرْكُ بِاللَّهِ",
-      "quranic_ref": "إِنَّ اللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ",
-      "options": ["Shirk — Associating partners with Allah", "Qatl — Murder", "Zina — Adultery", "Riba — Usury"],
-      "correct_index": 0,
-      "explanation": "Shirk is the greatest sin. Allah says He will not forgive it if one dies upon it (4:48), yet He forgives all lesser sins to whom He wills."
+      "sin_number": 1,
+      "quranic_ref": "An-Nisa 4:48",
+      "arabic_text": "إِنَّ اللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَاءُ",
+      "options": ["Murder (Qatl)", "Shirk — Associating partners with Allah", "Zina — Adultery", "Riba — Usury"],
+      "correct_index": 1,
+      "explanation": "Allah says in 4:48: 'Indeed, Allah does not forgive association with Him, but He forgives what is less than that for whom He wills.' Shirk is the greatest sin — the only one with no forgiveness if one dies upon it."
     },
     "difficulty_level": 1
   },
   {
-    "question_text": "A Muslim who does NOT pray (abandons Salah deliberately) commits which level of sin according to Imam Dhahabi?",
+    "question_text": "In Surah Luqman (31:13), Luqman warned his son that shirk (associating partners with Allah) is:",
     "question_data": {
-      "sin_key": "abandoning_salah",
-      "sin_arabic": "تَرْكُ الصَّلَاةِ",
-      "options": ["A minor sin requiring istighfar", "A major sin (Kabira)", "Kufr — disbelief (exit from Islam)", "Makruh — disliked only"],
-      "correct_index": 2,
-      "explanation": "The Prophet ﷺ said: 'Between a man and shirk and kufr is the abandonment of prayer.' (Muslim). Many scholars classify deliberate abandonment as kufr."
+      "sin_key": "shirk",
+      "sin_arabic": "الشِّرْكُ بِاللَّهِ",
+      "sin_number": 1,
+      "quranic_ref": "Luqman 31:13",
+      "arabic_text": "إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ",
+      "options": ["A sin that can be compensated with good deeds", "A great injustice (dhulm azeem)", "Only forbidden for scholars and the learned", "Forgiven if done out of ignorance"],
+      "correct_index": 1,
+      "explanation": "Luqman said to his son: 'O my son, do not associate [anything] with Allah. Indeed, association [with Him] is a great injustice (dhulm azeem).' It is an injustice against Allah's right to be worshipped alone."
     },
     "difficulty_level": 2
   },
   {
-    "question_text": "What is the Islamic ruling on Sihr (magic/sorcery)?",
+    "question_text": "According to Quran 5:32, killing ONE innocent soul is equivalent to:",
     "question_data": {
-      "sin_key": "sihr",
-      "sin_arabic": "السِّحْرُ",
-      "options": ["Disliked but permitted if used for protection", "A major sin and act of kufr", "Only forbidden if it harms others", "Allowed if done by religious scholars"],
-      "correct_index": 1,
-      "explanation": "Magic/sorcery is a major sin that can constitute kufr. Allah says the Shayateen taught people sorcery (2:102). It is listed among the seven destroyers (al-mubiqat)."
-    },
-    "difficulty_level": 2
-  },
-  {
-    "question_text": "The Prophet ﷺ listed seven destroyers (al-mubiqat). Which of the following is NOT one of them?",
-    "question_data": {
-      "sin_key": "al_mubiqat",
-      "sin_arabic": "الْمُوبِقَاتُ",
-      "options": ["Shirk with Allah", "Sorcery (Sihr)", "Backbiting (Gheeba)", "Devouring the wealth of orphans"],
-      "correct_index": 2,
-      "explanation": "The seven destroyers (Bukhari & Muslim) are: Shirk, Sorcery, Unjust killing, Riba, Devouring orphan's wealth, Fleeing from battle, Slandering chaste women. Gheeba is a sin but not in this list."
-    },
-    "difficulty_level": 3
-  },
-  {
-    "question_text": "Consuming Riba (interest/usury) is a major sin. What does the Quran say awaits those who persist in it?",
-    "question_data": {
-      "sin_key": "riba",
-      "sin_arabic": "الرِّبَا",
-      "quranic_ref": "فَأْذَنُوا بِحَرْبٍ مِّنَ اللَّهِ وَرَسُولِهِ",
-      "options": ["They will be forgiven if they give Sadaqah", "They are declared at war with Allah and His Messenger", "Their wealth will be reduced as punishment", "They will only face punishment in the Hereafter"],
-      "correct_index": 1,
-      "explanation": "Quran 2:279: 'If you do not, then be warned of war from Allah and His Messenger.' This is the only sin in the Quran where Allah declares war on the perpetrator."
-    },
-    "difficulty_level": 2
-  },
-  {
-    "question_text": "According to Imam Dhahabi, what makes something a Kabira (major sin) as opposed to a sagheera (minor sin)?",
-    "question_data": {
-      "sin_key": "definition_kabira",
-      "sin_arabic": "الْكَبِيرَةُ",
-      "options": ["It is mentioned by name in the Quran", "It carries a specific hadd punishment, curse, or warning of Hellfire in Quran/Sunnah", "It is universally agreed upon by all scholars", "It harms other people physically"],
-      "correct_index": 1,
-      "explanation": "Imam Dhahabi defines a kabira as any sin that carries a specific hadd punishment, or is explicitly cursed, or warned about with Hellfire/Wrath/Punishment in the Quran or authentic Hadith."
-    },
-    "difficulty_level": 3
-  },
-  {
-    "question_text": "Disobeying and disrespecting one's parents (Uquq al-Walidayn) is a major sin. Which pairing from the Quran shows its severity?",
-    "question_data": {
-      "sin_key": "uquq_al_walidayn",
-      "sin_arabic": "عُقُوقُ الْوَالِدَيْنِ",
-      "quranic_ref": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا",
-      "options": ["It is paired with the prohibition of killing", "It is paired with the command to worship Allah alone (17:23)", "It is paired with the prohibition of Zina", "It is paired with the prohibition of theft"],
-      "correct_index": 1,
-      "explanation": "Quran 17:23 places worship of Allah alone immediately followed by excellence to parents, showing the gravity of disobedience to parents."
-    },
-    "difficulty_level": 2
-  },
-  {
-    "question_text": "Cutting the ties of kinship (Qat' al-Rahim) is a major sin. The Prophet ﷺ said which person will NOT enter Jannah?",
-    "question_data": {
-      "sin_key": "qat_al_rahim",
-      "sin_arabic": "قَطِيعَةُ الرَّحِمِ",
-      "options": ["One who misses Friday prayer once", "One who cuts ties of kinship (qati')", "One who delays Zakat", "One who does not perform voluntary fasting"],
-      "correct_index": 1,
-      "explanation": "The Prophet ﷺ said: 'The qati' (one who cuts kinship ties) will not enter Paradise.' (Bukhari & Muslim). Allah promised to join those who maintain it and cut off those who cut it."
-    },
-    "difficulty_level": 1
-  },
-  {
-    "question_text": "Zina (adultery/fornication) is a major sin. What must a Muslim do if they fall into it?",
-    "question_data": {
-      "sin_key": "zina",
-      "sin_arabic": "الزِّنَا",
-      "options": ["Accept that they are permanently damned", "Make sincere Tawbah — Allah forgives all sins for those who repent", "Perform 100 days of fasting as expiation", "Leave the country to escape the shame"],
-      "correct_index": 1,
-      "explanation": "Quran 25:68-70 lists Zina among the gravest sins, but immediately follows with: 'Except those who repent, believe, and do righteous deeds — for them Allah will replace their sins with good deeds.' Sincere Tawbah is always open."
-    },
-    "difficulty_level": 1
-  },
-  {
-    "question_text": "Devouring the wealth of orphans is listed among the seven destroyers. What does the Quran say those who do this are consuming?",
-    "question_data": {
-      "sin_key": "mal_al_yateem",
-      "sin_arabic": "أَكْلُ مَالِ الْيَتِيمِ",
-      "quranic_ref": "إِنَّ الَّذِينَ يَأْكُلُونَ أَمْوَالَ الْيَتَامَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِي بُطُونِهِمْ نَارًا",
-      "options": ["Stolen silver and gold", "Fire in their bellies", "The rights of the weak", "The blessings of the community"],
-      "correct_index": 1,
-      "explanation": "Quran 4:10: 'Indeed those who devour the wealth of orphans unjustly are only consuming fire into their bellies, and they will be burned in a Blazing Fire.'"
-    },
-    "difficulty_level": 2
-  },
-  {
-    "question_text": "False testimony (Shahada al-Zur) and lying are major sins. The Prophet ﷺ repeated the warning about false testimony how many times?",
-    "question_data": {
-      "sin_key": "shahada_al_zur",
-      "sin_arabic": "شَهَادَةُ الزُّورِ",
-      "options": ["Once", "Twice", "Three times — until companions wished he would stop", "Seven times"],
-      "correct_index": 2,
-      "explanation": "In a famous hadith (Bukhari), the Prophet ﷺ warned about false testimony three times repeatedly, until the companions said 'we wished he would have been quiet.' This shows its enormous gravity."
-    },
-    "difficulty_level": 2
-  },
-  {
-    "question_text": "Drinking alcohol (Khamr) is forbidden. The Prophet ﷺ cursed how many people connected to alcohol?",
-    "question_data": {
-      "sin_key": "khamr",
-      "sin_arabic": "شُرْبُ الْخَمْرِ",
-      "options": ["3 people (drinker, seller, buyer)", "7 people", "10 people", "Only the drinker"],
-      "correct_index": 2,
-      "explanation": "The Prophet ﷺ cursed 10 people connected to alcohol: the one who presses it, the one who has it pressed, the one who drinks it, the one who carries it, the one it is carried to, the one who serves it, the seller, the one who consumes its price, the buyer, and the one it is bought for. (Ibn Majah, Tirmidhi)"
-    },
-    "difficulty_level": 3
-  },
-  {
-    "question_text": "Qadhf (falsely accusing a chaste Muslim of Zina) is a major sin. What is the prescribed punishment (hadd)?",
-    "question_data": {
-      "sin_key": "qadhf",
-      "sin_arabic": "الْقَذْفُ",
-      "options": ["Imprisonment for one year", "80 lashes and rejection of their testimony forever (unless they repent)", "50 lashes and public apology", "Financial compensation to the accused"],
-      "correct_index": 1,
-      "explanation": "Quran 24:4: 'Those who accuse chaste women and then do not produce four witnesses — lash them with eighty lashes and do not accept from them testimony ever after. Those are the defiantly disobedient.'"
-    },
-    "difficulty_level": 2
-  },
-  {
-    "question_text": "Fleeing from battle (Firrar min al-Zihaf) is one of the seven destroyers. In what context does this apply?",
-    "question_data": {
-      "sin_key": "firrar_min_zihaf",
-      "sin_arabic": "الْفِرَارُ مِنَ الزَّحْفِ",
-      "options": ["Fleeing from any difficult situation in life", "Fleeing from an advancing enemy army in Jihad without valid reason", "Fleeing from a natural disaster", "Fleeing from one's responsibilities at work"],
-      "correct_index": 1,
-      "explanation": "This refers specifically to retreating from the battlefield without a valid excuse (like tactical retreat, or being overwhelmed). It is a betrayal of the Muslim army and community."
-    },
-    "difficulty_level": 2
-  },
-  {
-    "question_text": "Suicide (killing oneself) is a major sin. What did the Prophet ﷺ say about its punishment?",
-    "question_data": {
-      "sin_key": "suicide",
-      "sin_arabic": "قَتْلُ النَّفْسِ",
-      "options": ["The person is forgiven due to mental suffering", "The person will repeatedly perform the same act of killing themselves in Hell", "There is no punishment — it is only discouraged", "The person exits Islam by this act"],
-      "correct_index": 1,
-      "explanation": "Bukhari: 'Whoever kills himself with an iron tool will be in Hellfire with that tool in his hand, stabbing himself repeatedly forever.' Allah alone gives and takes life."
-    },
-    "difficulty_level": 2
-  },
-  {
-    "question_text": "Kibr (arrogance/pride) is a major sin. The Prophet ﷺ defined it as:",
-    "question_data": {
-      "sin_key": "kibr",
-      "sin_arabic": "الْكِبْرُ",
-      "options": ["Thinking you are better than everyone at all times", "Rejecting the truth and looking down on people", "Being proud of one's achievements", "Refusing to listen to advice"],
-      "correct_index": 1,
-      "explanation": "Muslim: 'Kibr is: rejecting truth and belittling people.' The Prophet ﷺ said 'No one with even a mustard seed of arrogance in his heart will enter Paradise.'"
-    },
-    "difficulty_level": 1
-  },
-  {
-    "question_text": "Which of the following describes the sin of Ghulul — stealing from war spoils?",
-    "question_data": {
-      "sin_key": "ghulul",
-      "sin_arabic": "الْغُلُولُ",
-      "options": ["Taking goods on credit and not repaying", "Taking from the public treasury without permission", "Taking anything from the enemy's spoils before proper distribution (Ghanima)", "Hiding wealth to avoid Zakat"],
-      "correct_index": 2,
-      "explanation": "Quran 3:161: 'It is not for a Prophet to deceive (steal from spoils).' The Prophet ﷺ said the thief will carry what he stole on the Day of Judgment. Proper distribution of Ghanima is obligatory."
-    },
-    "difficulty_level": 3
-  },
-  {
-    "question_text": "Not paying Zakat is a major sin. What punishment does the Quran mention for those who hoard gold and silver without paying Zakat?",
-    "question_data": {
-      "sin_key": "withholding_zakat",
-      "sin_arabic": "مَنْعُ الزَّكَاةِ",
-      "quranic_ref": "فَتُكْوَىٰ بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ",
-      "options": ["Their wealth will be burned in this world", "Their foreheads, sides, and backs will be branded with it on the Day of Judgment", "They will be imprisoned in the Hereafter", "Their children will inherit curses"],
-      "correct_index": 1,
-      "explanation": "Quran 9:34-35: 'Those who hoard gold and silver and do not spend them in the cause of Allah — give them tidings of painful punishment. The Day when it will be heated in Hellfire and seared upon their foreheads, sides, and backs.'"
-    },
-    "difficulty_level": 2
-  },
-  {
-    "question_text": "Thieft (Sariqah) is a major sin with a prescribed punishment. What is the hadd for theft in Islamic law?",
-    "question_data": {
-      "sin_key": "sariqah",
-      "sin_arabic": "السَّرِقَةُ",
-      "options": ["100 lashes and imprisonment", "Cutting the hand of the thief (with conditions)", "Paying back double what was stolen", "Public shaming and community service"],
-      "correct_index": 1,
-      "explanation": "Quran 5:38: 'As for the thief, the male and female — cut their hands as recompense for what they committed as a deterrent punishment from Allah.' Strict conditions must be met before this hadd applies."
-    },
-    "difficulty_level": 1
-  },
-  {
-    "question_text": "Highway robbery (Qat' al-Tariq) is among the most dangerous major sins. What range of punishments does the Quran prescribe?",
-    "question_data": {
-      "sin_key": "qat_al_tariq",
-      "sin_arabic": "قَطْعُ الطَّرِيقِ",
-      "options": ["Only monetary fine and imprisonment", "Execution, crucifixion, cutting of alternate hands/feet, or exile", "100 lashes and expulsion from the city", "Death by stoning"],
-      "correct_index": 1,
-      "explanation": "Quran 5:33: 'The punishment of those who wage war against Allah and His Messenger and strive to make mischief: execution, crucifixion, cutting of hands and feet from opposite sides, or exile.' This is the most severe punishment range in the Quran."
-    },
-    "difficulty_level": 3
-  },
-  {
-    "question_text": "A Yamin al-Ghamus is an oath that buries the swearer in sin/Hellfire. What makes this oath special?",
-    "question_data": {
-      "sin_key": "yamin_al_ghamus",
-      "sin_arabic": "الْيَمِينُ الْغَمُوسُ",
-      "options": ["An oath taken in the name of other than Allah", "A deliberate false oath taken to seize another's right", "An oath broken accidentally", "An oath to do something impossible"],
-      "correct_index": 1,
-      "explanation": "Yamin al-Ghamus is swearing by Allah deliberately knowing you are lying, to gain something or harm someone. It is called 'ghamus' (immersing) because it drowns the swearer in sin and then in Hellfire."
-    },
-    "difficulty_level": 3
-  },
-  {
-    "question_text": "Oppression (Dhulm/Zulm) is a major sin. What does Allah say about oppression in the Hadith Qudsi?",
-    "question_data": {
-      "sin_key": "dhulm",
-      "sin_arabic": "الظُّلْمُ",
-      "options": ["'I permit it only against oppressors'", "'I have made oppression forbidden upon Myself and made it forbidden between you — so do not oppress one another'", "'Oppression in this life has no punishment in the Hereafter'", "'Only the oppressed can seek revenge'"],
-      "correct_index": 1,
-      "explanation": "Hadith Qudsi (Muslim): 'O My servants! I have forbidden oppression for Myself and have made it forbidden amongst you, so do not oppress one another.' The oppressor's deeds will be transferred to his victim on Judgment Day."
-    },
-    "difficulty_level": 1
-  },
-  {
-    "question_text": "Collecting taxes/tolls unjustly (Al-Maks) is a major sin. Why is the tax collector threatened with severe punishment?",
-    "question_data": {
-      "sin_key": "al_maks",
-      "sin_arabic": "الْمَكْسُ",
-      "options": ["Because taxes belong to the king, not the collector", "Because they take people's wealth without right — a form of oppression and highway robbery", "Because they often lie about the amounts", "Because they prevent trade and commerce"],
-      "correct_index": 1,
-      "explanation": "Unjust tax collectors extort people's wealth without divine or legitimate authorization. The Prophet ﷺ warned: 'The collector of illegal taxes will not enter Paradise.' (Abu Dawud)"
-    },
-    "difficulty_level": 3
-  },
-  {
-    "question_text": "Consuming haram (forbidden) food and wealth — including from unlawful sources — affects one's Ibadah. What did the Prophet ﷺ say about one whose food is haram?",
-    "question_data": {
-      "sin_key": "haram_food",
-      "sin_arabic": "أَكْلُ الْحَرَامِ",
-      "options": ["Their prayer still counts if they repent", "His du'a is not answered — his food, drink, clothes, and nourishment are all haram", "They only need to give extra Sadaqah", "Their other good deeds compensate for this"],
-      "correct_index": 1,
-      "explanation": "Muslim: The Prophet ﷺ mentioned a man raising his hands to the sky saying 'O Lord! O Lord!' but his food is haram, his drink is haram, his clothing is haram, nourished with haram — 'so how can his du'a be answered?'"
-    },
-    "difficulty_level": 2
-  },
-  {
-    "question_text": "Murder — killing a soul unjustly (Qatl al-Nafs) — is one of the seven destroyers. What does the Quran say about killing ONE innocent soul?",
-    "question_data": {
-      "sin_key": "qatl",
-      "sin_arabic": "قَتْلُ النَّفْسِ",
-      "quranic_ref": "مَن قَتَلَ نَفْسًا بِغَيْرِ نَفْسٍ أَوْ فَسَادٍ فِي الْأَرْضِ فَكَأَنَّمَا قَتَلَ النَّاسَ جَمِيعًا",
-      "options": ["It is like killing a hundred people", "It is like killing all of humanity", "It requires blood money (diya) only", "It is equal to committing Shirk"],
+      "sin_key": "murder",
+      "sin_arabic": "الْقَتْلُ",
+      "sin_number": 2,
+      "quranic_ref": "Al-Ma'idah 5:32",
+      "arabic_text": "مَن قَتَلَ نَفْسًا بِغَيْرِ نَفْسٍ أَوْ فَسَادٍ فِي الْأَرْضِ فَكَأَنَّمَا قَتَلَ النَّاسَ جَمِيعًا",
+      "options": ["Killing one hundred people", "Killing all of humanity", "An act equal to Shirk", "A sin requiring blood money (diya) only"],
       "correct_index": 1,
       "explanation": "Quran 5:32: 'Whoever kills a soul — unless for a soul or for corruption in the land — it is as if he had slain all of mankind.' Conversely, saving one life is like saving all of humanity."
     },
     "difficulty_level": 1
   },
   {
-    "question_text": "The sin of Nifaq (hypocrisy) places the Munafiqeen in the lowest level of Hellfire. What is the Arabic term for 'the lowest depths of Hellfire'?",
+    "question_text": "Quran 4:93 warns: whoever kills a believer intentionally, his punishment in the Hereafter is:",
     "question_data": {
-      "sin_key": "nifaq",
-      "sin_arabic": "النِّفَاقُ",
-      "quranic_ref": "إِنَّ الْمُنَافِقِينَ فِي الدَّرْكِ الْأَسْفَلِ مِنَ النَّارِ",
-      "options": ["أَسْفَلُ سَافِلِينَ", "الدَّرْكُ الْأَسْفَلُ", "جَهَنَّمُ الْكُبْرَى", "لَظَى الْعُظْمَى"],
+      "sin_key": "murder",
+      "sin_arabic": "الْقَتْلُ",
+      "sin_number": 2,
+      "quranic_ref": "An-Nisa 4:93",
+      "arabic_text": "وَمَن يَقْتُلْ مُؤْمِنًا مُّتَعَمِّدًا فَجَزَاؤُهُ جَهَنَّمُ خَالِدًا فِيهَا وَغَضِبَ اللَّهُ عَلَيْهِ وَلَعَنَهُ وَأَعَدَّ لَهُ عَذَابًا عَظِيمًا",
+      "options": ["70 years in Hell followed by Paradise", "Hellfire eternally, with Allah's anger and curse upon him", "Reduction of good deeds proportional to the sin", "Expiation through freeing a slave and fasting"],
       "correct_index": 1,
-      "explanation": "Quran 4:145: 'The hypocrites will be in the lowest depths of the Fire (al-Darakil Asfal), and you will find for them no helper.' This is the worst level of Hellfire, reserved for those who outwardly claim Islam but inwardly deny it."
+      "explanation": "Quran 4:93: 'And whoever kills a believer intentionally — his recompense is Hell, wherein he will abide eternally, and Allah has become angry with him and has cursed him and has prepared for him a great punishment.'"
     },
     "difficulty_level": 2
   },
   {
-    "question_text": "The signs of a Munafiq (hypocrite) are well-known. How many signs did the Prophet ﷺ mention in the famous hadith?",
+    "question_text": "Imam Dhahabi lists Sihr (magic/sorcery) as a major sin. What does Quran 2:102 say the Shayateen taught people?",
     "question_data": {
-      "sin_key": "signs_of_nifaq",
-      "sin_arabic": "عَلَامَاتُ الْمُنَافِقِ",
-      "options": ["Two signs", "Three signs", "Four signs", "Five signs"],
+      "sin_key": "sihr",
+      "sin_arabic": "السِّحْرُ",
+      "sin_number": 3,
+      "quranic_ref": "Al-Baqarah 2:102",
+      "arabic_text": "وَمَا كَفَرَ سُلَيْمَانُ وَلَٰكِنَّ الشَّيَاطِينَ كَفَرُوا يُعَلِّمُونَ النَّاسَ السِّحْرَ",
+      "options": ["How to interpret dreams and omens", "Sorcery — and it was an act of kufr on their part, not Sulaiman's", "Methods of divination and astrology", "Secret knowledge hidden from the Prophets"],
       "correct_index": 1,
-      "explanation": "Bukhari & Muslim: 'The signs of the hypocrite are three: When he speaks, he lies; when he makes a promise, he breaks it; when he is trusted, he betrays.' A variant adds: when he argues, he is obscene."
-    },
-    "difficulty_level": 1
-  },
-  {
-    "question_text": "Not performing Hajj when one is able to is a major sin. The Prophet ﷺ warned that such a person would die as:",
-    "question_data": {
-      "sin_key": "abandoning_hajj",
-      "sin_arabic": "تَرْكُ الْحَجِّ",
-      "options": ["A sinner requiring extra Sadaqah to compensate", "A Jew or a Christian — dying not as a Muslim", "A person with reduced reward", "Someone whose Hajj is not accepted later"],
-      "correct_index": 1,
-      "explanation": "The Prophet ﷺ said: 'Whoever can afford to make the pilgrimage but does not, it matters not whether he dies as a Jew or a Christian.' (Tirmidhi). This shows the gravity of abandoning this pillar of Islam."
+      "explanation": "Quran 2:102: 'And Solomon did not disbelieve, but the devils disbelieved, teaching people magic.' The verse explicitly calls the teaching of sorcery an act of kufr (disbelief) by the Shayateen."
     },
     "difficulty_level": 2
   },
   {
-    "question_text": "Qat' al-Rahim and uquq al-walidayn both relate to family. Which Quranic description warns that such people are cursed and cut off?",
+    "question_text": "The Prophet ﷺ listed the seven destroyers (al-mubiqat). Which of these is NOT among them?",
     "question_data": {
-      "sin_key": "family_sins",
-      "sin_arabic": "قَطِيعَةُ الْأَرْحَامِ",
-      "quranic_ref": "وَيَقْطَعُونَ مَا أَمَرَ اللَّهُ بِهِ أَن يُوصَلَ",
-      "options": ["Those who break the covenant of Allah after ratifying it, sever what Allah has ordered to be joined, and spread corruption (2:27)", "Those who deny the resurrection and the Judgment Day", "Those who refuse to pay Sadaqah and help the poor", "Those who argue against the Prophets"],
-      "correct_index": 0,
-      "explanation": "Quran 2:27 describes the losers as those who break Allah's covenant, sever what Allah ordered to be joined (kinship/family ties), and spread corruption. These are the characteristics of Hizb ush-Shaitan."
+      "sin_key": "sihr",
+      "sin_arabic": "السِّحْرُ",
+      "sin_number": 3,
+      "quranic_ref": "Bukhari & Muslim",
+      "options": ["Shirk with Allah", "Sorcery (Sihr)", "Backbiting (Gheeba)", "Devouring the wealth of orphans"],
+      "correct_index": 2,
+      "explanation": "The seven destroyers are: Shirk, Sorcery, Unjust killing, Riba, Devouring orphan's wealth, Fleeing from battle, and Slandering chaste women. Backbiting is a major sin but is not in this specific list."
     },
     "difficulty_level": 3
   },
   {
-    "question_text": "Imam Dhahabi's book 'Al-Kaba'ir' lists the major sins. The Arabic word الكبائر (al-Kaba'ir) means:",
+    "question_text": "Quran 19:59 warns about a generation who will neglect prayer and follow their desires. Where will they end up?",
     "question_data": {
-      "sin_key": "definition_kaba_ir",
-      "sin_arabic": "الْكَبَائِرُ",
-      "options": ["The forgotten obligations", "The great/major sins", "The acts of innovation (Bid'ah)", "The prohibited foods"],
+      "sin_key": "abandoning_salah",
+      "sin_arabic": "تَرْكُ الصَّلَاةِ",
+      "sin_number": 4,
+      "quranic_ref": "Maryam 19:59",
+      "arabic_text": "فَخَلَفَ مِن بَعْدِهِمْ خَلْفٌ أَضَاعُوا الصَّلَاةَ وَاتَّبَعُوا الشَّهَوَاتِ ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا",
+      "options": ["They will be forgiven if they repent before death", "They will meet Ghayy — a valley in Hell", "They will lose only voluntary rewards", "They will be given a lighter punishment"],
       "correct_index": 1,
-      "explanation": "الكبائر is the plural of كبيرة (kabira), meaning 'great' or 'large.' It refers to major sins — those with specific punishments, curses, or warnings of Allah's wrath in the Quran or authentic Sunnah."
+      "explanation": "Quran 19:59: 'But there came after them successors who neglected prayer and pursued desires; so they are going to meet evil (Ghayy).' Many scholars interpret Ghayy as a valley or pit in Hellfire of extreme punishment."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "The Prophet ﷺ said: 'Between a man and shirk and kufr is the abandonment of prayer.' This means deliberate abandonment of Salah is considered:",
+    "question_data": {
+      "sin_key": "abandoning_salah",
+      "sin_arabic": "تَرْكُ الصَّلَاةِ",
+      "sin_number": 4,
+      "quranic_ref": "Sahih Muslim",
+      "options": ["A minor sin requiring only istighfar", "A major sin (kabira) but not kufr", "Kufr — disbelief that exits one from Islam according to many scholars", "Makruh — only disliked"],
+      "correct_index": 2,
+      "explanation": "The hadith in Sahih Muslim: 'The covenant between us and them is prayer, so whoever abandons it has disbelieved.' Many scholars, including Imam Ahmad, held that deliberate abandonment of prayer is an act of kufr, placing it in the same category as shirk."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 3:180 warns about those who are miserly with Allah's bounty (withholding Zakat). What will their miserliness become on the Day of Judgment?",
+    "question_data": {
+      "sin_key": "withholding_zakat",
+      "sin_arabic": "مَنْعُ الزَّكَاةِ",
+      "sin_number": 5,
+      "quranic_ref": "Ali 'Imran 3:180",
+      "arabic_text": "سَيُطَوَّقُونَ مَا بَخِلُوا بِهِ يَوْمَ الْقِيَامَةِ",
+      "options": ["Turned into fire that burns their homes", "A collar around their necks on the Day of Resurrection", "Multiplied debt they must repay to the poor", "A curtain between them and Allah's mercy"],
+      "correct_index": 1,
+      "explanation": "Quran 3:180: 'And let not those who withhold what Allah has given them of His bounty ever think that it is better for them; rather, it is worse for them. Their necks will be encircled by what they withheld on the Day of Resurrection.'"
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 9:34-35 describes the punishment for those who hoard gold and silver without paying Zakat. Where will they be branded?",
+    "question_data": {
+      "sin_key": "withholding_zakat",
+      "sin_arabic": "مَنْعُ الزَّكَاةِ",
+      "sin_number": 5,
+      "quranic_ref": "At-Tawbah 9:34-35",
+      "arabic_text": "فَتُكْوَىٰ بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ",
+      "options": ["Only their hands — as they withheld what they should have given", "Their foreheads, sides, and backs", "Their tongues — for refusing to give", "Their chests — as their hearts were sealed"],
+      "correct_index": 1,
+      "explanation": "Quran 9:35: 'The Day when it will be heated in the fire of Hell and seared therewith will be their foreheads, their flanks, and their backs.' The gold and silver they hoarded becomes the very instrument of their punishment."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 2:183 establishes fasting's purpose. Why did Allah prescribe fasting for the believers?",
+    "question_data": {
+      "sin_key": "breaking_fast",
+      "sin_arabic": "الْإِفْطَارُ فِي رَمَضَانَ",
+      "sin_number": 6,
+      "quranic_ref": "Al-Baqarah 2:183",
+      "arabic_text": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+      "options": ["To show gratitude for food and sustenance", "So that you may become of those who have taqwa (God-consciousness)", "As punishment for past sins", "To distinguish Muslims from other nations"],
+      "correct_index": 1,
+      "explanation": "Quran 2:183: 'O you who believe! Fasting has been prescribed for you as it was prescribed for those before you, so that you may become of those who have taqwa.' The ultimate goal of fasting is developing God-consciousness — making breaking it without excuse a betrayal of this purpose."
     },
     "difficulty_level": 1
+  },
+  {
+    "question_text": "Breaking the Ramadan fast deliberately without a valid excuse is a major sin. What does the Quran call Ramadan specifically?",
+    "question_data": {
+      "sin_key": "breaking_fast",
+      "sin_arabic": "الْإِفْطَارُ فِي رَمَضَانَ",
+      "sin_number": 6,
+      "quranic_ref": "Al-Baqarah 2:185",
+      "arabic_text": "شَهْرُ رَمَضَانَ الَّذِي أُنزِلَ فِيهِ الْقُرْآنُ هُدًى لِّلنَّاسِ",
+      "options": ["The Month of Tawbah and Forgiveness only", "The month in which the Quran was revealed as guidance for humanity", "The month of charity and generosity above all else", "The month of the five pillars combined"],
+      "correct_index": 1,
+      "explanation": "Quran 2:185: 'Ramadan is the month in which the Quran was revealed as guidance for the people.' Breaking fast in this sacred month — in which the Quran descended — without valid reason compounds the sin's gravity."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "Quran 3:97 declares Hajj as an obligation. Who must perform it?",
+    "question_data": {
+      "sin_key": "abandoning_hajj",
+      "sin_arabic": "تَرْكُ الْحَجِّ",
+      "sin_number": 7,
+      "quranic_ref": "Ali 'Imran 3:97",
+      "arabic_text": "وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ اللَّهَ غَنِيٌّ عَنِ الْعَالَمِينَ",
+      "options": ["Every Muslim annually without exception", "Whoever is able to find a way to it — and whoever disbelieves, Allah is free of need of the worlds", "Only those who live near Makkah", "Muslim men only, at least once every five years"],
+      "correct_index": 1,
+      "explanation": "Quran 3:97: 'And pilgrimage to the House is a duty owed to Allah by people who are able to find a way there. As for those who disbelieve — Allah is certainly independent of all beings.' The verse equates abandonment of Hajj (when able) with the attitude of disbelief."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "The Prophet ﷺ said about one who can afford Hajj but does not perform it: he may die in the state of:",
+    "question_data": {
+      "sin_key": "abandoning_hajj",
+      "sin_arabic": "تَرْكُ الْحَجِّ",
+      "sin_number": 7,
+      "quranic_ref": "Tirmidhi",
+      "options": ["A sinner requiring extra Sadaqah to compensate", "A Jew or a Christian — dying not fully as a Muslim", "Someone whose good deeds are diminished", "A person excluded from intercession"],
+      "correct_index": 1,
+      "explanation": "The Prophet ﷺ said: 'Whoever can afford to perform Hajj but does not, it does not matter whether he dies as a Jew or a Christian.' (Tirmidhi). This is one of the strongest warnings about abandoning this pillar of Islam."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 17:23 places dutiful treatment of parents directly alongside which other command, showing its supreme importance?",
+    "question_data": {
+      "sin_key": "disobeying_parents",
+      "sin_arabic": "عُقُوقُ الْوَالِدَيْنِ",
+      "sin_number": 8,
+      "quranic_ref": "Al-Isra 17:23",
+      "arabic_text": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا",
+      "options": ["Giving charity to the poor", "Worship of Allah alone", "Performing Hajj and Umrah", "Fasting and prayer"],
+      "correct_index": 1,
+      "explanation": "Quran 17:23: 'Your Lord has decreed that you worship none but Him, and that you be dutiful to your parents.' The command for Ihsan (excellence) toward parents is placed immediately after the command for Tawheed — indicating its supreme rank."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "Quran 17:23 gives specific instruction on speech with parents. Even if both parents reach old age, we should NEVER say to them:",
+    "question_data": {
+      "sin_key": "disobeying_parents",
+      "sin_arabic": "عُقُوقُ الْوَالِدَيْنِ",
+      "sin_number": 8,
+      "quranic_ref": "Al-Isra 17:23",
+      "arabic_text": "فَلَا تَقُل لَّهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًا كَرِيمًا",
+      "options": ["Anything in a foreign language they don't understand", "Even 'Uff' — the slightest word of displeasure — nor rebuke them", "Any instruction or advice about religious matters", "Anything that reminds them of their past mistakes"],
+      "correct_index": 1,
+      "explanation": "Quran 17:23: 'And do not say to them [even] \"uff\" and do not repel them but speak to them a noble word.' Allah forbade even the tiniest expression of annoyance (\"uff\") — how much greater is the sin of shouting, hitting, or abandoning them?"
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "Quran 47:22-23 describes those who cut family ties. What does it say they will spread if they turn away from Islam?",
+    "question_data": {
+      "sin_key": "cutting_family_ties",
+      "sin_arabic": "قَطِيعَةُ الرَّحِمِ",
+      "sin_number": 9,
+      "quranic_ref": "Muhammad 47:22-23",
+      "arabic_text": "فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا فِي الْأَرْضِ وَتُقَطِّعُوا أَرْحَامَكُمْ",
+      "options": ["Poverty and economic collapse", "Corruption in the land and cutting of family ties", "False religions and shirk", "War and bloodshed"],
+      "correct_index": 1,
+      "explanation": "Quran 47:22-23: 'So would you perhaps, if you turned away, cause corruption on earth and sever your kinship ties? Those are the ones whom Allah has cursed, so He deafened them and blinded their vision.' Cutting ties is linked to spreading corruption."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "The Prophet ﷺ warned about 'the qati'' — the one who cuts family ties. What did he say about them and Jannah?",
+    "question_data": {
+      "sin_key": "cutting_family_ties",
+      "sin_arabic": "قَطِيعَةُ الرَّحِمِ",
+      "sin_number": 9,
+      "quranic_ref": "Bukhari & Muslim",
+      "options": ["They will enter Jannah but be punished first in Hellfire", "The qati' will NOT enter Jannah", "They lose only the highest levels of Jannah", "They are forgiven if their relatives forgave them"],
+      "correct_index": 1,
+      "explanation": "The Prophet ﷺ said: 'The qati' (one who cuts kinship ties) will not enter Paradise.' (Bukhari & Muslim). Allah said He will join those who join their kin and cut off those who cut them. This is one of the sins punished both in this world and the Hereafter."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "Quran 17:32 gives a clear prohibition about zina. What exact wording does it use?",
+    "question_data": {
+      "sin_key": "zina",
+      "sin_arabic": "الزِّنَا",
+      "sin_number": 10,
+      "quranic_ref": "Al-Isra 17:32",
+      "arabic_text": "وَلَا تَقْرَبُوا الْزِّنَا ۖ إِنَّهُ كَانَ فَاحِشَةً وَسَاءَ سَبِيلًا",
+      "options": ["'Zina is forbidden — do not commit it'", "'Do not APPROACH zina — it is ever an immorality and is evil as a way'", "'Zina leads to death — avoid it completely'", "'Guard yourselves from the temptation of zina'"],
+      "correct_index": 1,
+      "explanation": "Quran 17:32: 'And do not approach unlawful sexual intercourse. Indeed, it is ever an immorality and is evil as a way.' Allah said 'do not approach' — not merely 'do not commit' — prohibiting everything that leads to it: free mixing, lustful glances, seclusion with non-mahram."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "Quran 24:2 prescribes the worldly punishment for zina. What is it?",
+    "question_data": {
+      "sin_key": "zina",
+      "sin_arabic": "الزِّنَا",
+      "sin_number": 10,
+      "quranic_ref": "An-Nur 24:2",
+      "arabic_text": "الزَّانِيَةُ وَالزَّانِي فَاجْلِدُوا كُلَّ وَاحِدٍ مِّنْهُمَا مِائَةَ جَلْدَةٍ",
+      "options": ["Execution by stoning (for all)", "100 lashes (for unmarried), with the command not to be overcome by pity for them", "Imprisonment for one year and public shaming", "50 lashes and payment to the family"],
+      "correct_index": 1,
+      "explanation": "Quran 24:2: 'The [unmarried] woman or [unmarried] man found guilty of sexual intercourse — lash each one of them with a hundred lashes, and do not be taken by pity for them in the religion of Allah.' Married adulterers receive stoning by consensus of the scholars."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 7:80-81 records what Prophet Lut said to his people about sodomy (liwat). He called it:",
+    "question_data": {
+      "sin_key": "sodomy",
+      "sin_arabic": "اللِّوَاطُ",
+      "sin_number": 11,
+      "quranic_ref": "Al-A'raf 7:80-81",
+      "arabic_text": "أَتَأْتُونَ الْفَاحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ الْعَالَمِينَ",
+      "options": ["A sin that only harms the individual", "An immorality (fahishah) that no one from all the worlds had committed before them", "A minor transgression correctable through tawbah alone", "A social custom that needed reform gradually"],
+      "correct_index": 1,
+      "explanation": "Quran 7:80: 'Do you commit such immorality as no one has preceded you with from among the worlds?' Lut highlighted this as an unprecedented act of moral corruption — a fahishah — never before practiced in all of creation."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "What was the divine punishment sent upon the people of Lut for committing sodomy?",
+    "question_data": {
+      "sin_key": "sodomy",
+      "sin_arabic": "اللِّوَاطُ",
+      "sin_number": 11,
+      "quranic_ref": "Ash-Shu'ara 26:173 & Hud 11:82-83",
+      "options": ["A plague that destroyed their livestock", "Their city was turned upside down and rained upon with stones of baked clay", "Drought and famine for seven years", "A flood that submerged their land"],
+      "correct_index": 1,
+      "explanation": "Quran 11:82-83: 'So when Our command came, We made the highest part [of the city] its lowest and rained upon them stones of layered hard clay, marked from your Lord.' The town of Sodom was flipped upside down and stoned from the sky — one of the most severe recorded punishments in the Quran."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 2:279 warns those who persist in Riba after prohibition. What does it declare?",
+    "question_data": {
+      "sin_key": "riba",
+      "sin_arabic": "الرِّبَا",
+      "sin_number": 12,
+      "quranic_ref": "Al-Baqarah 2:279",
+      "arabic_text": "فَأْذَنُوا بِحَرْبٍ مِّنَ اللَّهِ وَرَسُولِهِ",
+      "options": ["Their wealth will be reduced and their business will fail", "They are declared at war with Allah and His Messenger", "They will lose their Iman gradually until they disbelieve", "They will face double taxation as punishment"],
+      "correct_index": 1,
+      "explanation": "Quran 2:279: 'But if you do not, then be informed of a war [to be launched] against you by Allah and His Messenger.' Riba is the only sin in the Quran where Allah Himself declares war on the perpetrators — indicating its unique severity."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 3:130 gives a specific description of the type of Riba forbidden. What does it say?",
+    "question_data": {
+      "sin_key": "riba",
+      "sin_arabic": "الرِّبَا",
+      "sin_number": 12,
+      "quranic_ref": "Ali 'Imran 3:130",
+      "arabic_text": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا الرِّبَا أَضْعَافًا مُّضَاعَفَةً",
+      "options": ["Do not engage in riba in foreign trade only", "O believers! Do not consume riba doubled and multiplied", "Riba is only forbidden for commercial banks and institutions", "Riba of small amounts is overlooked if used for necessities"],
+      "correct_index": 1,
+      "explanation": "Quran 3:130: 'O you who have believed, do not consume usury, doubled and multiplied, but fear Allah that you may be successful.' The verse refers to the pre-Islamic practice of doubling debts — the scholars used this verse to establish the prohibition of all riba."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "Quran 4:10 warns about those who wrongfully devour orphans' wealth. What are they consuming?",
+    "question_data": {
+      "sin_key": "orphans_wealth",
+      "sin_arabic": "أَكْلُ مَالِ الْيَتِيمِ",
+      "sin_number": 13,
+      "quranic_ref": "An-Nisa 4:10",
+      "arabic_text": "إِنَّ الَّذِينَ يَأْكُلُونَ أَمْوَالَ الْيَتَامَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِي بُطُونِهِمْ نَارًا وَسَيَصْلَوْنَ سَعِيرًا",
+      "options": ["The rights of the weak and vulnerable", "Fire in their bellies, and they will burn in a Blazing Fire", "The blessing of the community", "A trust that will be repaid on Judgment Day"],
+      "correct_index": 1,
+      "explanation": "Quran 4:10: 'Indeed, those who devour the wealth of orphans unjustly are only consuming fire into their bellies, and they will be burned in a Blazing Fire (Sa'eer).' The imagery is vivid — every bit of orphan's wealth eaten unjustly is literally fire being consumed."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Devouring orphans' wealth is one of the seven destroyers (al-mubiqat). Which hadith collection records this list?",
+    "question_data": {
+      "sin_key": "orphans_wealth",
+      "sin_arabic": "أَكْلُ مَالِ الْيَتِيمِ",
+      "sin_number": 13,
+      "quranic_ref": "Bukhari & Muslim",
+      "options": ["Tirmidhi and Ibn Majah only", "Bukhari and Muslim", "Abu Dawud alone", "Imam Malik's Muwatta"],
+      "correct_index": 1,
+      "explanation": "The seven destroyers are recorded in both Bukhari and Muslim — the two most authentic hadith collections. The Prophet ﷺ said: 'Avoid the seven destroyers.' They asked what they were, and he listed: Shirk, Sorcery, Unjust killing, Riba, Devouring orphan's wealth, Fleeing battle, Slandering chaste women."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Qadhf (falsely accusing a chaste woman of zina) is a major sin. What does Quran 24:23 say about those who accuse chaste believing women?",
+    "question_data": {
+      "sin_key": "false_accusation",
+      "sin_arabic": "الْقَذْفُ",
+      "sin_number": 14,
+      "quranic_ref": "An-Nur 24:23",
+      "arabic_text": "إِنَّ الَّذِينَ يَرْمُونَ الْمُحْصَنَاتِ الْغَافِلَاتِ الْمُؤْمِنَاتِ لُعِنُوا فِي الدُّنْيَا وَالْآخِرَةِ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "options": ["They will face only the worldly punishment of lashing", "They are cursed in this world and the Hereafter and have a great punishment", "Their testimony is reduced to half", "They are shunned from the community only"],
+      "correct_index": 1,
+      "explanation": "Quran 24:23: 'Indeed, those who [falsely] accuse chaste, unaware, believing women are cursed in this world and the Hereafter; and they will have a great punishment.' This combines both worldly curse and eternal punishment — showing the gravity of destroying a believer's honor."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 24:4 prescribes the hadd for Qadhf (false accusation of zina). What is the punishment?",
+    "question_data": {
+      "sin_key": "false_accusation",
+      "sin_arabic": "الْقَذْفُ",
+      "sin_number": 14,
+      "quranic_ref": "An-Nur 24:4",
+      "arabic_text": "وَالَّذِينَ يَرْمُونَ الْمُحْصَنَاتِ ثُمَّ لَمْ يَأْتُوا بِأَرْبَعَةِ شُهَدَاءَ فَاجْلِدُوهُمْ ثَمَانِينَ جَلْدَةً وَلَا تَقْبَلُوا لَهُمْ شَهَادَةً أَبَدًا",
+      "options": ["50 lashes and public apology", "80 lashes, and their testimony is never accepted again (unless they repent)", "Imprisonment for 6 months and financial compensation", "100 lashes the same as zina"],
+      "correct_index": 1,
+      "explanation": "Quran 24:4: 'And those who accuse chaste women and then do not produce four witnesses — lash them with eighty lashes and do not accept from them testimony ever after. And those are the defiantly disobedient.' Unless they repent — then their testimony may be accepted again."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 8:15-16 addresses fleeing from battle. What does it say about someone who turns their back to the enemy?",
+    "question_data": {
+      "sin_key": "fleeing_battle",
+      "sin_arabic": "الْفِرَارُ مِنَ الزَّحْفِ",
+      "sin_number": 15,
+      "quranic_ref": "Al-Anfal 8:15-16",
+      "arabic_text": "وَمَن يُوَلِّهِمْ يَوْمَئِذٍ دُبُرَهُ إِلَّا مُتَحَرِّفًا لِّقِتَالٍ أَوْ مُتَحَيِّزًا إِلَىٰ فِئَةٍ فَقَدْ بَاءَ بِغَضَبٍ مِّنَ اللَّهِ",
+      "options": ["He has committed only a disciplinary offense requiring expiation", "He has drawn upon himself Allah's wrath — except for tactical repositioning or joining another group", "He may be pardoned if he returns and fights again", "He is considered a hypocrite permanently"],
+      "correct_index": 1,
+      "explanation": "Quran 8:16: 'Whoever turns his back to them on that day... has certainly returned with anger from Allah.' Two exceptions: tactical repositioning for a better attack position, or repositioning to regroup with another Muslim force. Random fleeing from fear is among the seven destroyers."
+    },
+    "difficulty_level": 3
+  },
+  {
+    "question_text": "Fleeing from battle is one of the seven destroyers (al-mubiqat). In which context does this prohibition specifically apply?",
+    "question_data": {
+      "sin_key": "fleeing_battle",
+      "sin_arabic": "الْفِرَارُ مِنَ الزَّحْفِ",
+      "sin_number": 15,
+      "quranic_ref": "Bukhari & Muslim",
+      "options": ["Any difficult situation in life that requires patience", "Fleeing from an advancing enemy army in Jihad without a valid reason", "Fleeing from a natural disaster that could cause death", "Abandoning any leadership responsibility"],
+      "correct_index": 1,
+      "explanation": "This refers specifically to retreating from the battlefield (al-zihaf = the advancing enemy) without a valid excuse. It is a betrayal of the Muslim army and the community that depends on their defense. This sin is exclusively in the context of armed conflict and defense of the Muslim community."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 42:42 describes those upon whom the real blame falls. Who are they?",
+    "question_data": {
+      "sin_key": "oppression_ruler",
+      "sin_arabic": "الظُّلْمُ وَالْجَوْرُ",
+      "sin_number": 16,
+      "quranic_ref": "Ash-Shura 42:42",
+      "arabic_text": "إِنَّمَا السَّبِيلُ عَلَى الَّذِينَ يَظْلِمُونَ النَّاسَ وَيَبْغُونَ فِي الْأَرْضِ بِغَيْرِ الْحَقِّ",
+      "options": ["Those who complain about injustice publicly", "Those who oppress people and transgress in the land without right", "Those who fail to pay their taxes to the ruler", "Those who don't support the Muslim leadership"],
+      "correct_index": 1,
+      "explanation": "Quran 42:42: 'The blame is only against those who wrong people and transgress in the land without right. Those will have a painful punishment.' This directly targets oppressive rulers — the blame falls on the oppressor, not those seeking justice."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "A tyrannical ruler who oppresses his people will face a specific punishment. What did the Prophet ﷺ say about an unjust leader and Jannah?",
+    "question_data": {
+      "sin_key": "oppression_ruler",
+      "sin_arabic": "الظُّلْمُ وَالْجَوْرُ",
+      "sin_number": 16,
+      "quranic_ref": "Bukhari",
+      "options": ["He will be forgiven if he repents on his deathbed", "Allah will not even look at an unjust ruler on the Day of Resurrection", "An unjust imam will receive 70 years of extra punishment", "He will be the last to enter Jannah after his subjects"],
+      "correct_index": 1,
+      "explanation": "The Prophet ﷺ said: 'Allah will not look at a ruler on the Day of Resurrection who has cheated his subjects.' (Bukhari). The duty of leadership is a sacred trust (amanah) — its betrayal is among the gravest sins."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 31:18 records Luqman's advice against arrogance. What physical behavior does it specifically forbid?",
+    "question_data": {
+      "sin_key": "arrogance",
+      "sin_arabic": "الْكِبْرُ وَالتَّكَبُّرُ",
+      "sin_number": 17,
+      "quranic_ref": "Luqman 31:18",
+      "arabic_text": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا ۖ إِنَّ اللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "options": ["Wearing expensive clothes and jewelry", "Turning your cheek away from people in contempt and walking arrogantly on the earth", "Refusing to eat with those of lower status", "Sitting at the head of gatherings without permission"],
+      "correct_index": 1,
+      "explanation": "Quran 31:18: 'And do not turn your cheek [in contempt] toward people and do not walk through the earth exultantly. Indeed, Allah does not like everyone self-deluded and boastful.' The physical act of turning away from people and strutting is a sign of the inner disease of kibr."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "The Prophet ﷺ defined kibr (arrogance) precisely. What is his definition?",
+    "question_data": {
+      "sin_key": "arrogance",
+      "sin_arabic": "الْكِبْرُ وَالتَّكَبُّرُ",
+      "sin_number": 17,
+      "quranic_ref": "Sahih Muslim",
+      "options": ["Thinking you are superior to everyone at all times", "Rejecting the truth and looking down on people", "Being proud of one's wealth and lineage", "Refusing to take advice from scholars"],
+      "correct_index": 1,
+      "explanation": "Sahih Muslim: The Prophet ﷺ said: 'Kibr is: rejecting truth and belittling people (batarul-haqq wa ghamtun-nas).' He also said: 'No one with even a mustard seed's weight of kibr in his heart will enter Paradise.' (Muslim)."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "The Prophet ﷺ warned about false testimony (Shahada al-Zur) with unusual emphasis. How many times did he repeat the warning?",
+    "question_data": {
+      "sin_key": "false_witness",
+      "sin_arabic": "شَهَادَةُ الزُّورِ",
+      "sin_number": 18,
+      "quranic_ref": "Bukhari",
+      "options": ["Once — at the end of a long sermon", "Twice — pausing each time", "Three times — until the companions wished he would stop", "Seven times in the Khutbah of Farewell Hajj"],
+      "correct_index": 2,
+      "explanation": "In a famous hadith (Bukhari), the Prophet ﷺ mentioned false testimony three times in a row with such intensity that the companions said: 'We wished he would have been quiet.' He compared it in gravity to shirk with Allah, pairing it with disobedience to parents."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 25:72 describes the righteous as those who do NOT bear false witness. What does it say they do when they pass by 'laghw' (vain talk)?",
+    "question_data": {
+      "sin_key": "false_witness",
+      "sin_arabic": "شَهَادَةُ الزُّورِ",
+      "sin_number": 18,
+      "quranic_ref": "Al-Furqan 25:72",
+      "arabic_text": "وَالَّذِينَ لَا يَشْهَدُونَ الزُّورَ وَإِذَا مَرُّوا بِاللَّغْوِ مَرُّوا كِرَامًا",
+      "options": ["They rebuke those engaged in it strongly", "They pass by with dignity (muroo kiraaman)", "They sit and correct the gathering with wisdom", "They report it to the Islamic authority"],
+      "correct_index": 1,
+      "explanation": "Quran 25:72: 'And [they are] those who do not testify to falsehood, and when they pass near ill speech, they pass by with dignity.' The 'ibad al-Rahman (servants of the Most Merciful) are characterized by avoiding false witness AND by dignified avoidance of all laghw."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 5:90 explicitly describes khamr (alcohol) and gambling. What does it call them?",
+    "question_data": {
+      "sin_key": "khamr",
+      "sin_arabic": "شُرْبُ الْخَمْرِ",
+      "sin_number": 19,
+      "quranic_ref": "Al-Ma'idah 5:90",
+      "arabic_text": "إِنَّمَا الْخَمْرُ وَالْمَيْسِرُ وَالْأَنصَابُ وَالْأَزْلَامُ رِجْسٌ مِّنْ عَمَلِ الشَّيْطَانِ فَاجْتَنِبُوهُ",
+      "options": ["A test from Allah to see who will obey", "Filth (rijs) from the work of Satan — so avoid it", "A weakness of the nafs that must be trained away gradually", "Only forbidden in excess — moderation is permitted"],
+      "correct_index": 1,
+      "explanation": "Quran 5:90: 'O you who believe! Indeed, intoxicants, gambling, [sacrificing on] stone alters, and divining arrows are but filth from the work of Satan, so avoid it that you may be successful.' The word 'rijs' (filth/abomination) is the strongest term of impurity in Arabic."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "The Prophet ﷺ cursed how many people connected to khamr (alcohol)?",
+    "question_data": {
+      "sin_key": "khamr",
+      "sin_arabic": "شُرْبُ الْخَمْرِ",
+      "sin_number": 19,
+      "quranic_ref": "Ibn Majah, Tirmidhi",
+      "options": ["3 people (producer, seller, drinker)", "7 people involved in the trade", "10 categories of people connected to it", "Only the one who drinks it"],
+      "correct_index": 2,
+      "explanation": "The Prophet ﷺ cursed 10 people connected to alcohol: the one who presses it, the one who has it pressed, its drinker, its carrier, the one it is carried to, its server, its seller, the consumer of its price, its buyer, and the one for whom it is bought. (Ibn Majah, Tirmidhi)."
+    },
+    "difficulty_level": 3
+  },
+  {
+    "question_text": "Quran 5:90-91 explains WHY Allah forbade khamr and gambling. What does 5:91 say Satan intends through them?",
+    "question_data": {
+      "sin_key": "gambling",
+      "sin_arabic": "الْقِمَارُ",
+      "sin_number": 20,
+      "quranic_ref": "Al-Ma'idah 5:91",
+      "arabic_text": "إِنَّمَا يُرِيدُ الشَّيْطَانُ أَن يُوقِعَ بَيْنَكُمُ الْعَدَاوَةَ وَالْبَغْضَاءَ فِي الْخَمْرِ وَالْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ اللَّهِ وَالصَّلَاةِ",
+      "options": ["To drain your wealth and make you dependent", "To plant enmity and hatred among you and hinder you from the remembrance of Allah and prayer", "To make you forget the Hereafter and focus on this world", "To create a class of rich and poor in Muslim society"],
+      "correct_index": 1,
+      "explanation": "Quran 5:91: 'Satan only wants to cause between you animosity and hatred through intoxicants and gambling and to avert you from the remembrance of Allah and from prayer. So will you not desist?' Satan's goals: (1) enmity between Muslims, (2) distraction from dhikr and salah."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 2:219 gives an early ruling about khamr and gambling before they were fully prohibited. What did it say about them?",
+    "question_data": {
+      "sin_key": "gambling",
+      "sin_arabic": "الْقِمَارُ",
+      "sin_number": 20,
+      "quranic_ref": "Al-Baqarah 2:219",
+      "arabic_text": "قُلْ فِيهِمَا إِثْمٌ كَبِيرٌ وَمَنَافِعُ لِلنَّاسِ وَإِثْمُهُمَا أَكْبَرُ مِن نَّفْعِهِمَا",
+      "options": ["They are permitted in moderation for those with strong faith", "In them is great sin and some benefit for people, but their sin is greater than their benefit", "They are forbidden only in places of worship", "They are only forbidden for rulers and leaders of the Muslim community"],
+      "correct_index": 1,
+      "explanation": "Quran 2:219: 'They ask you about wine and gambling. Say: In them is great sin and [yet, some] benefit for people. But their sin is greater than their benefit.' This was the intermediate ruling — acknowledging some worldly benefit while establishing that the sin outweighs it — before the absolute prohibition in 5:90."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 2:188 warns against consuming others' wealth unlawfully. What does it specifically prohibit?",
+    "question_data": {
+      "sin_key": "consuming_haram",
+      "sin_arabic": "أَكْلُ الْحَرَامِ",
+      "sin_number": 21,
+      "quranic_ref": "Al-Baqarah 2:188",
+      "arabic_text": "وَلَا تَأْكُلُوا أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ وَتُدْلُوا بِهَا إِلَى الْحُكَّامِ لِتَأْكُلُوا فَرِيقًا مِّنْ أَمْوَالِ النَّاسِ بِالْإِثْمِ",
+      "options": ["Eating food not slaughtered in the name of Allah", "Consuming each other's wealth through falsehood and bribing judges to take people's property sinfully", "Using currency of non-Muslim nations", "Eating at the table of those who have earned unlawful wealth"],
+      "correct_index": 1,
+      "explanation": "Quran 2:188: 'And do not consume one another's wealth unjustly or send it [in bribery] to the rulers in order that [they might aid] you [to] consume a portion of the wealth of the people in sin, while you know [it is unlawful].' This specifically prohibits using courts and officials to steal through false legal means."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "The Prophet ﷺ described a man raising his hands to the sky in du'a, calling out 'O Lord! O Lord!' — but his du'a is rejected because:",
+    "question_data": {
+      "sin_key": "consuming_haram",
+      "sin_arabic": "أَكْلُ الْحَرَامِ",
+      "sin_number": 21,
+      "quranic_ref": "Sahih Muslim",
+      "options": ["He had not performed wudu before making du'a", "His food, drink, clothing, and nourishment were all from haram sources", "He was raising his hands in a place where du'a is not accepted", "He was asking for something that contradicts the divine decree"],
+      "correct_index": 1,
+      "explanation": "Sahih Muslim: The Prophet ﷺ said: 'A man who has traveled a long way, his hair is disheveled and is covered with dust; he raises his hands to the sky and says: O Lord! O Lord! But his food is unlawful, his drink is unlawful, his clothing is unlawful, and he has been nourished with the unlawful — so how can his du'a be answered?'"
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 5:38 prescribes the hadd punishment for theft (sariqah). What is it?",
+    "question_data": {
+      "sin_key": "theft",
+      "sin_arabic": "السَّرِقَةُ",
+      "sin_number": 22,
+      "quranic_ref": "Al-Ma'idah 5:38",
+      "arabic_text": "وَالسَّارِقُ وَالسَّارِقَةُ فَاقْطَعُوا أَيْدِيَهُمَا جَزَاءً بِمَا كَسَبَا نَكَالًا مِّنَ اللَّهِ",
+      "options": ["100 lashes and imprisonment for one year", "Cutting the hand — as recompense and deterrent from Allah", "Paying back double what was stolen", "Public shaming and community service for three months"],
+      "correct_index": 1,
+      "explanation": "Quran 5:38: 'As for the thief, the male and female — cut their hands as recompense for what they committed as a deterrent (nakalan) punishment from Allah.' This is the hadd — but strict conditions must be met before it is applied (minimum nisab, no coercion, taken from guarded place, etc.)."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "Quran 5:39 immediately after the theft punishment verse offers hope. What does it say?",
+    "question_data": {
+      "sin_key": "theft",
+      "sin_arabic": "السَّرِقَةُ",
+      "sin_number": 22,
+      "quranic_ref": "Al-Ma'idah 5:39",
+      "arabic_text": "فَمَن تَابَ مِن بَعْدِ ظُلْمِهِ وَأَصْلَحَ فَإِنَّ اللَّهَ يَتُوبُ عَلَيْهِ ۗ إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ",
+      "options": ["Tawbah removes the punishment in both this world and the Hereafter", "But whoever repents after his wrongdoing and reforms — indeed, Allah will turn to him in forgiveness", "No forgiveness is possible after the hadd is executed", "One must pay the community a fine in addition to tawbah"],
+      "correct_index": 1,
+      "explanation": "Quran 5:39: 'But whoever repents after his wrongdoing and reforms — indeed, Allah will turn to him in forgiveness. Indeed, Allah is Forgiving and Merciful.' Even after the hadd is carried out, Allah accepts sincere tawbah — the door of forgiveness is always open."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "A Yamin al-Ghamus is a false oath that 'drowns' the swearer. Why is it called al-Ghamus?",
+    "question_data": {
+      "sin_key": "false_oath",
+      "sin_arabic": "الْيَمِينُ الْغَمُوسُ",
+      "sin_number": 23,
+      "quranic_ref": "Ali 'Imran 3:77",
+      "options": ["It involves swearing by something other than Allah", "Because it drowns (yaghmus) the swearer in sin and then in Hellfire", "It is a long oath requiring witnesses", "It is an oath made in the name of a deceased person"],
+      "correct_index": 1,
+      "explanation": "Yamin al-Ghamus is a deliberate false oath taken by Allah's name while knowing one is lying — to seize someone's rights or to deceive. It is called 'ghamus' (from ghamasa: to immerse/drown) because it drowns the swearer in sin and then submerges them in Hellfire."
+    },
+    "difficulty_level": 3
+  },
+  {
+    "question_text": "Quran 3:77 warns those who exchange their covenant and oaths for a small price. What does it say about the Hereafter for them?",
+    "question_data": {
+      "sin_key": "false_oath",
+      "sin_arabic": "الْيَمِينُ الْغَمُوسُ",
+      "sin_number": 23,
+      "quranic_ref": "Ali 'Imran 3:77",
+      "arabic_text": "إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلًا أُولَٰئِكَ لَا خَلَاقَ لَهُمْ فِي الْآخِرَةِ",
+      "options": ["They will have a reduced share of Paradise", "They will have no share at all in the Hereafter, Allah will not speak to them, and theirs is a painful punishment", "They will be forgiven after serving extra time in Hellfire", "Their punishment is limited to this world only"],
+      "correct_index": 1,
+      "explanation": "Quran 3:77: 'Those who exchange the covenant of Allah and their oaths for a small price will have no share in the Hereafter, and Allah will not speak to them, nor look at them on the Day of Resurrection, nor will He purify them; and they will have a painful punishment.' Four simultaneous punishments for false oaths."
+    },
+    "difficulty_level": 3
+  },
+  {
+    "question_text": "Quran 4:29 prohibits suicide alongside consuming wealth unjustly. What does it say?",
+    "question_data": {
+      "sin_key": "suicide",
+      "sin_arabic": "الِانْتِحَارُ",
+      "sin_number": 24,
+      "quranic_ref": "An-Nisa 4:29",
+      "arabic_text": "وَلَا تَقْتُلُوا أَنفُسَكُمْ ۚ إِنَّ اللَّهَ كَانَ بِكُمْ رَحِيمًا",
+      "options": ["'Do not endanger yourselves unnecessarily in battle'", "'And do not kill yourselves. Indeed, Allah is to you ever Merciful'", "'Do not take the life of anyone, for life belongs to Allah alone'", "'Preserve your life and the lives of your community above all else'"],
+      "correct_index": 1,
+      "explanation": "Quran 4:29: 'And do not kill yourselves [or one another]. Indeed, Allah is to you ever Merciful.' The verse directly prohibits suicide, immediately preceded by the prohibition on consuming each other's wealth unjustly — linking economic oppression and self-destruction."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "The Prophet ﷺ described the punishment of the one who commits suicide in the Hereafter. What did he say?",
+    "question_data": {
+      "sin_key": "suicide",
+      "sin_arabic": "الِانْتِحَارُ",
+      "sin_number": 24,
+      "quranic_ref": "Bukhari",
+      "options": ["The person is forgiven due to the mental suffering they endured", "The person will repeatedly perform the same act of killing themselves in Hell eternally", "There is no punishment — only loss of reward", "The person exits Islam and their janazah is not prayed"],
+      "correct_index": 1,
+      "explanation": "Bukhari: 'Whoever kills himself with an iron tool will be in Hellfire with that tool in his hand, stabbing himself repeatedly forever.' The act and its instrument become the eternal punishment. Only Allah gives and takes life — to take one's own life is to usurp Allah's authority."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 49:12 uses a vivid metaphor for backbiting (gheeba). What does it compare it to?",
+    "question_data": {
+      "sin_key": "backbiting",
+      "sin_arabic": "الْغِيبَةُ",
+      "sin_number": 25,
+      "quranic_ref": "Al-Hujurat 49:12",
+      "arabic_text": "وَلَا يَغْتَب بَّعْضُكُم بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا فَكَرِهْتُمُوهُ",
+      "options": ["Drinking poison that slowly destroys the soul", "Eating the flesh of your dead brother — something you would find repulsive", "Stealing from a sleeping person in the dark", "Stabbing your companion while they smile at you"],
+      "correct_index": 1,
+      "explanation": "Quran 49:12: 'And do not backbite one another. Would one of you like to eat the flesh of his brother when dead? You would detest it.' Allah chose the most repulsive image — consuming the dead flesh of your own brother — to convey the severity of backbiting someone who is absent and cannot defend themselves."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "The Prophet ﷺ defined gheeba (backbiting) precisely. What is it?",
+    "question_data": {
+      "sin_key": "backbiting",
+      "sin_arabic": "الْغِيبَةُ",
+      "sin_number": 25,
+      "quranic_ref": "Sahih Muslim",
+      "options": ["Lying about your brother in his absence", "Mentioning your brother in a way he would dislike — even if what you say is true", "Criticizing someone's work or actions publicly", "Talking about someone's past mistakes after they have repented"],
+      "correct_index": 1,
+      "explanation": "Sahih Muslim: The Prophet ﷺ said: 'Do you know what backbiting is?' They said: 'Allah and His Messenger know best.' He said: 'Mentioning about your brother that which he would dislike.' They asked: 'What if what we say about him is true?' He said: 'If it is true, you have backbitten him. If it is false, you have slandered him.'"
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "Quran 68:10-11 describes a type of person as 'worthless' and habitual. What sin does it connect this to?",
+    "question_data": {
+      "sin_key": "tale_bearing",
+      "sin_arabic": "النَّمِيمَةُ",
+      "sin_number": 26,
+      "quranic_ref": "Al-Qalam 68:10-11",
+      "arabic_text": "وَلَا تُطِعْ كُلَّ حَلَّافٍ مَّهِينٍ هَمَّازٍ مَّشَّاءٍ بِنَمِيمٍ",
+      "options": ["Hoarding wealth and miserliness", "Nameemah — going about with tale-bearing and spreading slander between people", "Shirk and polytheism disguised as custom", "Bid'ah and innovations in religious practice"],
+      "correct_index": 1,
+      "explanation": "Quran 68:10-11: 'And do not obey every worthless habitual swearer, a slanderer, going about with malicious gossip (nameemah).' The verse describes a morally bankrupt person characterized by: excessive oaths, slander (hammaaz), and tale-bearing (mashai' bin-nameem — walking around spreading gossip)."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "The Prophet ﷺ said the tale-bearer (namaam) will NOT enter Jannah. He used a different term for them. What is the punishment?",
+    "question_data": {
+      "sin_key": "tale_bearing",
+      "sin_arabic": "النَّمِيمَةُ",
+      "sin_number": 26,
+      "quranic_ref": "Bukhari & Muslim",
+      "options": ["They will be given 80 lashes like the qadhif (false accuser)", "The tale-bearer (qattat/namaam) will not enter Paradise", "Their testimony is rejected in the Islamic court forever", "Their Salah is not accepted for 40 days"],
+      "correct_index": 1,
+      "explanation": "Bukhari & Muslim: 'The qattat (tale-bearer) will not enter Paradise.' The Prophet ﷺ also said two who were being punished in their graves were there partly because one spread nameemah. Tale-bearing destroys relationships, families, and communities — fitting that its perpetrator is barred from the ultimate community of Paradise."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 4:145 places the Munafiqeen (hypocrites) in a specific location in Hellfire. Where?",
+    "question_data": {
+      "sin_key": "nifaq",
+      "sin_arabic": "النِّفَاقُ",
+      "sin_number": 27,
+      "quranic_ref": "An-Nisa 4:145",
+      "arabic_text": "إِنَّ الْمُنَافِقِينَ فِي الدَّرْكِ الْأَسْفَلِ مِنَ النَّارِ وَلَن تَجِدَ لَهُمْ نَصِيرًا",
+      "options": ["In the upper chambers of Hellfire near the entrance", "In the lowest depths of the Fire (al-Darkal Asfal), with no helper", "In a section of Hellfire alongside the mushrikeen", "In a temporary punishment zone before being moved to Paradise"],
+      "correct_index": 1,
+      "explanation": "Quran 4:145: 'Indeed, the hypocrites will be in the lowest depths of the Fire — and never will you find for them a helper.' Al-Darkal Asfal is the deepest, most severe level of Hellfire — lower than where the kuffar and mushrikeen reside. This is because their sin combines outward claim to Islam with inward rejection."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "The Prophet ﷺ listed the signs of a Munafiq (hypocrite). How many signs did he mention in the famous hadith?",
+    "question_data": {
+      "sin_key": "nifaq",
+      "sin_arabic": "النِّفَاقُ",
+      "sin_number": 27,
+      "quranic_ref": "Bukhari & Muslim",
+      "options": ["Two signs", "Three signs (with a variant mentioning a fourth)", "Five signs in the Hadith of Farewell Khutbah", "Seven signs matching the seven destroyers"],
+      "correct_index": 1,
+      "explanation": "Bukhari & Muslim: 'The signs of the hypocrite are three: When he speaks, he lies; when he makes a promise, he breaks it; when he is entrusted, he betrays.' A variant adds a fourth: 'When he argues, he is obscene (fohjur).' These are practical signs of nifaq al-'amali (practical hypocrisy) that any Muslim can fall into."
+    },
+    "difficulty_level": 1
+  },
+  {
+    "question_text": "Quran 39:72 delivers the final verdict for the arrogant (al-mutakabbireen). What does it say?",
+    "question_data": {
+      "sin_key": "kibr_takabbur",
+      "sin_arabic": "الْكِبْرُ وَالتَّكَبُّرُ",
+      "sin_number": 28,
+      "quranic_ref": "Az-Zumar 39:72",
+      "arabic_text": "قِيلَ ادْخُلُوا أَبْوَابَ جَهَنَّمَ خَالِدِينَ فِيهَا ۖ فَبِئْسَ مَثْوَى الْمُتَكَبِّرِينَ",
+      "options": ["The arrogant will face temporary punishment proportional to their arrogance", "'Enter the gates of Hell to abide eternally therein — and wretched is the residence of the arrogant'", "The arrogant will be humiliated before the people of Jannah first", "They will be forgiven if they humbled themselves before death"],
+      "correct_index": 1,
+      "explanation": "Quran 39:72: 'It will be said: Enter the gates of Hell to abide eternally therein. And wretched is the residence of the arrogant.' Eternal residence in Hellfire — the ultimate consequence of kibr. The first act of kibr in creation was Iblees refusing to prostrate to Adam, which led to his eternal expulsion."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Al-A'raf 7:13 records Allah's command to Iblees after his act of arrogance. What did Allah say?",
+    "question_data": {
+      "sin_key": "kibr_takabbur",
+      "sin_arabic": "الْكِبْرُ وَالتَّكَبُّرُ",
+      "sin_number": 28,
+      "quranic_ref": "Al-A'raf 7:13",
+      "arabic_text": "قَالَ فَاهْبِطْ مِنْهَا فَمَا يَكُونُ لَكَ أَن تَتَكَبَّرَ فِيهَا فَاخْرُجْ إِنَّكَ مِنَ الصَّاغِرِينَ",
+      "options": ["'You are forgiven — but you must warn humanity of your mistake'", "'Descend from it — it is not for you to be arrogant. Get out — you are of the debased'", "'Return to your station after serving your punishment'", "'Your arrogance has earned you a lesser rank among the angels'"],
+      "correct_index": 1,
+      "explanation": "Quran 7:13: '[Allah] said: Descend from it, for it is not for you to be arrogant therein. So get out; indeed, you are of the debased (al-saghireen).' Kibr was the first recorded sin in creation — and its perpetrator (Iblees) was permanently expelled from the presence of Allah. Every arrogant human follows in Iblees's footsteps."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 107:4-5 (Surah Al-Ma'un) delivers a devastating warning. Who is warned with 'Woe' (Wayl)?",
+    "question_data": {
+      "sin_key": "ria",
+      "sin_arabic": "الرِّيَاءُ",
+      "sin_number": 29,
+      "quranic_ref": "Al-Ma'un 107:4-5",
+      "arabic_text": "فَوَيْلٌ لِّلْمُصَلِّينَ الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ الَّذِينَ هُمْ يُرَاءُونَ",
+      "options": ["Those who do not pray at all", "Those who pray but are heedless of their prayer AND perform deeds for show (riya)", "Those who pray late and miss the congregation", "Those who pray without understanding the Arabic"],
+      "correct_index": 1,
+      "explanation": "Quran 107:4-6: 'So woe to those who pray — [but] who are heedless of their prayer — those who make show [of their deeds].' Wayl refers to a valley or pit in Hellfire. The warning is not for those who skip prayer, but for those who PRAY — but do so for people rather than Allah. This is riya."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "The Prophet ﷺ called riya (showing off) by a specific name. What did he call it?",
+    "question_data": {
+      "sin_key": "ria",
+      "sin_arabic": "الرِّيَاءُ",
+      "sin_number": 29,
+      "quranic_ref": "Musnad Ahmad",
+      "options": ["The hidden kufr (al-kufr al-khafi)", "The minor shirk (al-shirk al-asghar)", "The disease of the heart (marad al-qalb)", "The destroyer of deeds (muhbitat al-a'mal)"],
+      "correct_index": 1,
+      "explanation": "The Prophet ﷺ said: 'The thing I fear most for you is the minor shirk.' They asked: 'What is minor shirk, O Messenger of Allah?' He said: 'Riya (showing off). On the Day of Judgment, when people are rewarded for their deeds, Allah will say to them: Go to those for whom you showed off and seek your reward from them.' (Musnad Ahmad)"
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 3:86 asks a rhetorical question about apostasy (riddah). What does it say about those who disbelieve after having believed?",
+    "question_data": {
+      "sin_key": "apostasy",
+      "sin_arabic": "الرِّدَّةُ",
+      "sin_number": 30,
+      "quranic_ref": "Aal-Imran 3:86",
+      "arabic_text": "كَيْفَ يَهْدِي اللَّهُ قَوْمًا كَفَرُوا بَعْدَ إِيمَانِهِمْ وَشَهِدُوا أَنَّ الرَّسُولَ حَقٌّ وَجَاءَهُمُ الْبَيِّنَاتُ",
+      "options": ["They are still eligible for guidance if they genuinely seek it", "'How shall Allah guide a people who disbelieved after their belief and witnessed the Messenger was true?'", "Their punishment is only in the Hereafter, not in this world", "They may return to Islam without any worldly consequence"],
+      "correct_index": 1,
+      "explanation": "Quran 3:86: 'How shall Allah guide a people who disbelieved after their belief and had witnessed that the Messenger is true and clear signs had come to them? And Allah does not guide the wrongdoing people.' The rhetorical question signals that apostasy — after clear evidence — is a self-inflicted sealing of the heart."
+    },
+    "difficulty_level": 2
+  },
+  {
+    "question_text": "Quran 2:217 describes the ultimate consequence for one who dies upon apostasy (riddah). What happens to their deeds?",
+    "question_data": {
+      "sin_key": "apostasy",
+      "sin_arabic": "الرِّدَّةُ",
+      "sin_number": 30,
+      "quranic_ref": "Al-Baqarah 2:217",
+      "arabic_text": "وَمَن يَرْتَدِدْ مِنكُمْ عَن دِينِهِ فَيَمُتْ وَهُوَ كَافِرٌ فَأُولَٰئِكَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ",
+      "options": ["Their deeds are preserved and they face only extra punishment", "All their deeds become worthless in this world and the Hereafter, and they are companions of the Fire forever", "Their sin is erased if they return to Islam before death", "Only their post-apostasy deeds are nullified"],
+      "correct_index": 1,
+      "explanation": "Quran 2:217: 'And whoever of you reverts from his religion [to disbelief] and dies while he is a disbeliever — for those, their deeds have become worthless in this world and the Hereafter, and those are the companions of the Fire; they will abide therein eternally.' Total nullification of ALL deeds — from before and after — is the consequence of dying upon riddah."
+    },
+    "difficulty_level": 3
   }
 ]

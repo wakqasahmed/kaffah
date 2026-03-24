@@ -13,6 +13,7 @@ Route::get('/surahs', SurahController::class)->name('surahs.index');
 Route::prefix('major-sins')->name('major-sins.')->group(function () {
     Route::get('/', [MajorSinsController::class, 'show'])->name('show');
     Route::post('/start', [MajorSinsController::class, 'start'])->name('start');
+    Route::get('/learn', [MajorSinsController::class, 'learn'])->name('learn');
 });
 
 Route::prefix('quiz')->name('quiz.')->group(function () {

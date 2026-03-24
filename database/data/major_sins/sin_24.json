@@ -1,0 +1,32 @@
+{
+  "number": 24,
+  "slug": "suicide",
+  "title": "Taking One's Own Life (Suicide)",
+  "title_arabic": "قَتْلُ النَّفْسِ اِنْتِحَارًا",
+  "subtitle": "Destroying the Trust Allah Placed in You — Your Life Is Not Yours to Take",
+  "verses": [
+    {
+      "surah_number": 4,
+      "surah_name": "An-Nisa",
+      "verse_number": 29,
+      "arabic": "وَلَا تَقْتُلُوا أَنفُسَكُمْ ۚ إِنَّ اللَّهَ كَانَ بِكُمْ رَحِيمًا",
+      "translation": "And do not kill yourselves [or one another]. Indeed, Allah is to you ever Merciful."
+    },
+    {
+      "surah_number": 4,
+      "surah_name": "An-Nisa",
+      "verse_number": 30,
+      "arabic": "وَمَن يَفْعَلْ ذَٰلِكَ عُدْوَانًا وَظُلْمًا فَسَوْفَ نُصْلِيهِ نَارًا ۚ وَكَانَ ذَٰلِكَ عَلَى اللَّهِ يَسِيرًا",
+      "translation": "And whoever does that in aggression and injustice — then We will drive him into a Fire. And that, for Allah, is [always] easy."
+    },
+    {
+      "surah_number": 2,
+      "surah_name": "Al-Baqarah",
+      "verse_number": 195,
+      "arabic": "وَلَا تُلْقُوا بِأَيْدِيكُمْ إِلَى التَّهْلُكَةِ",
+      "translation": "And do not throw [yourselves] with your [own] hands into destruction."
+    }
+  ],
+  "brief_explanation": "The Quran explicitly forbids killing oneself, embedding this prohibition within a reminder that Allah is merciful to His servants — meaning that no matter the depth of one's pain or despair, Allah's mercy is greater and a way out exists. The verse that follows (4:30) issues a direct warning: whoever does this as an act of 'udwan (aggression) and zulm (injustice against oneself) will be driven into the Fire. The Prophet (peace be upon him) made clear in multiple hadiths that one who kills themselves will repeat the manner of their death in Hell perpetually — reinforcing the Quranic warning. Life is a trust from Allah; its termination is His alone to determine, and taking it prematurely is a violation of that divine ownership.",
+  "capital_punishment": "By definition, suicide has no worldly capital punishment since the perpetrator is deceased. Islamic jurisprudence addresses it primarily as a sin requiring the community to pray for Allah's mercy on the deceased, as the majority of scholars hold that a Muslim who dies by suicide is still prayed over and buried with Muslim rites, given the possibility of insanity, extreme duress, or lack of full rational capacity — while acknowledging the sin. Ibn Hazm and a minority held that funeral prayer is not performed for the one who intentionally kills themselves, but the majority (Hanafi, Maliki, Shafi'i, Hanbali) permit it."
+}

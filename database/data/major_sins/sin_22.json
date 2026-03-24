@@ -1,0 +1,32 @@
+{
+  "number": 22,
+  "slug": "theft",
+  "title": "Theft",
+  "title_arabic": "السَّرِقَةُ",
+  "subtitle": "A Violation of Rights That Earns a Quranic Prescribed Punishment",
+  "verses": [
+    {
+      "surah_number": 5,
+      "surah_name": "Al-Ma'idah",
+      "verse_number": 38,
+      "arabic": "وَالسَّارِقُ وَالسَّارِقَةُ فَاقْطَعُوا أَيْدِيَهُمَا جَزَاءً بِمَا كَسَبَا نَكَالًا مِّنَ اللَّهِ ۗ وَاللَّهُ عَزِيزٌ حَكِيمٌ",
+      "translation": "As for the thief, the male and the female, amputate their hands in recompense for what they committed as a deterrent [punishment] from Allah. And Allah is Exalted in Might and Wise."
+    },
+    {
+      "surah_number": 5,
+      "surah_name": "Al-Ma'idah",
+      "verse_number": 39,
+      "arabic": "فَمَن تَابَ مِن بَعْدِ ظُلْمِهِ وَأَصْلَحَ فَإِنَّ اللَّهَ يَتُوبُ عَلَيْهِ ۗ إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ",
+      "translation": "But whoever repents after his wrongdoing and reforms himself, indeed, Allah will turn to him in forgiveness. Indeed, Allah is Forgiving and Merciful."
+    },
+    {
+      "surah_number": 60,
+      "surah_name": "Al-Mumtahanah",
+      "verse_number": 12,
+      "arabic": "وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ",
+      "translation": "And that they will not steal and will not commit adultery."
+    }
+  ],
+  "brief_explanation": "Theft is one of the very few sins for which Allah prescribed a hadd (fixed worldly punishment) directly in the Quran — the amputation of the hand — reflecting the absolute seriousness with which He guards the property rights He established. The Quran describes this punishment as a 'nakan min Allah' (deterrent from Allah), meaning it is divinely calibrated not merely to punish the thief but to protect the entire community from a culture of violation. Theft is an act of cowardice and betrayal — taking what belongs to another through deception rather than earning it — and it erodes the mutual trust that holds communities together. However, the very next verse opens the door of tawbah: one who repents sincerely and reforms is forgiven by Allah.",
+  "capital_punishment": "The Quran prescribes hand amputation (cutting of the right hand) for theft when specific conditions are met: the stolen item meets the minimum threshold (nisab — equivalent to the value of a quarter dinar of gold or more according to the majority, or 10 dirhams according to Hanafis), it was taken from a secured location (hirz), and there is no ownership claim or doubt. This is agreed upon by all four madhabs. Repeat offenses escalate — second offense: left foot; subsequent offenses differ by school. The hadd is dropped if the stolen item is returned before the case reaches the judge, or if the victim pardons, according to certain schools."
+}

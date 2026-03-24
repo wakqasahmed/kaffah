@@ -49,6 +49,10 @@ const answeredCorrectly = ref<boolean | null>(null);
 const correctIndex = ref<number | null>(null);
 const isSubmitting = ref(false);
 const correctCount = ref(0);
+const explanation = ref<string | null>(null);
+const verseArabic = ref<string | null>(null);
+const verseTranslation = ref<string | null>(null);
+const quranicRef = ref<string | null>(null);
 
 const currentQuestion = computed(() => props.questions[currentIndex.value]);
 const isLastQuestion = computed(
@@ -96,6 +100,10 @@ function submitAnswer() {
                 if (result) {
                     answeredCorrectly.value = result.is_correct as boolean;
                     correctIndex.value = result.correct_index as number;
+                    explanation.value = (result.explanation as string) ?? null;
+                    verseArabic.value = (result.verse_arabic as string) ?? null;
+                    verseTranslation.value = (result.verse_translation as string) ?? null;
+                    quranicRef.value = (result.quranic_ref as string) ?? null;
                     if (result.is_correct) correctCount.value++;
                 } else {
                     answeredCorrectly.value =
@@ -125,6 +133,10 @@ function nextQuestion() {
     selectedIndex.value = null;
     answeredCorrectly.value = null;
     correctIndex.value = null;
+    explanation.value = null;
+    verseArabic.value = null;
+    verseTranslation.value = null;
+    quranicRef.value = null;
 }
 </script>
 
@@ -262,14 +274,50 @@ function nextQuestion() {
                                 : 'bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-300'
                         "
                     >
-                        {{ answeredCorrectly ? 'Correct!' : 'Incorrect' }}
+                        {{ answeredCorrectly ? '✓ Correct!' : '✗ Incorrect' }}
                     </div>
+
+                    <!-- Explanation panel -->
+                    <div
+                        v-if="verseArabic || explanation"
+                        class="rounded-lg border border-amber-200 bg-amber-50 p-4 dark:border-amber-800/50 dark:bg-amber-900/20"
+                    >
+                        <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-400">
+                            📖 Quranic Reference
+                        </p>
+                        <div v-if="verseArabic" class="mb-3 text-center">
+                            <ArabicText
+                                :text="verseArabic"
+                                size="xl"
+                                class="text-gray-800 dark:text-gray-200"
+                            />
+                        </div>
+                        <p
+                            v-if="quranicRef"
+                            class="mb-2 text-center text-sm font-medium text-amber-700 dark:text-amber-400"
+                        >
+                            {{ quranicRef }}
+                        </p>
+                        <p
+                            v-if="verseTranslation"
+                            class="mb-3 text-center text-sm italic text-gray-600 dark:text-gray-400"
+                        >
+                            "{{ verseTranslation }}"
+                        </p>
+                        <p
+                            v-if="explanation"
+                            class="text-sm text-gray-700 dark:text-gray-300"
+                        >
+                            {{ explanation }}
+                        </p>
+                    </div>
+
                     <button
                         class="w-full rounded-lg bg-gray-800 px-6 py-3 font-semibold text-white transition hover:bg-gray-900 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-white"
                         @click="nextQuestion"
                     >
                         {{
-                            isLastQuestion ? 'See Results' : 'Next Question'
+                            isLastQuestion ? 'See Results' : 'Next Question →'
                         }}
                     </button>
                 </div>

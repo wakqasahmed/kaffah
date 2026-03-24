@@ -1,5 +1,54 @@
 # Kaffah — Project-Specific Instructions
 
+## Vision & Product Concept
+
+**Mission:** Help Muslims follow the whole Quran by making them aware of what the Quran says to do (Hizb Allah) and what to avoid (Hizb al-Shaytan), with a primary score of "overall what percentage are you following the Quran?"
+
+### Core Framework
+
+**Implementation/Learning Levels** (who must act):
+- Level 1 — Save yourself (فرض عين): *عليكم أنفسكم*
+- Level 2 — Save yourself and family (فرض عين): *قوا أنفسكم وأهليكم نارًا*
+- Level 3 — Save humanity (فرض كفاية / recommended): *ليظهره على الدين كله* / *كنتم خير أمة أخرجت للناس*
+
+**Difficulty Levels:**
+- Level 1 — Islam (5 pillars)
+- Level 2 — Eemaan (6 articles of faith, تزكية)
+- Level 3 — Ihsan (excellence in worship)
+
+### The Four Packages (Pricing/Awareness Tiers)
+
+**Hizb Allah — People of Jannah:**
+- 🌿 Standard Jannah (Ashaab al-Yameen / أصحاب الميمنة) — Iman: doing obligatory deeds, avoiding kabair
+- ✨ Premium Jannah (Sabiqoon / السابقون المقربون) — Ihsan: siddiqeen, shuhadaa, the mukhliseen who attain Jannat al-Firdous
+
+**Hizb al-Shaytan — People of Hellfire:**
+- 🔥 Standard Hellfire (Ashaab al-Shimaal / أصحاب الشمال) — Mushrikeen, Kafiroon, Zalimoon (30 major sins, Imam Dhahabi)
+- ⛓ Worst Hellfire (Asfal al-Safileen / أسفل سافلين, الدرك الأسفل) — Munafiqeen, those who do Ria (Al-Ma'oon), those who deceive Allah and believers
+
+### Roadmap
+
+**Alpha (current):** Awareness MVP
+- Quiz by Surah (last 10 surahs 105-114): verse identification, completion, action classification, translation matching
+- Major Sins Quiz: 150 Qs from 30 major sins (Imam Dhahabi, Quran-focused)
+- Major Sins Learning: card-per-sin with verses, explanation, capital punishment accordion
+- Marketing landing page with the four Jannah/Hellfire packages
+
+**Beta (next phase):** Local Communities
+- Invite-only communities (Masjids, families, academies, e.g. Masjid Omeriye Nicosia, Masjid al-Nabawi, Constantinou family, Hidaya Academy)
+- Leaderboard: "Aware people" (ref: 39:9) vs "Implementing people"
+- Onboarding: personal info → major sins vulnerability score → good deeds score → overall Quran-following %
+
+**Full Release:** Whole Quran coverage across all implementation/difficulty levels
+
+### Key Quran References
+- Awareness: *هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ* (39:9)
+- Firdous inheritance: *الَّذِينَ يَرِثُونَ الْفِرْدَوْسَ* (23:10-11)
+- Hellfire lowest pit: *إِنَّ الْمُنَافِقِينَ فِي الدَّرْكِ الْأَسْفَلِ* (4:145)
+- Hizb Allah/Shaytan: *أُولَٰئِكَ حِزْبُ اللَّهِ* (58:22), *أُولَٰئِكَ حِزْبُ الشَّيْطَانِ* (58:19)
+
+---
+
 ## Environment
 
 - PHP binary: `/Users/waqasahmed/Library/Application Support/Herd/bin/php`

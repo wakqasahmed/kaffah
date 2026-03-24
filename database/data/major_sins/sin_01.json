@@ -1,0 +1,39 @@
+{
+  "number": 1,
+  "slug": "shirk",
+  "title": "Shirk (Associating Partners with Allah)",
+  "title_arabic": "الشِّرْكُ بِاللَّهِ",
+  "subtitle": "The Greatest of All Major Sins",
+  "verses": [
+    {
+      "surah_number": 4,
+      "surah_name": "An-Nisa",
+      "verse_number": 48,
+      "arabic": "إِنَّ اللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَاءُ ۚ وَمَن يُشْرِكْ بِاللَّهِ فَقَدِ افْتَرَىٰ إِثْمًا عَظِيمًا",
+      "translation": "Indeed, Allah does not forgive association with Him, but He forgives what is less than that for whom He wills. And he who associates others with Allah has certainly fabricated a tremendous sin."
+    },
+    {
+      "surah_number": 31,
+      "surah_name": "Luqman",
+      "verse_number": 13,
+      "arabic": "وَإِذْ قَالَ لُقْمَانُ لِابْنِهِ وَهُوَ يَعِظُهُ يَا بُنَيَّ لَا تُشْرِكْ بِاللَّهِ ۖ إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ",
+      "translation": "And [mention] when Luqman said to his son while he was instructing him, 'O my son, do not associate [anything] with Allah. Indeed, association [with Him] is great injustice.'"
+    },
+    {
+      "surah_number": 4,
+      "surah_name": "An-Nisa",
+      "verse_number": 116,
+      "arabic": "إِنَّ اللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَاءُ ۚ وَمَن يُشْرِكْ بِاللَّهِ فَقَدْ ضَلَّ ضَلَالًا بَعِيدًا",
+      "translation": "Indeed, Allah does not forgive association with Him, but He forgives what is less than that for whom He wills. And he who associates others with Allah has certainly gone far astray."
+    },
+    {
+      "surah_number": 5,
+      "surah_name": "Al-Ma'idah",
+      "verse_number": 72,
+      "arabic": "إِنَّهُ مَن يُشْرِكْ بِاللَّهِ فَقَدْ حَرَّمَ اللَّهُ عَلَيْهِ الْجَنَّةَ وَمَأْوَاهُ النَّارُ ۖ وَمَا لِلظَّالِمِينَ مِنْ أَنصَارٍ",
+      "translation": "Indeed, whoever associates others with Allah — Allah has forbidden him Paradise, and his refuge is the Fire. And there are not for the wrongdoers any helpers."
+    }
+  ],
+  "brief_explanation": "Shirk is the act of worshipping, invoking, or attributing divine qualities to anyone or anything alongside Allah. The Quran declares it the only sin Allah will not forgive if a person dies upon it, making it the gravest crime a soul can commit. Allah describes shirk as 'great injustice' (zulmun azeem) because it robs the Creator of His exclusive right to worship and devotion. Those who die in a state of shirk have their deeds nullified and are destined for the Fire forever, as the Quran states: 'Whoever associates others with Allah, Allah has forbidden him Paradise, and his refuge is the Fire' (5:72).",
+  "capital_punishment": "A Muslim who leaves Islam through shirk (apostasy) is asked to repent — given three days by the majority of scholars (Hanafi, Maliki, Shafi'i, Hanbali). If they refuse to return to Islam, the majority holds that capital punishment is applied, based on the hadith 'Whoever changes his religion, kill him' (Bukhari). The Hanafi school differentiates: a female apostate is imprisoned and not executed, while males face execution. For a non-Muslim who commits shirk, there is no worldly hadd punishment — their account is with Allah on the Day of Judgment."
+}

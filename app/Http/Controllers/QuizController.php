@@ -24,10 +24,13 @@ class QuizController extends Controller
     {
         $surah->loadCount('verses');
 
-        $quizTypes = collect(QuizType::cases())->map(fn (QuizType $type) => [
-            'value' => $type->value,
-            'label' => str_replace('_', ' ', ucfirst($type->value)),
-        ]);
+        $quizTypes = collect(QuizType::cases())
+            ->filter(fn (QuizType $type) => ! in_array($type, [QuizType::MajorSins, QuizType::Implementation]))
+            ->map(fn (QuizType $type) => [
+                'value' => $type->value,
+                'label' => str_replace('_', ' ', ucfirst($type->value)),
+            ])
+            ->values();
 
         return Inertia::render('Quiz/Show', [
             'surah' => $surah,
@@ -95,7 +98,7 @@ class QuizController extends Controller
             return back()->withErrors(['question_id' => 'This question has already been answered.']);
         }
 
-        $question = QuizQuestion::query()->findOrFail($validated['question_id']);
+        $question = QuizQuestion::query()->with('verse')->findOrFail($validated['question_id']);
         $correctIndex = $question->question_data['correct_index'] ?? null;
         $isCorrect = $validated['selected_index'] === $correctIndex;
 
@@ -111,10 +114,17 @@ class QuizController extends Controller
             $quizAttempt->increment('correct_answers');
         }
 
+        $questionData = $question->question_data;
+        $verse = $question->verse;
+
         return redirect()->route('quiz.play', $quizAttempt)->with('answerResult', [
             'is_correct' => $isCorrect,
             'correct_index' => $correctIndex,
             'question_id' => $validated['question_id'],
+            'explanation' => $questionData['explanation'] ?? null,
+            'verse_arabic' => $verse?->text_arabic ?? $questionData['arabic_text'] ?? $questionData['verse_text'] ?? null,
+            'verse_translation' => $verse?->translation_en ?? null,
+            'quranic_ref' => $questionData['quranic_ref'] ?? null,
         ]);
     }
 

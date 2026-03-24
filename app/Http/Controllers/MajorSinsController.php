@@ -23,6 +23,23 @@ class MajorSinsController extends Controller
         ]);
     }
 
+    public function learn(): Response
+    {
+        $sins = [];
+        $dataPath = database_path('data/major_sins');
+
+        for ($i = 1; $i <= 30; $i++) {
+            $file = $dataPath.'/sin_'.str_pad($i, 2, '0', STR_PAD_LEFT).'.json';
+            if (file_exists($file)) {
+                $sins[] = json_decode(file_get_contents($file), true);
+            }
+        }
+
+        return Inertia::render('MajorSins/Learn', [
+            'sins' => $sins,
+        ]);
+    }
+
     public function start(Request $request): RedirectResponse
     {
         $count = min((int) $request->input('question_count', 10), 30);

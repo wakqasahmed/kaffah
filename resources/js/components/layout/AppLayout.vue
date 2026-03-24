@@ -33,6 +33,12 @@ import { Link } from '@inertiajs/vue3';
                                 Major Sins Quiz
                             </Link>
                             <Link
+                                href="/major-sins/learn"
+                                class="text-sm font-medium text-gray-600 transition hover:text-rose-600 dark:text-gray-300"
+                            >
+                                Learn Major Sins
+                            </Link>
+                            <Link
                                 href="/progress"
                                 class="text-sm font-medium text-gray-600 transition hover:text-emerald-600 dark:text-gray-300"
                             >
