@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { Head, Link, router } from '@inertiajs/vue3';
+import { Head, router } from '@inertiajs/vue3';
 import { ref } from 'vue';
+import NavBar from '@/components/layout/NavBar.vue';
 
 const isStartingMajorSins = ref(false);
 
@@ -23,17 +24,7 @@ function startMajorSinsQuiz() {
     <div class="min-h-screen bg-gray-950 text-white">
 
         <!-- ─── NAV ─── -->
-        <nav class="relative z-20 flex items-center justify-between px-6 py-5 lg:px-12">
-            <div class="flex items-center gap-3">
-                <span class="font-arabic text-3xl font-bold text-emerald-400">كافة</span>
-                <span class="text-sm font-medium text-gray-400">Kaffah</span>
-            </div>
-            <div class="flex items-center gap-6">
-                <Link href="/surahs" class="text-sm text-gray-400 transition hover:text-white">Quiz by Surah</Link>
-                <Link href="/major-sins" class="text-sm text-gray-400 transition hover:text-white">Major Sins Quiz</Link>
-                <Link href="/progress" class="text-sm text-gray-400 transition hover:text-white">Progress</Link>
-            </div>
-        </nav>
+        <NavBar theme="dark" />
 
         <!-- ─── HERO ─── -->
         <section class="relative overflow-hidden">
