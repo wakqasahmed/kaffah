@@ -72,9 +72,13 @@ class QuizController extends Controller
 
         $quizAttempt->load('surah');
 
+        $context = $quizAttempt->surah
+            ? ['name' => $quizAttempt->surah->name, 'name_arabic' => $quizAttempt->surah->name_arabic, 'id' => $quizAttempt->surah->id, 'type' => 'surah']
+            : ['name' => 'Major Sins Quiz', 'name_arabic' => 'الْكَبَائِرُ', 'id' => null, 'type' => 'major_sins'];
+
         return Inertia::render('Quiz/Play', [
             'attempt' => $quizAttempt,
-            'surah' => $quizAttempt->surah,
+            'context' => $context,
             'questions' => $questions,
         ]);
     }
@@ -125,8 +129,13 @@ class QuizController extends Controller
 
         $quizAttempt->load('surah', 'answers.quizQuestion');
 
+        $context = $quizAttempt->surah
+            ? ['name' => $quizAttempt->surah->name, 'name_arabic' => $quizAttempt->surah->name_arabic, 'id' => $quizAttempt->surah->id, 'type' => 'surah']
+            : ['name' => 'Major Sins Quiz', 'name_arabic' => 'الْكَبَائِرُ', 'id' => null, 'type' => 'major_sins'];
+
         return Inertia::render('Quiz/Results', [
             'attempt' => $quizAttempt,
+            'context' => $context,
             'scoreData' => $scoreData,
         ]);
     }

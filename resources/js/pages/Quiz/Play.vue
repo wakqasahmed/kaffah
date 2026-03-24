@@ -29,15 +29,16 @@ interface Attempt {
     id: number;
 }
 
-interface Surah {
+interface Context {
     name: string;
     name_arabic: string;
-    number: number;
+    id: number | null;
+    type: 'surah' | 'major_sins';
 }
 
 const props = defineProps<{
     attempt: Attempt;
-    surah: Surah;
+    context: Context;
     questions: Question[];
 }>();
 
@@ -128,13 +129,13 @@ function nextQuestion() {
 </script>
 
 <template>
-    <Head :title="`Quiz - ${surah.name}`" />
+    <Head :title="`Quiz - ${context.name}`" />
     <AppLayout>
         <div class="mx-auto max-w-2xl">
             <div class="mb-4 flex items-center justify-between">
                 <h1 class="text-lg font-semibold text-gray-900 dark:text-white">
-                    <ArabicText :text="surah.name_arabic" size="lg" />
-                    <span class="ml-2 text-gray-500">{{ surah.name }}</span>
+                    <ArabicText :text="context.name_arabic" size="lg" />
+                    <span class="ml-2 text-gray-500">{{ context.name }}</span>
                 </h1>
                 <span
                     class="rounded-full bg-emerald-100 px-3 py-1 text-sm font-medium text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300"

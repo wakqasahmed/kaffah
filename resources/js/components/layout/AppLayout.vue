@@ -24,7 +24,13 @@ import { Link } from '@inertiajs/vue3';
                                 href="/surahs"
                                 class="text-sm font-medium text-gray-600 transition hover:text-emerald-600 dark:text-gray-300"
                             >
-                                Surahs
+                                Quiz by Surah
+                            </Link>
+                            <Link
+                                href="/major-sins"
+                                class="text-sm font-medium text-gray-600 transition hover:text-red-600 dark:text-gray-300"
+                            >
+                                Major Sins Quiz
                             </Link>
                             <Link
                                 href="/progress"

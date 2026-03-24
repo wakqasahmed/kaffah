@@ -9,4 +9,5 @@ enum QuizType: string
     case ActionClassification = 'action_classification';
     case Implementation = 'implementation';
     case TranslationMatching = 'translation_matching';
+    case MajorSins = 'major_sins';
 }

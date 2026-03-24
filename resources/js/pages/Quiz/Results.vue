@@ -3,16 +3,15 @@ import { Head, Link } from '@inertiajs/vue3';
 import AppLayout from '@/components/layout/AppLayout.vue';
 import ArabicText from '@/components/ui/ArabicText.vue';
 
-interface Surah {
-    id: number;
+interface Context {
     name: string;
     name_arabic: string;
-    number: number;
+    id: number | null;
+    type: 'surah' | 'major_sins';
 }
 
 interface Attempt {
     id: number;
-    surah: Surah;
     total_questions: number;
     correct_answers: number;
     score: string;
@@ -27,6 +26,7 @@ interface ScoreData {
 
 defineProps<{
     attempt: Attempt;
+    context: Context;
     scoreData: ScoreData;
 }>();
 </script>
@@ -39,7 +39,7 @@ defineProps<{
                 class="rounded-xl border border-gray-200 bg-white p-8 text-center shadow-sm dark:border-gray-700 dark:bg-gray-800"
             >
                 <ArabicText
-                    :text="attempt.surah.name_arabic"
+                    :text="context.name_arabic"
                     size="3xl"
                     class="mb-2 block text-emerald-700 dark:text-emerald-400"
                 />
@@ -100,16 +100,16 @@ defineProps<{
 
                 <div class="flex flex-col gap-3 sm:flex-row">
                     <Link
-                        :href="`/quiz/${attempt.surah.id}`"
+                        :href="context.type === 'surah' ? `/quiz/${context.id}` : '/major-sins'"
                         class="flex-1 rounded-lg bg-emerald-600 px-6 py-3 font-semibold text-white transition hover:bg-emerald-700"
                     >
                         Try Again
                     </Link>
                     <Link
-                        href="/surahs"
+                        :href="context.type === 'surah' ? '/surahs' : '/'"
                         class="flex-1 rounded-lg border border-gray-300 px-6 py-3 font-semibold text-gray-700 transition hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
                     >
-                        All Surahs
+                        {{ context.type === 'surah' ? 'All Surahs' : 'Back to Home' }}
                     </Link>
                 </div>
             </div>
