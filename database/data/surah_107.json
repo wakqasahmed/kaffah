@@ -1,0 +1,184 @@
+[
+  {
+    "surah_number": 107,
+    "surah_name": "Al-Ma'un",
+    "surah_name_arabic": "الماعون",
+    "verse_number": 1,
+    "text": "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ",
+    "translation_en": "Have you seen the one who denies the Recompense?",
+    "actions": [
+      {
+        "action": "avoid_denying_day_of_judgment",
+        "arabic": "يُكَذِّبُ بِالدِّينِ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "solitary"
+      }
+    ]
+  },
+  {
+    "surah_number": 107,
+    "surah_name": "Al-Ma'un",
+    "surah_name_arabic": "الماعون",
+    "verse_number": 2,
+    "text": "فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ",
+    "translation_en": "For that is the one who drives away the orphan.",
+    "actions": [
+      {
+        "action": "avoid_mistreating_orphans",
+        "arabic": "يَدُعُّ الْيَتِيمَ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["adult"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["معاشرت"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "standard"
+      }
+    ]
+  },
+  {
+    "surah_number": 107,
+    "surah_name": "Al-Ma'un",
+    "surah_name_arabic": "الماعون",
+    "verse_number": 3,
+    "text": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
+    "translation_en": "And does not encourage the feeding of the poor.",
+    "actions": [
+      {
+        "action": "encourage_feeding_the_poor",
+        "arabic": "يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
+        "weightage": 1.0,
+        "action_type": ["do"],
+        "gender": ["all"],
+        "age_group": ["adult"],
+        "frequency": ["always"],
+        "obligation": ["obligatory"],
+        "action_categories": ["معاشرت"],
+        "implementation_level": 2,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "standard",
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 107,
+    "surah_name": "Al-Ma'un",
+    "surah_name_arabic": "الماعون",
+    "verse_number": 4,
+    "text": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+    "translation_en": "So woe to those who pray.",
+    "actions": [
+      {
+        "action": "avoid_heedless_prayer",
+        "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["عبادات"],
+        "implementation_level": 1,
+        "difficulty_level": 3,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "solitary"
+      }
+    ]
+  },
+  {
+    "surah_number": 107,
+    "surah_name": "Al-Ma'un",
+    "surah_name_arabic": "الماعون",
+    "verse_number": 5,
+    "text": "الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+    "translation_en": "Who are heedless of their prayer.",
+    "actions": [
+      {
+        "action": "avoid_neglecting_prayer",
+        "arabic": "عَن صَلَاتِهِمْ سَاهُونَ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["عبادات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "solitary"
+      }
+    ]
+  },
+  {
+    "surah_number": 107,
+    "surah_name": "Al-Ma'un",
+    "surah_name_arabic": "الماعون",
+    "verse_number": 6,
+    "text": "الَّذِينَ هُمْ يُرَاءُونَ",
+    "translation_en": "Those who make show of their deeds.",
+    "actions": [
+      {
+        "action": "avoid_showing_off_in_worship",
+        "arabic": "يُرَاءُونَ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["اخلاقيات"],
+        "implementation_level": 1,
+        "difficulty_level": 3,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "solitary"
+      }
+    ]
+  },
+  {
+    "surah_number": 107,
+    "surah_name": "Al-Ma'un",
+    "surah_name_arabic": "الماعون",
+    "verse_number": 7,
+    "text": "وَيَمْنَعُونَ الْمَاعُونَ",
+    "translation_en": "And withhold simple assistance.",
+    "actions": [
+      {
+        "action": "avoid_withholding_small_kindness",
+        "arabic": "وَيَمْنَعُونَ الْمَاعُونَ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["معاشرت"],
+        "implementation_level": 2,
+        "difficulty_level": 1,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "solitary"
+      }
+    ]
+  }
+]

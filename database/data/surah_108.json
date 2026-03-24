@@ -1,0 +1,96 @@
+[
+  {
+    "surah_number": 108,
+    "surah_name": "Al-Kawthar",
+    "surah_name_arabic": "الكوثر",
+    "verse_number": 1,
+    "text": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
+    "translation_en": "Indeed, We have granted you Al-Kawthar.",
+    "actions": [
+      {
+        "action": "be_grateful_for_allahs_abundant_blessings",
+        "arabic": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
+        "weightage": 1.0,
+        "action_type": ["acknowledge"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["recommended"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "premium",
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 108,
+    "surah_name": "Al-Kawthar",
+    "surah_name_arabic": "الكوثر",
+    "verse_number": 2,
+    "text": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+    "translation_en": "So pray to your Lord and sacrifice.",
+    "actions": [
+      {
+        "action": "establish_prayer",
+        "arabic": "فَصَلِّ لِرَبِّكَ",
+        "weightage": 0.5,
+        "action_type": ["do"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["daily"],
+        "obligation": ["obligatory"],
+        "action_categories": ["عبادات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "standard",
+        "jahannam_category": null
+      },
+      {
+        "action": "sacrifice_for_allah",
+        "arabic": "وَانْحَرْ",
+        "weightage": 0.5,
+        "action_type": ["do"],
+        "gender": ["all"],
+        "age_group": ["adult"],
+        "frequency": ["yearly"],
+        "obligation": ["recommended"],
+        "action_categories": ["عبادات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "standard",
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 108,
+    "surah_name": "Al-Kawthar",
+    "surah_name_arabic": "الكوثر",
+    "verse_number": 3,
+    "text": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+    "translation_en": "Indeed, your enemy is the one cut off.",
+    "actions": [
+      {
+        "action": "avoid_harboring_hatred_toward_the_prophet",
+        "arabic": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "standard"
+      }
+    ]
+  }
+]

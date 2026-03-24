@@ -1,0 +1,132 @@
+[
+  {
+    "surah_number": 111,
+    "surah_name": "Al-Masad",
+    "surah_name_arabic": "المسد",
+    "verse_number": 1,
+    "text": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
+    "translation_en": "May the hands of Abu Lahab be ruined, and ruined is he.",
+    "actions": [
+      {
+        "action": "avoid_opposing_allahs_message",
+        "arabic": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "standard"
+      }
+    ]
+  },
+  {
+    "surah_number": 111,
+    "surah_name": "Al-Masad",
+    "surah_name_arabic": "المسد",
+    "verse_number": 2,
+    "text": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
+    "translation_en": "His wealth will not avail him or that which he gained.",
+    "actions": [
+      {
+        "action": "avoid_relying_on_wealth_over_faith",
+        "arabic": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["اخلاقيات"],
+        "implementation_level": 1,
+        "difficulty_level": 2,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "standard"
+      }
+    ]
+  },
+  {
+    "surah_number": 111,
+    "surah_name": "Al-Masad",
+    "surah_name_arabic": "المسد",
+    "verse_number": 3,
+    "text": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+    "translation_en": "He will burn in a Fire of blazing flame.",
+    "actions": [
+      {
+        "action": "fear_punishment_of_hellfire",
+        "arabic": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+        "weightage": 1.0,
+        "action_type": ["reflect"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["recommended"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 2,
+        "classification": "do",
+        "jannah_category": null,
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 111,
+    "surah_name": "Al-Masad",
+    "surah_name_arabic": "المسد",
+    "verse_number": 4,
+    "text": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
+    "translation_en": "And his wife, the carrier of firewood.",
+    "actions": [
+      {
+        "action": "avoid_spreading_slander_and_mischief",
+        "arabic": "حَمَّالَةَ الْحَطَبِ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["اخلاقيات"],
+        "implementation_level": 2,
+        "difficulty_level": 1,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "standard"
+      }
+    ]
+  },
+  {
+    "surah_number": 111,
+    "surah_name": "Al-Masad",
+    "surah_name_arabic": "المسد",
+    "verse_number": 5,
+    "text": "فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ",
+    "translation_en": "Around her neck is a rope of palm fiber.",
+    "actions": [
+      {
+        "action": "avoid_arrogance_and_hostility_to_truth",
+        "arabic": "فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ",
+        "weightage": 1.0,
+        "action_type": ["avoid"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["prohibited"],
+        "action_categories": ["اخلاقيات"],
+        "implementation_level": 1,
+        "difficulty_level": 2,
+        "classification": "dont",
+        "jannah_category": null,
+        "jahannam_category": "standard"
+      }
+    ]
+  }
+]

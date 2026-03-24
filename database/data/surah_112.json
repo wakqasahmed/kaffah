@@ -1,0 +1,106 @@
+[
+  {
+    "surah_number": 112,
+    "surah_name": "Al-Ikhlas",
+    "surah_name_arabic": "الإخلاص",
+    "verse_number": 1,
+    "text": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+    "translation_en": "Say, He is Allah, the One.",
+    "actions": [
+      {
+        "action": "proclaim_allah_is_one",
+        "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+        "weightage": 1.0,
+        "action_type": ["proclaim"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["obligatory"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "standard",
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 112,
+    "surah_name": "Al-Ikhlas",
+    "surah_name_arabic": "الإخلاص",
+    "verse_number": 2,
+    "text": "اللَّهُ الصَّمَدُ",
+    "translation_en": "Allah, the Eternal Refuge.",
+    "actions": [
+      {
+        "action": "acknowledge_allah_as_eternal_refuge",
+        "arabic": "اللَّهُ الصَّمَدُ",
+        "weightage": 1.0,
+        "action_type": ["acknowledge"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["obligatory"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "standard",
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 112,
+    "surah_name": "Al-Ikhlas",
+    "surah_name_arabic": "الإخلاص",
+    "verse_number": 3,
+    "text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+    "translation_en": "He neither begets nor is born.",
+    "actions": [
+      {
+        "action": "affirm_allah_has_no_children_or_parents",
+        "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+        "weightage": 1.0,
+        "action_type": ["affirm"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["obligatory"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "standard",
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 112,
+    "surah_name": "Al-Ikhlas",
+    "surah_name_arabic": "الإخلاص",
+    "verse_number": 4,
+    "text": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+    "translation_en": "Nor is there to Him any equivalent.",
+    "actions": [
+      {
+        "action": "affirm_allahs_uniqueness",
+        "arabic": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+        "weightage": 1.0,
+        "action_type": ["affirm"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["obligatory"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "standard",
+        "jahannam_category": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "surah_number": 110,
+    "surah_name": "An-Nasr",
+    "surah_name_arabic": "النصر",
+    "verse_number": 1,
+    "text": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+    "translation_en": "When the victory of Allah has come and the conquest.",
+    "actions": [
+      {
+        "action": "recognize_victory_comes_from_allah",
+        "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+        "weightage": 1.0,
+        "action_type": ["acknowledge"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["obligatory"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 2,
+        "classification": "do",
+        "jannah_category": null,
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 110,
+    "surah_name": "An-Nasr",
+    "surah_name_arabic": "النصر",
+    "verse_number": 2,
+    "text": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
+    "translation_en": "And you see the people entering into the religion of Allah in multitudes.",
+    "actions": [
+      {
+        "action": "spread_islam_and_invite_to_allahs_religion",
+        "arabic": "يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
+        "weightage": 1.0,
+        "action_type": ["do"],
+        "gender": ["all"],
+        "age_group": ["adult"],
+        "frequency": ["always"],
+        "obligation": ["recommended"],
+        "action_categories": ["معاشرت"],
+        "implementation_level": 3,
+        "difficulty_level": 3,
+        "classification": "do",
+        "jannah_category": "premium",
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 110,
+    "surah_name": "An-Nasr",
+    "surah_name_arabic": "النصر",
+    "verse_number": 3,
+    "text": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا",
+    "translation_en": "Then exalt Him with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.",
+    "actions": [
+      {
+        "action": "glorify_allah_with_praise",
+        "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ",
+        "weightage": 0.5,
+        "action_type": ["do"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["obligatory"],
+        "action_categories": ["عبادات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "standard",
+        "jahannam_category": null
+      },
+      {
+        "action": "seek_forgiveness_from_allah",
+        "arabic": "وَاسْتَغْفِرْهُ",
+        "weightage": 0.5,
+        "action_type": ["do"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["obligatory"],
+        "action_categories": ["عبادات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "standard",
+        "jahannam_category": null
+      }
+    ]
+  }
+]

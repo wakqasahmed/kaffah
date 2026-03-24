@@ -1,0 +1,106 @@
+[
+  {
+    "surah_number": 106,
+    "surah_name": "Quraysh",
+    "surah_name_arabic": "قريش",
+    "verse_number": 1,
+    "text": "لِإِيلَافِ قُرَيْشٍ",
+    "translation_en": "For the accustomed security of the Quraysh.",
+    "actions": [
+      {
+        "action": "recognize_allahs_blessings_of_security",
+        "arabic": "لِإِيلَافِ قُرَيْشٍ",
+        "weightage": 1.0,
+        "action_type": ["reflect"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["recommended"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": null,
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 106,
+    "surah_name": "Quraysh",
+    "surah_name_arabic": "قريش",
+    "verse_number": 2,
+    "text": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+    "translation_en": "Their accustomed security in the caravan of winter and summer.",
+    "actions": [
+      {
+        "action": "be_grateful_for_provision_and_trade",
+        "arabic": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+        "weightage": 1.0,
+        "action_type": ["reflect"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["recommended"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": null,
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 106,
+    "surah_name": "Quraysh",
+    "surah_name_arabic": "قريش",
+    "verse_number": 3,
+    "text": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ",
+    "translation_en": "Let them worship the Lord of this House.",
+    "actions": [
+      {
+        "action": "worship_allah_lord_of_the_kaaba",
+        "arabic": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ",
+        "weightage": 1.0,
+        "action_type": ["do"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["obligatory"],
+        "action_categories": ["عبادات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": "standard",
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 106,
+    "surah_name": "Quraysh",
+    "surah_name_arabic": "قريش",
+    "verse_number": 4,
+    "text": "الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ",
+    "translation_en": "Who has fed them against hunger and made them safe from fear.",
+    "actions": [
+      {
+        "action": "be_grateful_for_food_and_safety",
+        "arabic": "أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ",
+        "weightage": 1.0,
+        "action_type": ["acknowledge"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["obligatory"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 1,
+        "classification": "do",
+        "jannah_category": null,
+        "jahannam_category": null
+      }
+    ]
+  }
+]

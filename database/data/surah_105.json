@@ -1,0 +1,132 @@
+[
+  {
+    "surah_number": 105,
+    "surah_name": "Al-Fil",
+    "surah_name_arabic": "الفيل",
+    "verse_number": 1,
+    "text": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
+    "translation_en": "Have you not considered how your Lord dealt with the companions of the elephant?",
+    "actions": [
+      {
+        "action": "reflect_on_allahs_power_over_oppressors",
+        "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ",
+        "weightage": 1.0,
+        "action_type": ["reflect"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["recommended"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 2,
+        "classification": "do",
+        "jannah_category": null,
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 105,
+    "surah_name": "Al-Fil",
+    "surah_name_arabic": "الفيل",
+    "verse_number": 2,
+    "text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
+    "translation_en": "Did He not make their plan into misguidance?",
+    "actions": [
+      {
+        "action": "reflect_on_failure_of_evil_plans",
+        "arabic": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
+        "weightage": 1.0,
+        "action_type": ["reflect"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["recommended"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 2,
+        "classification": "do",
+        "jannah_category": null,
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 105,
+    "surah_name": "Al-Fil",
+    "surah_name_arabic": "الفيل",
+    "verse_number": 3,
+    "text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+    "translation_en": "And He sent against them birds in flocks.",
+    "actions": [
+      {
+        "action": "reflect_on_allahs_armies",
+        "arabic": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+        "weightage": 1.0,
+        "action_type": ["reflect"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["recommended"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 2,
+        "classification": "do",
+        "jannah_category": null,
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 105,
+    "surah_name": "Al-Fil",
+    "surah_name_arabic": "الفيل",
+    "verse_number": 4,
+    "text": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+    "translation_en": "Striking them with stones of hard clay.",
+    "actions": [
+      {
+        "action": "reflect_on_divine_punishment",
+        "arabic": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+        "weightage": 1.0,
+        "action_type": ["reflect"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["recommended"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 2,
+        "classification": "do",
+        "jannah_category": null,
+        "jahannam_category": null
+      }
+    ]
+  },
+  {
+    "surah_number": 105,
+    "surah_name": "Al-Fil",
+    "surah_name_arabic": "الفيل",
+    "verse_number": 5,
+    "text": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ",
+    "translation_en": "And He made them like eaten straw.",
+    "actions": [
+      {
+        "action": "avoid_opposing_allahs_will",
+        "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ",
+        "weightage": 1.0,
+        "action_type": ["reflect"],
+        "gender": ["all"],
+        "age_group": ["all"],
+        "frequency": ["always"],
+        "obligation": ["recommended"],
+        "action_categories": ["ايمانيات"],
+        "implementation_level": 1,
+        "difficulty_level": 2,
+        "classification": "do",
+        "jannah_category": null,
+        "jahannam_category": null
+      }
+    ]
+  }
+]
