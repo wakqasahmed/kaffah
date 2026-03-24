@@ -22,7 +22,7 @@ npm run build                       # Build frontend assets
 
 ## Architecture Decisions
 
-- **No auth package (MVP)**: No Breeze/Jetstream. Auth middleware throws 500 for guests — tests assert `assertStatus(500)` for unauthenticated routes, not `assertRedirect()`.
+- **No auth package (MVP)**: No Breeze/Jetstream. Do NOT use `middleware('auth')` on any route — there is no `login` named route, so it throws `RouteNotFoundException`. Handle guests by checking `$request->user()` nullable in controllers.
 - **Guest-friendly quizzes**: `user_id` is nullable on `quiz_attempts`; `authorize(): true` on all Form Requests.
 - **Quiz flow**: `POST /quiz/{surah}/start` → redirects to `GET /quiz/attempt/{id}` (play page). Never render `Quiz/Play` from a POST — always redirect to the GET play route to avoid `MethodNotAllowedHttpException` on answer submission.
 - **Flash data sharing**: `answerResult` is shared via `HandleInertiaRequests::share()` under `flash.answerResult`.
