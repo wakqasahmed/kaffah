@@ -7,12 +7,10 @@ beforeEach(function () {
     $this->seed();
 });
 
-test('progress page requires authentication', function () {
+test('guest can view progress page', function () {
     $response = $this->get(route('progress'));
 
-    // Without auth package, the auth middleware throws an exception
-    // so we just verify unauthenticated users can't access it
-    $response->assertStatus(500);
+    $response->assertOk();
 });
 
 test('authenticated user can view progress', function () {

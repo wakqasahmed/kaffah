@@ -16,10 +16,9 @@ class ProgressController extends Controller
 
         $surahs = Surah::query()->orderBy('number')->get();
 
-        $progress = UserProgress::query()
-            ->where('user_id', $user->id)
-            ->get()
-            ->keyBy('surah_id');
+        $progress = $user
+            ? UserProgress::query()->where('user_id', $user->id)->get()->keyBy('surah_id')
+            : collect();
 
         $surahProgress = $surahs->map(fn (Surah $surah) => [
             'surah' => $surah,
