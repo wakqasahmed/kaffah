@@ -76,14 +76,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <Head title="Amal — Hasten to the Best of Deeds">
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap"
-            rel="stylesheet"
-        />
-    </Head>
+    <Head title="Amal — Hasten to the Best of Deeds" />
 
     <div class="min-h-screen bg-gray-950 text-white">
 

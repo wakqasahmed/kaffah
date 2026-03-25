@@ -8,7 +8,7 @@
         'Kumbh Sans', ui-sans-serif, system-ui, sans-serif,
         'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
         'Noto Color Emoji';
-    --font-arabic: 'Amiri', serif;
+    --font-arabic: 'Noto Sans Arabic', ui-sans-serif, sans-serif;
 
     /* Brand — warm teal primary */
     --color-brand-50: #f0fdfa;

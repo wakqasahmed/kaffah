@@ -3,7 +3,7 @@
 **Brand:** Amal (عمل — Deeds/Action)
 **Slogan:** حَيَّ عَلَىٰ خَيْرِ الْعَمَلِ (Hasten to the Best of Deeds)
 **Domain:** amal.run (staging: staging.amal.run)
-**Design:** Warm teal (brand-*) + gold (gold-*) primary palette; Kumbh Sans + Amiri fonts
+**Design:** Warm teal (brand-*) + gold (gold-*) primary palette; Kumbh Sans + Noto Sans Arabic fonts
 
 ## Vision & Product Concept
 
@@ -125,8 +125,8 @@ npm run build                       # Build frontend assets
 - `app/Services/QuizGeneratorService.php` — quiz selection + scoring logic
 - `app/Http/Middleware/HandleInertiaRequests.php` — shared Inertia props (auth, flash)
 - `database/seeders/SurahSeeder.php` + `QuizQuestionSeeder.php` — data pipeline
-- `resources/css/app.css` — Tailwind v4 `@theme inline` with brand/gold/danger color scales, Kumbh Sans + Amiri fonts
-- `resources/views/app.blade.php` — Kumbh Sans (Bunny) + Amiri (Google) font imports
+- `resources/css/app.css` — Tailwind v4 `@theme inline` with brand/gold/danger color scales, Kumbh Sans + Noto Sans Arabic fonts
+- `resources/views/app.blade.php` — Kumbh Sans (Bunny) + Noto Sans Arabic (Google) font imports
 
 <laravel-boost-guidelines>
 === foundation rules ===
