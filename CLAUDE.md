@@ -55,7 +55,7 @@
 
 | Branch | Railway Environment | URL | Purpose |
 |--------|-------------------|-----|---------|
-| `staging` | staging | `kaffah-staging.up.railway.app` | All new work goes here first |
+| `staging` | staging | `kaffah-staging-staging.up.railway.app` | All new work goes here first |
 | `main` | production | `kaffah-production.up.railway.app` | Stable, user-facing |
 
 **Day-to-day workflow:**
