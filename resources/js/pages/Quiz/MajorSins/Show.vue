@@ -24,21 +24,21 @@ function startQuiz() {
     <AppLayout>
         <div class="mx-auto max-w-2xl">
             <!-- Header -->
-            <div class="mb-8 overflow-hidden rounded-2xl bg-gradient-to-br from-red-950 via-rose-900 to-red-800 p-8 text-center shadow-xl">
-                <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-red-800/60 px-4 py-1.5 text-sm font-medium text-red-200">
+            <div class="mb-8 overflow-hidden rounded-2xl bg-gradient-to-br from-danger-950 via-danger-900 to-danger-800 p-8 text-center shadow-xl">
+                <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-danger-800/60 px-4 py-1.5 text-sm font-medium text-danger-200">
                     <span>⚠️</span>
                     <span>حِزْبُ الشَّيْطَانِ — Hizb ush-Shaitan</span>
                 </div>
                 <ArabicText
                     text="أَصْحَابُ الشِّمَالِ"
                     size="4xl"
-                    class="mb-3 block text-rose-200"
+                    class="mb-3 block text-danger-200"
                 />
                 <h1 class="mb-2 text-2xl font-bold text-white">
                     Ashab ush-Shimaal
                 </h1>
-                <p class="text-rose-300">The People of the Left — Major Sins Quiz</p>
-                <p class="mt-2 text-sm text-rose-400">Based on Al-Kaba'ir by Imam Dhahabi (d. 748 AH)</p>
+                <p class="text-danger-300">The People of the Left — Major Sins Quiz</p>
+                <p class="mt-2 text-sm text-danger-400">Based on Al-Kaba'ir by Imam Dhahabi (d. 748 AH)</p>
             </div>
 
             <!-- About the quiz -->
@@ -52,12 +52,12 @@ function startQuiz() {
                     or warnings of Hellfire. Knowing what to avoid is the first step of the Straight Path.
                 </p>
                 <div class="grid grid-cols-3 gap-4 text-center">
-                    <div class="rounded-lg bg-red-50 p-3 dark:bg-red-950/30">
-                        <p class="text-2xl font-bold text-red-700 dark:text-red-400">30</p>
+                    <div class="rounded-lg bg-danger-50 p-3 dark:bg-danger-950/30">
+                        <p class="text-2xl font-bold text-danger-700 dark:text-danger-400">30</p>
                         <p class="text-xs text-gray-500">Major Sins</p>
                     </div>
-                    <div class="rounded-lg bg-amber-50 p-3 dark:bg-amber-950/30">
-                        <p class="text-2xl font-bold text-amber-700 dark:text-amber-400">{{ totalQuestions }}</p>
+                    <div class="rounded-lg bg-gold-50 p-3 dark:bg-gold-950/30">
+                        <p class="text-2xl font-bold text-gold-700 dark:text-gold-400">{{ totalQuestions }}</p>
                         <p class="text-xs text-gray-500">Questions Available</p>
                     </div>
                     <div class="rounded-lg bg-gray-50 p-3 dark:bg-gray-700">
@@ -68,13 +68,13 @@ function startQuiz() {
             </div>
 
             <!-- Quranic warning -->
-            <div class="mb-6 rounded-xl border border-rose-200 bg-rose-50 p-6 dark:border-rose-900/50 dark:bg-rose-950/20">
+            <div class="mb-6 rounded-xl border border-danger-200 bg-danger-50 p-6 dark:border-danger-900/50 dark:bg-danger-950/20">
                 <ArabicText
                     text="وَمَن يَتَّخِذِ الشَّيْطَانَ وَلِيًّا مِّن دُونِ اللَّهِ فَقَدْ خَسِرَ خُسْرَانًا مُّبِينًا"
                     size="lg"
-                    class="mb-3 block text-rose-800 dark:text-rose-300"
+                    class="mb-3 block text-danger-800 dark:text-danger-300"
                 />
-                <p class="text-center text-sm text-rose-700 dark:text-rose-400">
+                <p class="text-center text-sm text-danger-700 dark:text-danger-400">
                     "And whoever takes Shaytan as an ally instead of Allah has certainly suffered a clear loss." — Quran 4:119
                 </p>
             </div>
@@ -95,8 +95,8 @@ function startQuiz() {
                             :key="count"
                             class="flex-1 rounded-lg border px-4 py-2.5 text-sm font-semibold transition"
                             :class="questionCount === count
-                                ? 'border-red-600 bg-red-600 text-white'
-                                : 'border-gray-300 text-gray-700 hover:border-red-400 dark:border-gray-600 dark:text-gray-300'"
+                                ? 'border-danger-600 bg-danger-600 text-white'
+                                : 'border-gray-300 text-gray-700 hover:border-danger-400 dark:border-gray-600 dark:text-gray-300'"
                             @click="questionCount = count"
                         >
                             {{ count }}
@@ -106,7 +106,7 @@ function startQuiz() {
 
                 <button
                     :disabled="isStarting"
-                    class="w-full rounded-lg bg-gradient-to-r from-red-700 to-rose-700 px-6 py-3.5 font-semibold text-white shadow-sm transition hover:from-red-800 hover:to-rose-800 disabled:opacity-60"
+                    class="w-full rounded-lg bg-gradient-to-r from-danger-700 to-danger-700 px-6 py-3.5 font-semibold text-white shadow-sm transition hover:from-danger-800 hover:to-danger-800 disabled:opacity-60"
                     @click="startQuiz"
                 >
                     {{ isStarting ? 'Starting...' : '⚠️ Begin Major Sins Quiz' }}

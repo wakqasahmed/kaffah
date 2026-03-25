@@ -1,4 +1,9 @@
-# Kaffah — Project-Specific Instructions
+# Amal (عمل) — Project-Specific Instructions
+
+**Brand:** Amal (عمل — Deeds/Action)
+**Slogan:** حَيَّ عَلَىٰ خَيْرِ الْعَمَلِ (Hasten to the Best of Deeds)
+**Domain:** amal.run (staging: staging.amal.run)
+**Design:** Warm teal (brand-*) + gold (gold-*) primary palette; Kumbh Sans + Amiri fonts
 
 ## Vision & Product Concept
 
@@ -55,8 +60,8 @@
 
 | Branch | Railway Environment | URL | Purpose |
 |--------|-------------------|-----|---------|
-| `staging` | staging | `kaffah-staging-staging.up.railway.app` | All new work goes here first |
-| `main` | production | `kaffah-production.up.railway.app` | Stable, user-facing |
+| `staging` | staging | `staging.amal.run` | All new work goes here first |
+| `main` | production | `amal.run` | Stable, user-facing |
 
 **Day-to-day workflow:**
 1. All changes are made on the `staging` branch (or a feature branch merged into `staging`)
@@ -82,7 +87,7 @@
 - PHP binary: `/Users/waqasahmed/Library/Application Support/Herd/bin/php`
 - Always prefix PHP commands: `export PATH="/Users/waqasahmed/Library/Application Support/Herd/bin:$PATH" && php artisan ...`
 - Node/npm via nvm: `/Users/waqasahmed/.nvm/versions/node/v22.22.1/bin`
-- App served by Herd at `https://kaffah.test`
+- App served by Herd at `https://amal.test`
 - Database: SQLite at `database/database.sqlite`
 
 ## Common Commands
@@ -120,8 +125,8 @@ npm run build                       # Build frontend assets
 - `app/Services/QuizGeneratorService.php` — quiz selection + scoring logic
 - `app/Http/Middleware/HandleInertiaRequests.php` — shared Inertia props (auth, flash)
 - `database/seeders/SurahSeeder.php` + `QuizQuestionSeeder.php` — data pipeline
-- `resources/css/app.css` — Tailwind v4 `@theme inline` with `--font-arabic: 'Amiri', serif`
-- `resources/views/app.blade.php` — Amiri Google Font link
+- `resources/css/app.css` — Tailwind v4 `@theme inline` with brand/gold/danger color scales, Kumbh Sans + Amiri fonts
+- `resources/views/app.blade.php` — Kumbh Sans (Bunny) + Amiri (Google) font imports
 
 <laravel-boost-guidelines>
 === foundation rules ===

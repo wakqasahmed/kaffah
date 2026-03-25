@@ -41,7 +41,7 @@ defineProps<{
                 <ArabicText
                     :text="context.name_arabic"
                     size="3xl"
-                    class="mb-2 block text-emerald-700 dark:text-emerald-400"
+                    class="mb-2 block text-brand-700 dark:text-brand-400"
                 />
                 <h1
                     class="mb-6 text-2xl font-bold text-gray-900 dark:text-white"
@@ -54,20 +54,20 @@ defineProps<{
                         class="mx-auto flex h-32 w-32 items-center justify-center rounded-full"
                         :class="
                             scoreData.percentage >= 80
-                                ? 'bg-emerald-100 dark:bg-emerald-900/40'
+                                ? 'bg-brand-100 dark:bg-brand-900/40'
                                 : scoreData.percentage >= 50
-                                  ? 'bg-amber-100 dark:bg-amber-900/40'
-                                  : 'bg-rose-100 dark:bg-rose-900/40'
+                                  ? 'bg-gold-100 dark:bg-gold-900/40'
+                                  : 'bg-danger-100 dark:bg-danger-900/40'
                         "
                     >
                         <span
                             class="text-4xl font-bold"
                             :class="
                                 scoreData.percentage >= 80
-                                    ? 'text-emerald-600 dark:text-emerald-400'
+                                    ? 'text-brand-600 dark:text-brand-400'
                                     : scoreData.percentage >= 50
-                                      ? 'text-amber-600 dark:text-amber-400'
-                                      : 'text-rose-600 dark:text-rose-400'
+                                      ? 'text-gold-600 dark:text-gold-400'
+                                      : 'text-danger-600 dark:text-danger-400'
                             "
                         >
                             {{ scoreData.percentage }}%
@@ -91,7 +91,7 @@ defineProps<{
                         <p class="text-sm text-gray-500">Wrong</p>
                     </div>
                     <div>
-                        <p class="text-2xl font-bold text-emerald-600 dark:text-emerald-400">
+                        <p class="text-2xl font-bold text-brand-600 dark:text-brand-400">
                             {{ Math.round(scoreData.score) }}
                         </p>
                         <p class="text-sm text-gray-500">Points</p>
@@ -101,7 +101,7 @@ defineProps<{
                 <div class="flex flex-col gap-3 sm:flex-row">
                     <Link
                         :href="context.type === 'surah' ? `/quiz/${context.id}` : '/major-sins'"
-                        class="flex-1 rounded-lg bg-emerald-600 px-6 py-3 font-semibold text-white transition hover:bg-emerald-700"
+                        class="flex-1 rounded-lg bg-brand-600 px-6 py-3 font-semibold text-white transition hover:bg-brand-700"
                     >
                         Try Again
                     </Link>

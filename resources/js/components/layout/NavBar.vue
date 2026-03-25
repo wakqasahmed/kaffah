@@ -24,16 +24,16 @@ const mobileLearningOpen = ref(false);
                 <Link
                     href="/"
                     class="flex items-center gap-2 shrink-0"
-                    :class="theme === 'dark' ? '' : 'text-emerald-600 dark:text-emerald-400'"
+                    :class="theme === 'dark' ? '' : 'text-brand-600 dark:text-brand-400'"
                 >
                     <span
                         class="font-arabic text-2xl font-bold"
-                        :class="theme === 'dark' ? 'text-emerald-400' : 'text-emerald-600 dark:text-emerald-400'"
-                    >كافة</span>
+                        :class="theme === 'dark' ? 'text-gold-400' : 'text-brand-600 dark:text-brand-400'"
+                    >عمل</span>
                     <span
                         class="text-sm font-medium"
                         :class="theme === 'dark' ? 'text-gray-400' : 'text-gray-500 dark:text-gray-400'"
-                    >Kaffah</span>
+                    >Amal</span>
                 </Link>
 
                 <!-- Desktop Nav links -->
@@ -45,7 +45,7 @@ const mobileLearningOpen = ref(false);
                             class="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium transition"
                             :class="theme === 'dark'
                                 ? 'text-gray-400 hover:text-white'
-                                : 'text-gray-600 hover:text-emerald-600 dark:text-gray-300 dark:hover:text-emerald-400'"
+                                : 'text-gray-600 hover:text-brand-600 dark:text-gray-300 dark:hover:text-brand-400'"
                         >
                             Take a Quiz
                             <svg class="h-3.5 w-3.5 transition-transform group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -63,9 +63,9 @@ const mobileLearningOpen = ref(false);
                                 class="flex items-center gap-2.5 px-4 py-2.5 text-sm transition"
                                 :class="theme === 'dark'
                                     ? 'text-gray-300 hover:bg-white/5 hover:text-white'
-                                    : 'text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 dark:text-gray-300 dark:hover:bg-emerald-900/20 dark:hover:text-emerald-400'"
+                                    : 'text-gray-700 hover:bg-brand-50 hover:text-brand-700 dark:text-gray-300 dark:hover:bg-brand-900/20 dark:hover:text-brand-400'"
                             >
-                                <span class="font-arabic text-base text-emerald-500">سُوَر</span>
+                                <span class="font-arabic text-base text-brand-500">سُوَر</span>
                                 Quiz by Surah
                             </Link>
                             <Link
@@ -73,9 +73,9 @@ const mobileLearningOpen = ref(false);
                                 class="flex items-center gap-2.5 px-4 py-2.5 text-sm transition"
                                 :class="theme === 'dark'
                                     ? 'text-gray-300 hover:bg-white/5 hover:text-white'
-                                    : 'text-gray-700 hover:bg-red-50 hover:text-red-700 dark:text-gray-300 dark:hover:bg-red-900/20 dark:hover:text-red-400'"
+                                    : 'text-gray-700 hover:bg-danger-50 hover:text-danger-700 dark:text-gray-300 dark:hover:bg-danger-900/20 dark:hover:text-danger-400'"
                             >
-                                <span class="font-arabic text-base text-red-500">كبائر</span>
+                                <span class="font-arabic text-base text-danger-500">كبائر</span>
                                 Major Sins Quiz
                             </Link>
                         </div>
@@ -87,7 +87,7 @@ const mobileLearningOpen = ref(false);
                             class="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium transition"
                             :class="theme === 'dark'
                                 ? 'text-gray-400 hover:text-white'
-                                : 'text-gray-600 hover:text-emerald-600 dark:text-gray-300 dark:hover:text-emerald-400'"
+                                : 'text-gray-600 hover:text-brand-600 dark:text-gray-300 dark:hover:text-brand-400'"
                         >
                             Learning
                             <svg class="h-3.5 w-3.5 transition-transform group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -105,9 +105,9 @@ const mobileLearningOpen = ref(false);
                                 class="flex items-center gap-2.5 px-4 py-2.5 text-sm transition"
                                 :class="theme === 'dark'
                                     ? 'text-gray-300 hover:bg-white/5 hover:text-white'
-                                    : 'text-gray-700 hover:bg-rose-50 hover:text-rose-700 dark:text-gray-300 dark:hover:bg-rose-900/20 dark:hover:text-rose-400'"
+                                    : 'text-gray-700 hover:bg-danger-50 hover:text-danger-700 dark:text-gray-300 dark:hover:bg-danger-900/20 dark:hover:text-danger-400'"
                             >
-                                <span class="font-arabic text-base text-red-500">كبائر</span>
+                                <span class="font-arabic text-base text-danger-500">كبائر</span>
                                 Major Sins
                             </Link>
 
@@ -132,7 +132,7 @@ const mobileLearningOpen = ref(false);
                                 :key="item.arabic"
                                 class="flex cursor-not-allowed items-center gap-2.5 px-4 py-2.5 opacity-40"
                             >
-                                <span class="font-arabic text-base text-amber-500">{{ item.arabic }}</span>
+                                <span class="font-arabic text-base text-gold-500">{{ item.arabic }}</span>
                                 <span
                                     class="text-sm"
                                     :class="theme === 'dark' ? 'text-gray-400' : 'text-gray-500'"
@@ -147,7 +147,7 @@ const mobileLearningOpen = ref(false);
                         class="rounded-md px-3 py-2 text-sm font-medium transition"
                         :class="theme === 'dark'
                             ? 'text-gray-400 hover:text-white'
-                            : 'text-gray-600 hover:text-emerald-600 dark:text-gray-300 dark:hover:text-emerald-400'"
+                            : 'text-gray-600 hover:text-brand-600 dark:text-gray-300 dark:hover:text-brand-400'"
                     >
                         Progress
                     </Link>
@@ -205,10 +205,10 @@ const mobileLearningOpen = ref(false);
                         class="flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm transition"
                         :class="theme === 'dark'
                             ? 'text-gray-400 hover:bg-white/5 hover:text-white'
-                            : 'text-gray-600 hover:bg-emerald-50 hover:text-emerald-700'"
+                            : 'text-gray-600 hover:bg-brand-50 hover:text-brand-700'"
                         @click="mobileOpen = false"
                     >
-                        <span class="font-arabic text-base text-emerald-500">سُوَر</span>
+                        <span class="font-arabic text-base text-brand-500">سُوَر</span>
                         Quiz by Surah
                     </Link>
                     <Link
@@ -216,10 +216,10 @@ const mobileLearningOpen = ref(false);
                         class="flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm transition"
                         :class="theme === 'dark'
                             ? 'text-gray-400 hover:bg-white/5 hover:text-white'
-                            : 'text-gray-600 hover:bg-red-50 hover:text-red-700'"
+                            : 'text-gray-600 hover:bg-danger-50 hover:text-danger-700'"
                         @click="mobileOpen = false"
                     >
-                        <span class="font-arabic text-base text-red-500">كبائر</span>
+                        <span class="font-arabic text-base text-danger-500">كبائر</span>
                         Major Sins Quiz
                     </Link>
                 </div>
@@ -247,10 +247,10 @@ const mobileLearningOpen = ref(false);
                         class="flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm transition"
                         :class="theme === 'dark'
                             ? 'text-gray-400 hover:bg-white/5 hover:text-white'
-                            : 'text-gray-600 hover:bg-rose-50 hover:text-rose-700'"
+                            : 'text-gray-600 hover:bg-danger-50 hover:text-danger-700'"
                         @click="mobileOpen = false"
                     >
-                        <span class="font-arabic text-base text-red-500">كبائر</span>
+                        <span class="font-arabic text-base text-danger-500">كبائر</span>
                         Major Sins
                     </Link>
                     <div
@@ -262,7 +262,7 @@ const mobileLearningOpen = ref(false);
                         :key="item.arabic"
                         class="flex cursor-not-allowed items-center gap-2.5 rounded-md px-3 py-2.5 opacity-40"
                     >
-                        <span class="font-arabic text-base text-amber-500">{{ item.arabic }}</span>
+                        <span class="font-arabic text-base text-gold-500">{{ item.arabic }}</span>
                         <span class="text-sm"
                             :class="theme === 'dark' ? 'text-gray-400' : 'text-gray-500'"
                         >{{ item.label }}</span>

@@ -32,7 +32,7 @@ class AppServiceProvider extends ServiceProvider
      */
     protected function configureDefaults(): void
     {
-        if (app()->isProduction()) {
+        if (! app()->environment('local')) {
             URL::forceScheme('https');
         }
 

@@ -69,7 +69,7 @@ function next() {
                 </div>
                 <Link
                     href="/major-sins"
-                    class="rounded-lg border border-red-200 bg-red-50 px-4 py-2 text-sm font-medium text-red-700 transition hover:bg-red-100 dark:border-red-900/50 dark:bg-red-950/30 dark:text-red-400"
+                    class="rounded-lg border border-danger-200 bg-danger-50 px-4 py-2 text-sm font-medium text-danger-700 transition hover:bg-danger-100 dark:border-danger-900/50 dark:bg-danger-950/30 dark:text-danger-400"
                 >
                     Take the Quiz
                 </Link>
@@ -83,7 +83,7 @@ function next() {
                 </div>
                 <div class="h-1.5 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
                     <div
-                        class="h-full rounded-full bg-gradient-to-r from-red-600 to-rose-500 transition-all duration-300"
+                        class="h-full rounded-full bg-gradient-to-r from-danger-600 to-danger-500 transition-all duration-300"
                         :style="{ width: `${((currentIndex + 1) / sins.length) * 100}%` }"
                     />
                 </div>
@@ -92,8 +92,8 @@ function next() {
             <!-- Sin card -->
             <div class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-800">
                 <!-- Card header -->
-                <div class="bg-gradient-to-br from-red-950 via-rose-900 to-red-800 px-8 py-6 text-center">
-                    <div class="mb-2 inline-flex items-center gap-2 rounded-full bg-red-800/60 px-3 py-1 text-xs font-medium text-red-200">
+                <div class="bg-gradient-to-br from-danger-950 via-danger-900 to-danger-800 px-8 py-6 text-center">
+                    <div class="mb-2 inline-flex items-center gap-2 rounded-full bg-danger-800/60 px-3 py-1 text-xs font-medium text-danger-200">
                         <span>الكبيرة {{ currentSin.number }}</span>
                         <span>·</span>
                         <span>Major Sin #{{ currentSin.number }}</span>
@@ -101,10 +101,10 @@ function next() {
                     <ArabicText
                         :text="currentSin.title_arabic"
                         size="3xl"
-                        class="mb-3 block text-rose-100"
+                        class="mb-3 block text-danger-100"
                     />
                     <h2 class="text-xl font-bold text-white">{{ currentSin.title }}</h2>
-                    <p class="mt-1 text-sm text-rose-300">{{ currentSin.subtitle }}</p>
+                    <p class="mt-1 text-sm text-danger-300">{{ currentSin.subtitle }}</p>
                 </div>
 
                 <!-- Verses -->
@@ -114,7 +114,7 @@ function next() {
                         :key="i"
                         class="px-8 py-6"
                     >
-                        <div class="mb-1 text-xs font-semibold uppercase tracking-wide text-amber-600 dark:text-amber-400">
+                        <div class="mb-1 text-xs font-semibold uppercase tracking-wide text-gold-600 dark:text-gold-400">
                             {{ verse.surah_name }} {{ verse.surah_number }}:{{ verse.verse_number }}
                         </div>
                         <div class="mb-4 text-right">
@@ -190,8 +190,8 @@ function next() {
                         :key="sin.number"
                         class="h-7 w-7 rounded text-xs font-semibold transition"
                         :class="i === currentIndex
-                            ? 'bg-red-600 text-white'
-                            : 'bg-gray-100 text-gray-600 hover:bg-red-100 hover:text-red-700 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-red-900/40'"
+                            ? 'bg-danger-600 text-white'
+                            : 'bg-gray-100 text-gray-600 hover:bg-danger-100 hover:text-danger-700 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-danger-900/40'"
                         :title="sin.title"
                         @click="goTo(i)"
                     >

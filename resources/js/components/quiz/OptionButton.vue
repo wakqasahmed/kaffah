@@ -17,13 +17,13 @@ defineEmits<{
         :disabled="disabled"
         class="w-full rounded-lg border-2 px-4 py-3 text-left transition-all"
         :class="{
-            'border-gray-200 bg-white hover:border-emerald-300 hover:bg-emerald-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-emerald-600':
+            'border-gray-200 bg-white hover:border-brand-300 hover:bg-brand-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-brand-600':
                 !selected && correct === null,
-            'border-emerald-500 bg-emerald-50 dark:border-emerald-400 dark:bg-emerald-900/30':
+            'border-brand-500 bg-brand-50 dark:border-brand-400 dark:bg-brand-900/30':
                 selected && correct === null,
-            'border-emerald-500 bg-emerald-100 dark:border-emerald-400 dark:bg-emerald-900/50':
+            'border-brand-500 bg-brand-100 dark:border-brand-400 dark:bg-brand-900/50':
                 correct === true,
-            'border-rose-500 bg-rose-100 dark:border-rose-400 dark:bg-rose-900/50':
+            'border-danger-500 bg-danger-100 dark:border-danger-400 dark:bg-danger-900/50':
                 selected && correct === false,
             'cursor-not-allowed opacity-60': disabled && !selected && correct !== true,
         }"
@@ -35,8 +35,8 @@ defineEmits<{
                 :class="{
                     'bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-300':
                         correct === null && !selected,
-                    'bg-emerald-500 text-white': correct === true || (selected && correct === null),
-                    'bg-rose-500 text-white': selected && correct === false,
+                    'bg-brand-500 text-white': correct === true || (selected && correct === null),
+                    'bg-danger-500 text-white': selected && correct === false,
                 }"
             >
                 {{ String.fromCharCode(65 + index) }}

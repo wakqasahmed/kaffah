@@ -150,7 +150,7 @@ function nextQuestion() {
                     <span class="ml-2 text-gray-500">{{ context.name }}</span>
                 </h1>
                 <span
-                    class="rounded-full bg-emerald-100 px-3 py-1 text-sm font-medium text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300"
+                    class="rounded-full bg-brand-100 px-3 py-1 text-sm font-medium text-brand-700 dark:bg-brand-900/50 dark:text-brand-300"
                 >
                     {{ correctCount }}/{{ currentIndex + (answeredCorrectly !== null ? 1 : 0) }}
                     correct
@@ -175,11 +175,11 @@ function nextQuestion() {
                     <span
                         class="rounded px-2 py-0.5 text-xs font-medium"
                         :class="{
-                            'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300':
+                            'bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-300':
                                 currentQuestion.difficulty_level === 1,
-                            'bg-amber-100 text-amber-700 dark:bg-amber-900/50 dark:text-amber-300':
+                            'bg-gold-100 text-gold-700 dark:bg-gold-900/50 dark:text-gold-300':
                                 currentQuestion.difficulty_level === 2,
-                            'bg-rose-100 text-rose-700 dark:bg-rose-900/50 dark:text-rose-300':
+                            'bg-danger-100 text-danger-700 dark:bg-danger-900/50 dark:text-danger-300':
                                 currentQuestion.difficulty_level === 3,
                         }"
                     >
@@ -205,7 +205,7 @@ function nextQuestion() {
                         currentQuestion.question_data.arabic_text_with_blank ||
                         currentQuestion.question_data.verse_text
                     "
-                    class="mb-6 rounded-lg bg-emerald-50 p-6 text-center dark:bg-emerald-900/20"
+                    class="mb-6 rounded-lg bg-brand-50 p-6 text-center dark:bg-brand-900/20"
                 >
                     <ArabicText
                         :text="
@@ -258,7 +258,7 @@ function nextQuestion() {
                 <div v-if="answeredCorrectly === null">
                     <button
                         :disabled="selectedIndex === null || isSubmitting"
-                        class="w-full rounded-lg bg-emerald-600 px-6 py-3 font-semibold text-white transition hover:bg-emerald-700 disabled:opacity-50"
+                        class="w-full rounded-lg bg-brand-600 px-6 py-3 font-semibold text-white transition hover:bg-brand-700 disabled:opacity-50"
                         @click="submitAnswer"
                     >
                         {{ isSubmitting ? 'Checking...' : 'Submit Answer' }}
@@ -270,8 +270,8 @@ function nextQuestion() {
                         class="rounded-lg p-4 text-center font-semibold"
                         :class="
                             answeredCorrectly
-                                ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300'
-                                : 'bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-300'
+                                ? 'bg-brand-100 text-brand-800 dark:bg-brand-900/40 dark:text-brand-300'
+                                : 'bg-danger-100 text-danger-800 dark:bg-danger-900/40 dark:text-danger-300'
                         "
                     >
                         {{ answeredCorrectly ? '✓ Correct!' : '✗ Incorrect' }}
@@ -280,9 +280,9 @@ function nextQuestion() {
                     <!-- Explanation panel -->
                     <div
                         v-if="verseArabic || explanation"
-                        class="rounded-lg border border-amber-200 bg-amber-50 p-4 dark:border-amber-800/50 dark:bg-amber-900/20"
+                        class="rounded-lg border border-gold-200 bg-gold-50 p-4 dark:border-gold-800/50 dark:bg-gold-900/20"
                     >
-                        <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-400">
+                        <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-gold-700 dark:text-gold-400">
                             📖 Quranic Reference
                         </p>
                         <div v-if="verseArabic" class="mb-3 text-center">
@@ -294,7 +294,7 @@ function nextQuestion() {
                         </div>
                         <p
                             v-if="quranicRef"
-                            class="mb-2 text-center text-sm font-medium text-amber-700 dark:text-amber-400"
+                            class="mb-2 text-center text-sm font-medium text-gold-700 dark:text-gold-400"
                         >
                             {{ quranicRef }}
                         </p>

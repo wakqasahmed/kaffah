@@ -13,7 +13,7 @@ defineProps<{
         </div>
         <div class="h-2 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
             <div
-                class="h-full rounded-full bg-emerald-500 transition-all duration-500"
+                class="h-full rounded-full bg-brand-500 transition-all duration-500"
                 :style="{ width: `${(current / total) * 100}%` }"
             />
         </div>

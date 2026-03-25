@@ -34,11 +34,11 @@ defineProps<{
                 v-for="surah in surahs"
                 :key="surah.id"
                 :href="`/quiz/${surah.id}`"
-                class="group rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-emerald-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800 dark:hover:border-emerald-600"
+                class="group rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-brand-300 hover:shadow-md dark:border-gray-700 dark:bg-gray-800 dark:hover:border-brand-600"
             >
                 <div class="mb-4 flex items-center justify-between">
                     <span
-                        class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-sm font-bold text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300"
+                        class="flex h-10 w-10 items-center justify-center rounded-full bg-brand-100 text-sm font-bold text-brand-700 dark:bg-brand-900/50 dark:text-brand-300"
                     >
                         {{ surah.number }}
                     </span>
@@ -54,7 +54,7 @@ defineProps<{
                 />
 
                 <h3
-                    class="text-lg font-semibold text-gray-700 group-hover:text-emerald-600 dark:text-gray-300 dark:group-hover:text-emerald-400"
+                    class="text-lg font-semibold text-gray-700 group-hover:text-brand-600 dark:text-gray-300 dark:group-hover:text-brand-400"
                 >
                     {{ surah.name }}
                 </h3>

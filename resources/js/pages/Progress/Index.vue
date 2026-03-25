@@ -61,9 +61,9 @@ defineProps<{
                         class="text-2xl font-bold"
                         :class="
                             sp.progress && parseFloat(sp.progress.mastery_percentage) >= 80
-                                ? 'text-emerald-600'
+                                ? 'text-brand-600'
                                 : sp.progress && parseFloat(sp.progress.mastery_percentage) >= 50
-                                  ? 'text-amber-600'
+                                  ? 'text-gold-600'
                                   : 'text-gray-400'
                         "
                     >
@@ -79,7 +79,7 @@ defineProps<{
                     class="mb-3 h-2 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700"
                 >
                     <div
-                        class="h-full rounded-full bg-emerald-500 transition-all"
+                        class="h-full rounded-full bg-brand-500 transition-all"
                         :style="{
                             width: `${sp.progress ? parseFloat(sp.progress.mastery_percentage) : 0}%`,
                         }"

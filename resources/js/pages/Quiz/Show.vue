@@ -42,7 +42,7 @@ function startQuiz() {
                 <ArabicText
                     :text="surah.name_arabic"
                     size="3xl"
-                    class="mb-2 block text-emerald-700 dark:text-emerald-400"
+                    class="mb-2 block text-brand-700 dark:text-brand-400"
                 />
                 <h1 class="text-2xl font-bold text-gray-900 dark:text-white">
                     {{ surah.name }}
@@ -76,7 +76,7 @@ function startQuiz() {
                             class="flex cursor-pointer items-center gap-3 rounded-lg border-2 px-4 py-3 transition-all"
                             :class="
                                 form.quiz_type === qt.value
-                                    ? 'border-emerald-500 bg-emerald-50 dark:border-emerald-400 dark:bg-emerald-900/30'
+                                    ? 'border-brand-500 bg-brand-50 dark:border-brand-400 dark:bg-brand-900/30'
                                     : 'border-gray-200 hover:border-gray-300 dark:border-gray-600'
                             "
                         >
@@ -84,7 +84,7 @@ function startQuiz() {
                                 v-model="form.quiz_type"
                                 type="radio"
                                 :value="qt.value"
-                                class="text-emerald-600"
+                                class="text-brand-600"
                             />
                             <span
                                 class="text-sm font-medium text-gray-800 dark:text-gray-200"
@@ -95,7 +95,7 @@ function startQuiz() {
                     </div>
                     <p
                         v-if="form.errors.quiz_type"
-                        class="mt-1 text-sm text-rose-500"
+                        class="mt-1 text-sm text-danger-500"
                     >
                         {{ form.errors.quiz_type }}
                     </p>
@@ -112,7 +112,7 @@ function startQuiz() {
                         type="range"
                         min="5"
                         max="20"
-                        class="w-full accent-emerald-500"
+                        class="w-full accent-brand-500"
                     />
                     <div
                         class="mt-1 flex justify-between text-xs text-gray-400"
@@ -125,7 +125,7 @@ function startQuiz() {
                 <button
                     type="submit"
                     :disabled="form.processing"
-                    class="w-full rounded-lg bg-emerald-600 px-6 py-3 font-semibold text-white transition hover:bg-emerald-700 disabled:opacity-50"
+                    class="w-full rounded-lg bg-brand-600 px-6 py-3 font-semibold text-white transition hover:bg-brand-700 disabled:opacity-50"
                 >
                     {{ form.processing ? 'Starting...' : 'Start Quiz' }}
                 </button>
