@@ -49,6 +49,34 @@
 
 ---
 
+## Branching & Deployment Workflow
+
+**Two branches, two Railway environments:**
+
+| Branch | Railway Environment | URL | Purpose |
+|--------|-------------------|-----|---------|
+| `staging` | staging | `kaffah-staging.up.railway.app` | All new work goes here first |
+| `main` | production | `kaffah-production.up.railway.app` | Stable, user-facing |
+
+**Day-to-day workflow:**
+1. All changes are made on the `staging` branch (or a feature branch merged into `staging`)
+2. Push to `staging` → Railway auto-deploys to the staging environment
+3. Verify the change at the staging URL
+4. When happy, promote to production:
+   ```bash
+   git checkout main
+   git merge staging
+   git push
+   git checkout staging   # return to staging for next task
+   ```
+
+**Rules:**
+- Never commit directly to `main` — always merge from `staging`
+- The active working branch is always `staging`
+- Railway deploys are triggered automatically on push to the tracked branch
+
+---
+
 ## Environment
 
 - PHP binary: `/Users/waqasahmed/Library/Application Support/Herd/bin/php`
