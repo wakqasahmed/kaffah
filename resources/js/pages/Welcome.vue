@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Head, router } from '@inertiajs/vue3';
+import { Head, Link, router } from '@inertiajs/vue3';
 import { ref } from 'vue';
 import NavBar from '@/components/layout/NavBar.vue';
 
@@ -89,14 +89,14 @@ function startMajorSinsQuiz() {
                 <div class="rounded-xl border border-emerald-700/40 bg-gradient-to-r from-emerald-950 to-teal-950 p-5 text-center">
                     <p class="font-arabic mb-1 text-2xl text-emerald-400" lang="ar" dir="rtl">حِزْبُ اللَّهِ</p>
                     <p class="font-semibold text-emerald-300">Hizb Allah — Party of Allah</p>
-                    <p class="mt-1 text-xs text-emerald-600">أُولَٰئِكَ حِزْبُ اللَّهِ ۚ أَلَا إِنَّ حِزْبَ اللَّهِ هُمُ الْمُفْلِحُونَ</p>
-                    <p class="mt-1 text-xs text-emerald-700 italic">"Indeed it is the party of Allah who are the successful" — 58:22</p>
+                    <p class="mt-1 text-xs text-emerald-400">أُولَٰئِكَ حِزْبُ اللَّهِ ۚ أَلَا إِنَّ حِزْبَ اللَّهِ هُمُ الْمُفْلِحُونَ</p>
+                    <p class="mt-1 text-xs text-emerald-500 italic">"Indeed it is the party of Allah who are the successful" — 58:22</p>
                 </div>
                 <div class="rounded-xl border border-red-800/40 bg-gradient-to-r from-red-950 to-rose-950 p-5 text-center">
                     <p class="font-arabic mb-1 text-2xl text-red-400" lang="ar" dir="rtl">حِزْبُ الشَّيْطَانِ</p>
                     <p class="font-semibold text-red-300">Hizb ush-Shaitan — Party of Satan</p>
-                    <p class="mt-1 text-xs text-red-700">أَلَا إِنَّ حِزْبَ الشَّيْطَانِ هُمُ الْخَاسِرُونَ</p>
-                    <p class="mt-1 text-xs text-red-800 italic">"Indeed it is the party of Satan who are the losers" — 58:19</p>
+                    <p class="mt-1 text-xs text-red-200">أَلَا إِنَّ حِزْبَ الشَّيْطَانِ هُمُ الْخَاسِرُونَ</p>
+                    <p class="mt-1 text-xs text-red-150 italic">"Indeed it is the party of Satan who are the losers" — 58:19</p>
                 </div>
             </div>
         </section>

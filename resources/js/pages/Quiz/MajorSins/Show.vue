@@ -91,7 +91,7 @@ function startQuiz() {
                     </label>
                     <div class="flex gap-3">
                         <button
-                            v-for="count in [5, 10, 15, 20]"
+                            v-for="count in [10, 20, 30]"
                             :key="count"
                             class="flex-1 rounded-lg border px-4 py-2.5 text-sm font-semibold transition"
                             :class="questionCount === count
