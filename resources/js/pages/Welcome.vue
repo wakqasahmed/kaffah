@@ -503,9 +503,12 @@ onUnmounted(() => {
 
                         <!-- CTA -->
                         <div class="mt-auto">
-                            <button disabled class="w-full cursor-not-allowed rounded-xl border border-amber-600/30 bg-amber-900/40 px-4 py-3 text-sm font-semibold text-amber-600 opacity-60">
-                                ✦ Coming Soon
-                            </button>
+                            <Link
+                                href="/sabiqun"
+                                class="block w-full rounded-xl border border-amber-500/50 bg-amber-900/60 px-4 py-3 text-center text-sm font-semibold text-amber-300 transition hover:border-amber-400/70 hover:bg-amber-800/60 hover:text-amber-200"
+                            >
+                                ✦ Race with the Forerunners →
+                            </Link>
                             <p class="mt-2 text-center text-xs text-amber-800">Race toward الخير daily</p>
                         </div>
                     </div>
@@ -562,10 +565,10 @@ onUnmounted(() => {
 
                         <div class="mt-auto">
                             <Link
-                                href="/surahs"
+                                href="/ashab-al-yameen"
                                 class="block w-full rounded-xl bg-emerald-700 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-emerald-600"
                             >
-                                🌿 Start Quran Quiz
+                                🌿 Explore the People of Right →
                             </Link>
                             <p class="mt-2 text-center text-xs text-emerald-800">Strengthen your foundation</p>
                         </div>
@@ -624,10 +627,10 @@ onUnmounted(() => {
 
                         <div class="mt-auto">
                             <Link
-                                href="/major-sins"
+                                href="/ashab-al-shimaal"
                                 class="block w-full rounded-xl bg-gradient-to-r from-red-700 to-rose-700 px-4 py-3 text-center text-sm font-bold text-white shadow-lg shadow-red-900/50 transition hover:from-red-600 hover:to-rose-600"
                             >
-                                ⚠️ Learn Major Sins
+                                ⚠️ Understand What to Avoid →
                             </Link>
                             <p class="mt-2 text-center text-xs text-red-800">Know what to avoid</p>
                         </div>
@@ -684,10 +687,13 @@ onUnmounted(() => {
                         </p>
 
                         <div class="mt-auto">
-                            <button disabled class="w-full cursor-not-allowed rounded-xl border border-gray-800 bg-gray-900/60 px-4 py-3 text-sm font-semibold text-gray-700 opacity-50">
-                                ☠ Nifaq Awareness Quiz
-                            </button>
-                            <p class="mt-2 text-center text-xs text-gray-800">Purify your intentions — coming soon</p>
+                            <Link
+                                href="/al-darakil-asfal"
+                                class="block w-full rounded-xl border border-gray-700/50 bg-gray-900/60 px-4 py-3 text-center text-sm font-semibold text-gray-400 transition hover:border-gray-600/70 hover:bg-gray-800/60 hover:text-gray-300"
+                            >
+                                ☠ Recognise the Signs →
+                            </Link>
+                            <p class="mt-2 text-center text-xs text-gray-800">Purify your intentions</p>
                         </div>
                     </div>
                 </div>
