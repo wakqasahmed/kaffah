@@ -374,6 +374,262 @@ function startMajorSinsQuiz() {
             </div>
         </section>
 
+        <!-- ─── QURAN-BASED DESTINATION CARDS ─── -->
+        <section class="px-6 pb-12 lg:px-12">
+            <div class="mb-10 text-center">
+                <h2 class="mb-3 text-3xl font-bold text-white">What Does the Quran Say?</h2>
+                <p class="text-gray-400">Four groups defined by Allah's words — which verses describe you?</p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-5 lg:grid-cols-4">
+
+                <!-- ══════ CARD 1: AS-SĀBIQŪN ══════ -->
+                <div class="relative flex flex-col overflow-hidden rounded-2xl border border-amber-400/30 bg-gradient-to-b from-amber-950 via-yellow-950/60 to-gray-950 shadow-2xl shadow-amber-900/20">
+                    <div class="pointer-events-none absolute inset-0 bg-gradient-to-br from-amber-300/8 via-transparent to-transparent"></div>
+                    <div class="absolute top-4 right-4 rounded-full bg-amber-400/20 px-3 py-1 text-xs font-semibold text-amber-300">Highest Rank</div>
+
+                    <div class="flex flex-1 flex-col p-6">
+                        <!-- Category -->
+                        <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-emerald-500">Racing in Good Deeds</p>
+
+                        <!-- Title -->
+                        <p class="font-arabic mb-1 text-3xl text-amber-300" lang="ar" dir="rtl">السَّابِقُونَ</p>
+                        <h3 class="mb-4 text-xl font-bold text-amber-200">Forerunners</h3>
+
+                        <!-- Anchor verse -->
+                        <div class="mb-5 rounded-xl border border-amber-700/30 bg-amber-900/30 p-4">
+                            <p class="font-arabic mb-2 text-lg leading-relaxed text-amber-300" lang="ar" dir="rtl">وَالسَّابِقُونَ السَّابِقُونَ • أُولَٰئِكَ الْمُقَرَّبُونَ</p>
+                            <p class="mb-1 text-xs font-semibold text-amber-600">Al-Waqi'ah 56:10–11</p>
+                            <p class="text-xs text-amber-500 italic">"The forerunners, the forerunners — they are the ones brought near."</p>
+                        </div>
+
+                        <!-- Supporting verses -->
+                        <div class="mb-5 space-y-3">
+                            <div class="rounded-lg bg-amber-900/20 px-3 py-2.5">
+                                <p class="font-arabic mb-1 text-sm text-amber-400" lang="ar" dir="rtl">أُولَٰئِكَ يُسَارِعُونَ فِي الْخَيْرَاتِ وَهُمْ لَهَا سَابِقُونَ</p>
+                                <p class="text-xs text-amber-700 italic">"They hasten to good deeds, and they are foremost." — 23:61</p>
+                            </div>
+                            <div class="rounded-lg bg-amber-900/20 px-3 py-2.5">
+                                <p class="font-arabic mb-1 text-sm text-amber-400" lang="ar" dir="rtl">فَاسْتَبِقُوا الْخَيْرَاتِ</p>
+                                <p class="text-xs text-amber-700 italic">"So compete in good deeds." — 2:148</p>
+                            </div>
+                        </div>
+
+                        <!-- Bullets -->
+                        <ul class="mb-5 space-y-2">
+                            <li class="flex items-start gap-2 text-sm text-amber-200">
+                                <span class="mt-0.5 shrink-0 text-amber-400">★</span>
+                                <span><span class="font-arabic">يُسَارِعُونَ فِي الْخَيْرَاتِ</span> — hasten to good — <span class="text-amber-600">23:61</span></span>
+                            </li>
+                            <li class="flex items-start gap-2 text-sm text-amber-200">
+                                <span class="mt-0.5 shrink-0 text-amber-400">★</span>
+                                <span><span class="font-arabic">فَاسْتَبِقُوا الْخَيْرَاتِ</span> — compete in good — <span class="text-amber-600">2:148</span></span>
+                            </li>
+                            <li class="flex items-start gap-2 text-sm text-amber-200">
+                                <span class="mt-0.5 shrink-0 text-amber-400">★</span>
+                                <span><span class="font-arabic">سَابِقُوا إِلَىٰ مَغْفِرَةٍ</span> — race to forgiveness — <span class="text-amber-600">57:21</span></span>
+                            </li>
+                        </ul>
+
+                        <!-- Note -->
+                        <p class="mb-5 rounded-lg bg-amber-900/20 px-3 py-2 text-xs text-amber-700 italic">
+                            Represents those who consistently act first in obedience and الخير.
+                        </p>
+
+                        <!-- CTA -->
+                        <div class="mt-auto">
+                            <button disabled class="w-full cursor-not-allowed rounded-xl border border-amber-600/30 bg-amber-900/40 px-4 py-3 text-sm font-semibold text-amber-600 opacity-60">
+                                ✦ Coming Soon
+                            </button>
+                            <p class="mt-2 text-center text-xs text-amber-800">Race toward الخير daily</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ══════ CARD 2: ASHAB AL-YAMEEN ══════ -->
+                <div class="relative flex flex-col overflow-hidden rounded-2xl border border-emerald-700/40 bg-gradient-to-b from-emerald-950 via-teal-950/60 to-gray-950 shadow-2xl shadow-emerald-900/20">
+                    <div class="pointer-events-none absolute inset-0 bg-gradient-to-br from-emerald-400/5 via-transparent to-transparent"></div>
+
+                    <div class="flex flex-1 flex-col p-6">
+                        <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-emerald-500">Believers</p>
+
+                        <p class="font-arabic mb-1 text-3xl text-emerald-300" lang="ar" dir="rtl">أَصْحَابُ الْيَمِينِ</p>
+                        <h3 class="mb-4 text-xl font-bold text-emerald-200">People of the Right</h3>
+
+                        <!-- Anchor verse -->
+                        <div class="mb-5 rounded-xl border border-emerald-700/30 bg-emerald-900/30 p-4">
+                            <p class="font-arabic mb-2 text-lg leading-relaxed text-emerald-300" lang="ar" dir="rtl">فَأَصْحَابُ الْيَمِينِ مَا أَصْحَابُ الْيَمِينِ</p>
+                            <p class="mb-1 text-xs font-semibold text-emerald-600">Al-Waqi'ah 56:27</p>
+                            <p class="text-xs text-emerald-500 italic">"Then the companions of the right — what are the companions of the right?"</p>
+                        </div>
+
+                        <!-- Supporting verses -->
+                        <div class="mb-5 space-y-3">
+                            <div class="rounded-lg bg-emerald-900/20 px-3 py-2.5">
+                                <p class="font-arabic mb-1 text-sm text-emerald-400" lang="ar" dir="rtl">قُوا أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًا</p>
+                                <p class="text-xs text-emerald-700 italic">"Protect yourselves and your families from a Fire." — 66:6</p>
+                            </div>
+                            <div class="rounded-lg bg-emerald-900/20 px-3 py-2.5">
+                                <p class="font-arabic mb-1 text-sm text-emerald-400" lang="ar" dir="rtl">وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ</p>
+                                <p class="text-xs text-emerald-700 italic">"And enjoin truth and patience." — 103:3</p>
+                            </div>
+                        </div>
+
+                        <!-- Bullets -->
+                        <ul class="mb-5 space-y-2">
+                            <li class="flex items-start gap-2 text-sm text-emerald-200">
+                                <span class="mt-0.5 shrink-0 text-emerald-400">✓</span>
+                                <span><span class="font-arabic">قُوا أَنفُسَكُمْ</span> — protect yourselves — <span class="text-emerald-600">66:6</span></span>
+                            </li>
+                            <li class="flex items-start gap-2 text-sm text-emerald-200">
+                                <span class="mt-0.5 shrink-0 text-emerald-400">✓</span>
+                                <span><span class="font-arabic">آمَنُوا وَعَمِلُوا الصَّالِحَاتِ</span> — believe &amp; do good — <span class="text-emerald-600">multiple</span></span>
+                            </li>
+                            <li class="flex items-start gap-2 text-sm text-emerald-200">
+                                <span class="mt-0.5 shrink-0 text-emerald-400">✓</span>
+                                <span><span class="font-arabic">تَوَاصَوْا بِالصَّبْرِ</span> — encourage patience — <span class="text-emerald-600">103:3</span></span>
+                            </li>
+                        </ul>
+
+                        <p class="mb-5 rounded-lg bg-emerald-900/20 px-3 py-2 text-xs text-emerald-700 italic">
+                            Represents the majority of successful believers.
+                        </p>
+
+                        <div class="mt-auto">
+                            <Link
+                                href="/surahs"
+                                class="block w-full rounded-xl bg-emerald-700 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-emerald-600"
+                            >
+                                🌿 Start Quran Quiz
+                            </Link>
+                            <p class="mt-2 text-center text-xs text-emerald-800">Strengthen your foundation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ══════ CARD 3: ASHAB ASH-SHIMAAL ══════ -->
+                <div class="relative flex flex-col overflow-hidden rounded-2xl border border-orange-700/50 bg-gradient-to-b from-orange-950 via-red-950/60 to-gray-950 shadow-2xl shadow-red-950/30 ring-1 ring-red-800/20">
+                    <div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-orange-500/5 via-transparent to-transparent"></div>
+                    <div class="absolute top-4 right-4 rounded-full bg-red-600 px-3 py-1 text-xs font-bold text-white">⚠️ Warning</div>
+
+                    <div class="flex flex-1 flex-col p-6">
+                        <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-red-500">Warning</p>
+
+                        <p class="font-arabic mb-1 text-3xl text-orange-400" lang="ar" dir="rtl">أَصْحَابُ الشِّمَالِ</p>
+                        <h3 class="mb-4 text-xl font-bold text-orange-200">People of the Left</h3>
+
+                        <!-- Anchor verse -->
+                        <div class="mb-5 rounded-xl border border-red-800/30 bg-red-900/30 p-4">
+                            <p class="font-arabic mb-2 text-lg leading-relaxed text-orange-300" lang="ar" dir="rtl">وَأَصْحَابُ الشِّمَالِ مَا أَصْحَابُ الشِّمَالِ</p>
+                            <p class="mb-1 text-xs font-semibold text-red-600">Al-Waqi'ah 56:41</p>
+                            <p class="text-xs text-orange-500 italic">"And the companions of the left — what are the companions of the left?"</p>
+                        </div>
+
+                        <!-- Supporting verses -->
+                        <div class="mb-5 space-y-3">
+                            <div class="rounded-lg bg-red-900/20 px-3 py-2.5">
+                                <p class="font-arabic mb-1 text-sm text-orange-400" lang="ar" dir="rtl">فِي سَمُومٍ وَحَمِيمٍ</p>
+                                <p class="text-xs text-red-700 italic">"In scorching wind and boiling water." — 56:42</p>
+                            </div>
+                            <div class="rounded-lg bg-red-900/20 px-3 py-2.5">
+                                <p class="font-arabic mb-1 text-sm text-orange-400" lang="ar" dir="rtl">إِنَّ الَّذِينَ كَفَرُوا</p>
+                                <p class="text-xs text-red-700 italic">"Indeed, those who disbelieve..." — multiple</p>
+                            </div>
+                        </div>
+
+                        <!-- Bullets -->
+                        <ul class="mb-5 space-y-2">
+                            <li class="flex items-start gap-2 text-sm text-orange-200">
+                                <span class="mt-0.5 shrink-0 text-red-500">✗</span>
+                                <span><span class="font-arabic">كَفَرُوا</span> — disbelieved — <span class="text-red-600">various</span></span>
+                            </li>
+                            <li class="flex items-start gap-2 text-sm text-orange-200">
+                                <span class="mt-0.5 shrink-0 text-red-500">✗</span>
+                                <span><span class="font-arabic">ظَلَمُوا</span> — oppression — <span class="text-red-600">various</span></span>
+                            </li>
+                            <li class="flex items-start gap-2 text-sm text-orange-200">
+                                <span class="mt-0.5 shrink-0 text-red-500">✗</span>
+                                <span><span class="font-arabic">أَصْحَابُ الشِّمَالِ</span> — people of the left — <span class="text-red-600">56:41</span></span>
+                            </li>
+                        </ul>
+
+                        <p class="mb-5 rounded-lg bg-red-900/20 px-3 py-2 text-xs text-red-700 italic">
+                            Represents those who persist in sin without repentance.
+                        </p>
+
+                        <div class="mt-auto">
+                            <Link
+                                href="/major-sins"
+                                class="block w-full rounded-xl bg-gradient-to-r from-red-700 to-rose-700 px-4 py-3 text-center text-sm font-bold text-white shadow-lg shadow-red-900/50 transition hover:from-red-600 hover:to-rose-600"
+                            >
+                                ⚠️ Learn Major Sins
+                            </Link>
+                            <p class="mt-2 text-center text-xs text-red-800">Know what to avoid</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ══════ CARD 4: HYPOCRITES ══════ -->
+                <div class="relative flex flex-col overflow-hidden rounded-2xl border border-gray-800/60 bg-gradient-to-b from-gray-950 via-red-950/20 to-black shadow-2xl">
+                    <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-red-950/10 to-transparent"></div>
+
+                    <div class="flex flex-1 flex-col p-6">
+                        <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-red-800">Hypocrisy</p>
+
+                        <p class="font-arabic mb-1 text-3xl text-gray-500" lang="ar" dir="rtl">الدَّرْكِ الْأَسْفَلِ</p>
+                        <h3 class="mb-4 text-xl font-bold text-gray-400">Lowest Depth of Hell</h3>
+
+                        <!-- Anchor verse -->
+                        <div class="mb-5 rounded-xl border border-gray-800 bg-black/40 p-4">
+                            <p class="font-arabic mb-2 text-lg leading-relaxed text-gray-500" lang="ar" dir="rtl">إِنَّ الْمُنَافِقِينَ فِي الدَّرْكِ الْأَسْفَلِ مِنَ النَّارِ</p>
+                            <p class="mb-1 text-xs font-semibold text-gray-600">An-Nisa 4:145</p>
+                            <p class="text-xs text-gray-600 italic">"Indeed, the hypocrites will be in the lowest depths of the Fire."</p>
+                        </div>
+
+                        <!-- Supporting verses -->
+                        <div class="mb-5 space-y-3">
+                            <div class="rounded-lg bg-gray-900 px-3 py-2.5">
+                                <p class="font-arabic mb-1 text-sm text-gray-500" lang="ar" dir="rtl">يُخَادِعُونَ اللَّهَ وَالَّذِينَ آمَنُوا</p>
+                                <p class="text-xs text-gray-700 italic">"They deceive Allah and the believers." — 2:9</p>
+                            </div>
+                            <div class="rounded-lg bg-gray-900 px-3 py-2.5">
+                                <p class="font-arabic mb-1 text-sm text-gray-500" lang="ar" dir="rtl">الَّذِينَ هُمْ يُرَاءُونَ</p>
+                                <p class="text-xs text-gray-700 italic">"Those who show off." — 107:6</p>
+                            </div>
+                        </div>
+
+                        <!-- Bullets -->
+                        <ul class="mb-5 space-y-2">
+                            <li class="flex items-start gap-2 text-sm text-gray-500">
+                                <span class="mt-0.5 shrink-0 text-gray-700">☠</span>
+                                <span><span class="font-arabic">يُخَادِعُونَ</span> — deception — <span class="text-gray-700">2:9</span></span>
+                            </li>
+                            <li class="flex items-start gap-2 text-sm text-gray-500">
+                                <span class="mt-0.5 shrink-0 text-gray-700">☠</span>
+                                <span><span class="font-arabic">يُرَاءُونَ</span> — showing off — <span class="text-gray-700">107:6</span></span>
+                            </li>
+                            <li class="flex items-start gap-2 text-sm text-gray-500">
+                                <span class="mt-0.5 shrink-0 text-gray-700">☠</span>
+                                <span><span class="font-arabic">لا يَذْكُرُونَ اللَّهَ إِلَّا قَلِيلًا</span> — little remembrance — <span class="text-gray-700">4:142</span></span>
+                            </li>
+                        </ul>
+
+                        <p class="mb-5 rounded-lg bg-gray-900 px-3 py-2 text-xs text-gray-700 italic">
+                            Hypocrisy refers to outward Islam with inward disbelief.
+                        </p>
+
+                        <div class="mt-auto">
+                            <button disabled class="w-full cursor-not-allowed rounded-xl border border-gray-800 bg-gray-900/60 px-4 py-3 text-sm font-semibold text-gray-700 opacity-50">
+                                ☠ Nifaq Awareness Quiz
+                            </button>
+                            <p class="mt-2 text-center text-xs text-gray-800">Purify your intentions — coming soon</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
         <!-- ─── IMPLEMENTATION LEVELS ─── -->
         <section class="px-6 py-16 lg:px-12">
             <div class="mb-10 text-center">
