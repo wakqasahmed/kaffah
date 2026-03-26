@@ -26,6 +26,8 @@ Route::prefix('quiz')->name('quiz.')->group(function () {
 
 Route::get('/progress', ProgressController::class)->name('progress');
 
+Route::inertia('/implement', 'Implement')->name('implement');
+
 Route::inertia('/sabiqun', 'Groups/Sabiqun')->name('sabiqun');
 Route::inertia('/ashab-al-yameen', 'Groups/AshabAlYameen')->name('ashab-al-yameen');
 Route::inertia('/ashab-al-shimaal', 'Groups/AshabAlShimaal')->name('ashab-al-shimaal');

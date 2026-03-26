@@ -814,6 +814,105 @@ onUnmounted(() => {
             </div>
         </section>
 
+        <!-- ─── YOUR JOURNEY ─── -->
+        <section class="px-6 pb-16 lg:px-12">
+            <div class="mb-10 text-center">
+                <div class="mb-3 inline-flex items-center gap-2 rounded-full border border-gold-700/30 bg-gold-900/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-gold-500">
+                    Your Journey
+                </div>
+                <h2 class="mb-3 text-3xl font-bold text-white">The Qur'anic Spiritual Ladder</h2>
+                <p class="text-gray-400">One path — four stages. Every step brings you closer to Allah.</p>
+            </div>
+
+            <!-- Ladder -->
+            <div class="mx-auto max-w-5xl">
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-4 sm:gap-0">
+
+                    <!-- Stage 1: Islam -->
+                    <div class="relative flex flex-col items-center text-center">
+                        <div class="w-full rounded-2xl border border-brand-800/50 bg-gradient-to-b from-brand-950/80 to-gray-950 p-6 sm:rounded-r-none sm:rounded-l-2xl">
+                            <div class="mb-3 inline-flex items-center gap-1 rounded-full bg-brand-900/60 px-2.5 py-1 text-xs font-bold text-brand-400">
+                                Level 1
+                            </div>
+                            <p class="font-arabic mb-1 text-2xl text-brand-300" lang="ar" dir="rtl">الْإِسْلَامُ</p>
+                            <h3 class="mb-2 text-base font-bold text-brand-200">Submission</h3>
+                            <p class="mb-3 text-xs text-brand-700">Focus: Build your actions</p>
+                            <p class="font-arabic text-sm text-brand-600" lang="ar" dir="rtl">عَلَيْكُمْ أَنفُسَكُمْ</p>
+                            <p class="text-xs text-brand-800 italic mt-1">5:105</p>
+                        </div>
+                        <!-- Arrow right (desktop) -->
+                        <div class="hidden sm:flex absolute -right-3 top-1/2 z-10 -translate-y-1/2 items-center justify-center h-6 w-6 rounded-full bg-gray-800 border border-gray-700 text-gray-500 text-xs font-bold">
+                            →
+                        </div>
+                        <!-- Arrow down (mobile) -->
+                        <div class="sm:hidden my-1 text-gray-600 text-lg">↓</div>
+                    </div>
+
+                    <!-- Stage 2: Iman -->
+                    <div class="relative flex flex-col items-center text-center">
+                        <div class="w-full rounded-2xl border border-gold-800/50 bg-gradient-to-b from-gold-950/80 to-gray-950 p-6 sm:rounded-none">
+                            <div class="mb-3 inline-flex items-center gap-1 rounded-full bg-gold-900/60 px-2.5 py-1 text-xs font-bold text-gold-400">
+                                Level 2
+                            </div>
+                            <p class="font-arabic mb-1 text-2xl text-gold-300" lang="ar" dir="rtl">الْإِيمَانُ</p>
+                            <h3 class="mb-2 text-base font-bold text-gold-200">Strengthen</h3>
+                            <p class="mb-3 text-xs text-gold-700">Focus: Build your heart</p>
+                            <p class="font-arabic text-sm text-gold-600" lang="ar" dir="rtl">آمَنُوا وَعَمِلُوا الصَّالِحَاتِ</p>
+                            <p class="text-xs text-gold-800 italic mt-1">2:82</p>
+                        </div>
+                        <div class="hidden sm:flex absolute -right-3 top-1/2 z-10 -translate-y-1/2 items-center justify-center h-6 w-6 rounded-full bg-gray-800 border border-gray-700 text-gray-500 text-xs font-bold">
+                            →
+                        </div>
+                        <div class="sm:hidden my-1 text-gray-600 text-lg">↓</div>
+                    </div>
+
+                    <!-- Stage 3: Ihsan -->
+                    <div class="relative flex flex-col items-center text-center">
+                        <div class="w-full rounded-2xl border border-purple-800/50 bg-gradient-to-b from-purple-950/80 to-gray-950 p-6 sm:rounded-none">
+                            <div class="mb-3 inline-flex items-center gap-1 rounded-full bg-purple-900/60 px-2.5 py-1 text-xs font-bold text-purple-400">
+                                Level 3
+                            </div>
+                            <p class="font-arabic mb-1 text-2xl text-purple-300" lang="ar" dir="rtl">الْإِحْسَانُ</p>
+                            <h3 class="mb-2 text-base font-bold text-purple-200">Excellence</h3>
+                            <p class="mb-3 text-xs text-purple-700">Focus: Refine your intentions</p>
+                            <p class="font-arabic text-sm text-purple-600" lang="ar" dir="rtl">تَزَكَّىٰ</p>
+                            <p class="text-xs text-purple-800 italic mt-1">87:14</p>
+                        </div>
+                        <div class="hidden sm:flex absolute -right-3 top-1/2 z-10 -translate-y-1/2 items-center justify-center h-6 w-6 rounded-full bg-gray-800 border border-gray-700 text-gray-500 text-xs font-bold">
+                            →
+                        </div>
+                        <div class="sm:hidden my-1 text-gray-600 text-lg">↓</div>
+                    </div>
+
+                    <!-- Stage 4: Sabiqun -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-full rounded-2xl border border-amber-500/50 bg-gradient-to-b from-amber-950/80 via-yellow-950/40 to-gray-950 p-6 ring-1 ring-amber-700/20 sm:rounded-l-none sm:rounded-r-2xl">
+                            <div class="mb-3 inline-flex items-center gap-1 rounded-full bg-amber-900/60 px-2.5 py-1 text-xs font-bold text-amber-400">
+                                ✦ Forerunners
+                            </div>
+                            <p class="font-arabic mb-1 text-2xl text-amber-300" lang="ar" dir="rtl">السَّابِقُونَ</p>
+                            <h3 class="mb-2 text-base font-bold text-amber-200">Race to الخير</h3>
+                            <p class="mb-3 text-xs text-amber-700">Focus: Lead in every good</p>
+                            <p class="font-arabic text-sm text-amber-600" lang="ar" dir="rtl">أُولَٰئِكَ الْمُقَرَّبُونَ</p>
+                            <p class="text-xs text-amber-800 italic mt-1">56:11</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- CTA -->
+                <div class="mt-10 text-center">
+                    <Link
+                        href="/implement"
+                        class="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-amber-600 to-gold-500 px-8 py-4 text-base font-bold text-gray-950 shadow-lg shadow-amber-900/30 transition hover:from-amber-500 hover:to-gold-400"
+                    >
+                        Let's Take a Path to Jannah al-Firdous →
+                    </Link>
+                    <p class="mt-3 text-sm text-gray-600">Structured guidance — available soon</p>
+                </div>
+            </div>
+        </section>
+
         <!-- ─── CTA FOOTER ─── -->
         <section class="border-t border-gray-800 px-6 py-16 text-center lg:px-12">
             <p class="font-arabic mb-3 text-3xl text-gold-400" lang="ar" dir="rtl">وَمَن يَتَوَلَّ اللَّهَ وَرَسُولَهُ وَالَّذِينَ آمَنُوا فَإِنَّ حِزْبَ اللَّهِ هُمُ الْغَالِبُونَ</p>
