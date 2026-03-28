@@ -1,9 +1,9 @@
 import { onMounted, onUnmounted, ref } from 'vue';
 
 export interface Verse {
-    arabic: string;
+    arabic?: string;
     english: string;
-    ref: string;
+    ref?: string;
 }
 
 export function useVerseRotation(verses: Verse[], intervalMs = 7000) {

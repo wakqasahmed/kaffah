@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
 import NavBar from '@/components/layout/NavBar.vue';
-import { useVerseRotation } from '@/composables/useVerseRotation';
+import VerseHero from '@/components/layout/VerseHero.vue';
 
 const verses = [
     {
@@ -45,7 +45,7 @@ const traits = [
     { arabic: 'لَا يَنتَهُونَ عَن مُّنكَرٍ', meaning: 'Did not forbid evil among themselves', ref: '5:79' },
 ];
 
-const { currentVerse, transitioning, goTo } = useVerseRotation(verses);
+
 </script>
 
 <template>
@@ -55,59 +55,14 @@ const { currentVerse, transitioning, goTo } = useVerseRotation(verses);
         <NavBar theme="dark" />
 
         <!-- ─── HERO ─── -->
-        <section class="relative overflow-hidden">
-            <div class="pointer-events-none absolute inset-0">
-                <div class="absolute inset-0 bg-gradient-to-b from-red-950/80 via-gray-950 to-gray-950"></div>
-                <div class="absolute top-1/3 left-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-500/6 blur-3xl"></div>
-            </div>
-
-            <div class="relative z-10 px-6 py-20 text-center lg:py-28 lg:px-12">
-                <!-- Badge -->
-                <div class="mb-8 inline-flex items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-5 py-2 text-sm text-red-400">
-                    <span class="font-arabic text-base">أَصْحَابُ الشِّمَالِ</span>
-                    <span class="text-red-600">·</span>
-                    <span>⚠ Warning</span>
-                </div>
-
-                <!-- Rotating verse -->
-                <div class="mx-auto mb-8 max-w-3xl">
-                    <div
-                        class="transition-opacity duration-400"
-                        :class="transitioning ? 'opacity-0' : 'opacity-100'"
-                    >
-                        <p
-                            class="font-arabic mb-4 text-3xl leading-relaxed text-orange-200 lg:text-4xl"
-                            lang="ar"
-                            dir="rtl"
-                        >{{ verses[currentVerse].arabic }}</p>
-                        <p class="mb-3 text-base text-orange-100/80 lg:text-lg italic">
-                            "{{ verses[currentVerse].english }}"
-                        </p>
-                        <p class="text-sm font-semibold tracking-wider text-red-500 uppercase">
-                            — {{ verses[currentVerse].ref }}
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Dots -->
-                <div class="mb-10 flex justify-center gap-2">
-                    <button
-                        v-for="(_, i) in verses"
-                        :key="i"
-                        class="h-2 rounded-full transition-all"
-                        :class="i === currentVerse ? 'w-6 bg-red-400' : 'w-2 bg-red-900 hover:bg-red-700'"
-                        @click="goTo(i)"
-                        :aria-label="`Go to verse ${i + 1}`"
-                    />
-                </div>
-
-                <!-- Title -->
-                <h1 class="mb-3 text-4xl font-bold text-orange-200 lg:text-5xl">People of the Left</h1>
-                <p class="mx-auto max-w-xl text-lg text-orange-300/70">
-                    A grave warning — those who persist in sin, denial, and heedlessness.
-                </p>
-            </div>
-        </section>
+        <VerseHero
+            :verses="verses"
+            theme="red"
+            badge-arabic="أَصْحَابُ الشِّمَالِ"
+            badge-label="⚠ Warning"
+            title="People of the Left"
+            subtitle="A grave warning — those who persist in sin, denial, and heedlessness."
+        />
 
         <!-- ─── 3 CTAs ─── -->
         <section class="px-6 py-12 lg:px-12">

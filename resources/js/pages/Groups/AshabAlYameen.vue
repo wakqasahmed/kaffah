@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
 import NavBar from '@/components/layout/NavBar.vue';
-import { useVerseRotation } from '@/composables/useVerseRotation';
+import VerseHero from '@/components/layout/VerseHero.vue';
 
 const verses = [
     {
@@ -45,7 +45,7 @@ const traits = [
     { arabic: 'تَزَكَّى', meaning: 'Purify themselves', ref: '87:14' },
 ];
 
-const { currentVerse, transitioning, goTo } = useVerseRotation(verses);
+
 </script>
 
 <template>
@@ -55,59 +55,14 @@ const { currentVerse, transitioning, goTo } = useVerseRotation(verses);
         <NavBar theme="dark" />
 
         <!-- ─── HERO ─── -->
-        <section class="relative overflow-hidden">
-            <div class="pointer-events-none absolute inset-0">
-                <div class="absolute inset-0 bg-gradient-to-b from-emerald-950/80 via-gray-950 to-gray-950"></div>
-                <div class="absolute top-1/3 left-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-emerald-500/6 blur-3xl"></div>
-            </div>
-
-            <div class="relative z-10 px-6 py-20 text-center lg:py-28 lg:px-12">
-                <!-- Badge -->
-                <div class="mb-8 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-5 py-2 text-sm text-emerald-400">
-                    <span class="font-arabic text-base">أَصْحَابُ الْيَمِينِ</span>
-                    <span class="text-emerald-600">·</span>
-                    <span>Standard Jannah</span>
-                </div>
-
-                <!-- Rotating verse -->
-                <div class="mx-auto mb-8 max-w-3xl">
-                    <div
-                        class="transition-opacity duration-400"
-                        :class="transitioning ? 'opacity-0' : 'opacity-100'"
-                    >
-                        <p
-                            class="font-arabic mb-4 text-3xl leading-relaxed text-emerald-200 lg:text-4xl"
-                            lang="ar"
-                            dir="rtl"
-                        >{{ verses[currentVerse].arabic }}</p>
-                        <p class="mb-3 text-base text-emerald-100/80 lg:text-lg italic">
-                            "{{ verses[currentVerse].english }}"
-                        </p>
-                        <p class="text-sm font-semibold tracking-wider text-emerald-500 uppercase">
-                            — {{ verses[currentVerse].ref }}
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Dots -->
-                <div class="mb-10 flex justify-center gap-2">
-                    <button
-                        v-for="(_, i) in verses"
-                        :key="i"
-                        class="h-2 rounded-full transition-all"
-                        :class="i === currentVerse ? 'w-6 bg-emerald-400' : 'w-2 bg-emerald-800 hover:bg-emerald-600'"
-                        @click="goTo(i)"
-                        :aria-label="`Go to verse ${i + 1}`"
-                    />
-                </div>
-
-                <!-- Title -->
-                <h1 class="mb-3 text-4xl font-bold text-emerald-200 lg:text-5xl">People of the Right</h1>
-                <p class="mx-auto max-w-xl text-lg text-emerald-300/70">
-                    The successful believers — those who fulfil the covenant of faith and righteous deeds.
-                </p>
-            </div>
-        </section>
+        <VerseHero
+            :verses="verses"
+            theme="emerald"
+            badge-arabic="أَصْحَابُ الْيَمِينِ"
+            badge-label="Standard Jannah"
+            title="People of the Right"
+            subtitle="The successful believers — those who fulfil the covenant of faith and righteous deeds."
+        />
 
         <!-- ─── 3 CTAs ─── -->
         <section class="px-6 py-12 lg:px-12">

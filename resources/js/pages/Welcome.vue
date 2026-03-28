@@ -2,6 +2,7 @@
 import { Head, Link, router } from '@inertiajs/vue3';
 import { ref, onMounted, onUnmounted } from 'vue';
 import NavBar from '@/components/layout/NavBar.vue';
+import { useVerseRotation } from '@/composables/useVerseRotation';
 
 const isStartingMajorSins = ref(false);
 
@@ -10,68 +11,32 @@ function startMajorSinsQuiz() {
     router.visit('/major-sins');
 }
 
-/* ─── Rotating hero verses ─── */
-const verses = [
-    {
-        arabic: 'سَابِقُوا إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا كَعَرْضِ السَّمَاءِ وَالْأَرْضِ',
-        english: 'Race toward forgiveness from your Lord and a Garden whose width is like the width of the heavens and earth.',
-        ref: 'Al-Hadid 57:21',
-    },
-    {
-        arabic: 'وَسَارِعُوا إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا السَّمَاوَاتُ وَالْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ',
-        english: 'And hasten to forgiveness from your Lord and a garden as wide as the heavens and earth, prepared for the righteous.',
-        ref: 'Aal-Imran 3:133',
-    },
-    {
-        arabic: 'يُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَيَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنكَرِ وَيُسَارِعُونَ فِي الْخَيْرَاتِ',
-        english: 'They believe in Allah and the Last Day, enjoin what is right, forbid what is wrong, and hasten to good deeds.',
-        ref: 'Aal-Imran 3:114',
-    },
-    {
-        arabic: 'فَاسْتَبِقُوا الْخَيْرَاتِ ۚ أَيْنَ مَا تَكُونُوا يَأْتِ بِكُمُ اللَّهُ جَمِيعًا',
-        english: 'So race to all that is good. Wherever you may be, Allah will bring you forth all together.',
-        ref: 'Al-Baqarah 2:148',
-    },
-    {
-        arabic: 'أُولَٰئِكَ يُسَارِعُونَ فِي الْخَيْرَاتِ وَهُمْ لَهَا سَابِقُونَ',
-        english: 'It is those who hasten to good deeds, and they outstrip others therein.',
-        ref: "Al-Mu'minun 23:61",
-    },
-    {
-        arabic: 'وَالسَّابِقُونَ السَّابِقُونَ ۞ أُولَٰئِكَ الْمُقَرَّبُونَ',
-        english: 'And the forerunners, the forerunners — those are the ones brought near to Allah.',
-        ref: "Al-Waqi'ah 56:10-11",
-    },
-    {
-        arabic: 'إِنَّهُمْ كَانُوا يُسَارِعُونَ فِي الْخَيْرَاتِ وَيَدْعُونَنَا رَغَبًا وَرَهَبًا',
-        english: 'Indeed, they used to hasten to good deeds and supplicate Us in hope and fear.',
-        ref: "Al-Anbiya' 21:90",
-    },
-    {
-        arabic: 'فَاسْتَبِقُوا الْخَيْرَاتِ ۚ إِلَى اللَّهِ مَرْجِعُكُمْ جَمِيعًا',
-        english: 'So race to all that is good. To Allah is your return all together.',
-        ref: "Al-Ma'idah 5:48",
-    },
+/* ─── Rotating hero statements ─── */
+const statements = [
+    { english: 'Ever wondered how much you follow the Quran?' },
+    { english: 'Ever wondered how the Sahaba treated the Quran?' },
+    { english: 'Ever wondered how the Sahaba memorized the Quran?' },
+    { english: 'Ever wondered how the Sahaba implemented the Quran?' },
+    { arabic: 'حَاسِبُوا أَنْفُسَكُمْ قَبْلَ أَنْ تُحَاسَبُوا', english: "— ʿUmar ibn al-Khaṭṭāb  رضي الله عنه" },
+    { english: 'Know and follow the way of the Sahaba & Ahlul Bayt' },
+    { english: 'Take the first steps towards Jannat al-Firdous' },
 ];
 
-const currentVerse = ref(0);
-let interval: ReturnType<typeof setInterval>;
-const transitioning = ref(false);
+const { currentVerse, transitioning, goTo } = useVerseRotation(statements, 5000);
 
-function nextVerse() {
-    transitioning.value = true;
-    setTimeout(() => {
-        currentVerse.value = (currentVerse.value + 1) % verses.length;
-        transitioning.value = false;
-    }, 400);
-}
+/* ─── Rotating measure-word banner ─── */
+const flipWords = ['manage', 'improve', 'fix', 'achieve'];
+const currentWord = ref(0);
+let wordInterval: ReturnType<typeof setInterval>;
 
 onMounted(() => {
-    interval = setInterval(nextVerse, 7000);
+    wordInterval = setInterval(() => {
+        currentWord.value = (currentWord.value + 1) % flipWords.length;
+    }, 2000);
 });
 
 onUnmounted(() => {
-    clearInterval(interval);
+    clearInterval(wordInterval);
 });
 </script>
 
@@ -83,61 +48,60 @@ onUnmounted(() => {
         <!-- ─── NAV ─── -->
         <NavBar theme="dark" />
 
-        <!-- ─── HERO with rotating verses ─── -->
+        <!-- ─── HERO with rotating statements ─── -->
         <section class="relative overflow-hidden">
-            <!-- Warm gradient background -->
             <div class="pointer-events-none absolute inset-0">
                 <div class="absolute inset-0 bg-gradient-to-b from-brand-950/80 via-gray-950 to-gray-950"></div>
                 <div class="absolute top-1/3 left-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold-500/5 blur-3xl"></div>
             </div>
 
             <div class="relative z-10 px-6 py-20 text-center lg:py-28 lg:px-12">
-                <!-- Slogan badge -->
-                <div class="mb-8 inline-flex items-center gap-2 rounded-full border border-gold-500/30 bg-gold-500/10 px-5 py-2 text-sm text-gold-400">
-                    <span class="font-arabic text-base">حَيَّ عَلَىٰ خَيْرِ الْعَمَلِ</span>
+                <!-- Quranic opener badge -->
+                <div class="mb-2 inline-flex flex-col items-center gap-1 rounded-2xl border border-gold-500/30 bg-gold-500/10 px-6 py-3">
+                    <span class="font-arabic text-2xl font-bold text-gold-300 leading-relaxed" lang="ar" dir="rtl">
+                        ادْخُلُوا فِي السِّلْمِ كَافَّةً
+                    </span>
+                    <span class="text-xs text-gold-600 tracking-wide">Allah orders us in the Quran — Al-Baqarah 2:208</span>
                 </div>
 
-                <!-- Rotating verse -->
-                <div class="mx-auto mb-10 min-h-[200px] max-w-4xl">
-                    <transition name="fade" mode="out-in">
-                        <div :key="currentVerse" class="transition-opacity duration-400" :class="transitioning ? 'opacity-0' : 'opacity-100'">
-                            <p
-                                class="font-arabic mb-4 text-3xl leading-relaxed font-bold text-gold-300 drop-shadow-lg sm:text-4xl lg:text-5xl"
-                                dir="rtl"
-                                lang="ar"
-                            >
-                                {{ verses[currentVerse].arabic }}
-                            </p>
-                            <p class="mb-2 text-lg text-brand-200/80 italic">
-                                "{{ verses[currentVerse].english }}"
-                            </p>
-                            <p class="text-sm text-gold-600">
-                                — {{ verses[currentVerse].ref }}
-                            </p>
-                        </div>
-                    </transition>
+                <!-- Rotating statement -->
+                <div class="mx-auto my-10 min-h-[120px] max-w-3xl flex items-center justify-center">
+                    <div
+                        class="transition-opacity duration-400 w-full"
+                        :class="transitioning ? 'opacity-0' : 'opacity-100'"
+                    >
+                        <p
+                            v-if="statements[currentVerse].arabic"
+                            class="font-arabic mb-3 text-2xl leading-relaxed text-gold-300 sm:text-3xl"
+                            lang="ar"
+                            dir="rtl"
+                        >{{ statements[currentVerse].arabic }}</p>
+                        <p class="text-2xl font-semibold text-white sm:text-3xl lg:text-4xl">
+                            {{ statements[currentVerse].english }}
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Verse dots -->
+                <!-- Statement dots -->
                 <div class="mb-10 flex items-center justify-center gap-2">
                     <button
-                        v-for="(_, i) in verses"
+                        v-for="(_, i) in statements"
                         :key="i"
                         class="h-2 rounded-full transition-all duration-300"
                         :class="i === currentVerse ? 'w-6 bg-gold-400' : 'w-2 bg-gray-700 hover:bg-gray-600'"
-                        @click="currentVerse = i"
-                        :aria-label="'Verse ' + (i + 1)"
+                        @click="goTo(i)"
+                        :aria-label="'Statement ' + (i + 1)"
                     />
                 </div>
 
                 <h1 class="mb-4 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-                    Race to Good Deeds
+                    Amal — Your Qur'anic Journey
                 </h1>
                 <p class="mx-auto mb-10 max-w-2xl text-lg text-gray-400">
                     Learn what the Quran commands, avoid what it forbids, and track your journey toward Jannah.
                 </p>
 
-                <!-- Two path buttons -->
+                <!-- CTA buttons -->
                 <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
                     <Link
                         href="/surahs"
@@ -153,6 +117,22 @@ onUnmounted(() => {
                     </Link>
                 </div>
             </div>
+        </section>
+
+        <!-- ─── MEASURE BANNER ─── -->
+        <section class="border-b border-gray-900 bg-gray-950 px-6 py-5 text-center">
+            <p class="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-lg text-gray-400 sm:text-xl">
+                <span>If you can measure it, you can</span>
+                <span class="inline-block" style="perspective: 400px">
+                    <transition name="word-flip" mode="out-in">
+                        <span
+                            :key="currentWord"
+                            class="inline-block rounded border border-brand-700/60 bg-brand-900/40 px-3 py-0.5 font-bold text-brand-300"
+                        >{{ flipWords[currentWord] }}</span>
+                    </transition>
+                </span>
+                <span>it.</span>
+            </p>
         </section>
 
         <!-- ─── TWO-CAMP BANNER ─── -->
@@ -938,3 +918,18 @@ onUnmounted(() => {
 
     </div>
 </template>
+
+<style scoped>
+.word-flip-enter-active { animation: flip-in 0.25s ease-out forwards; }
+.word-flip-leave-active  { animation: flip-out 0.2s ease-in forwards; }
+
+@keyframes flip-in {
+    from { transform: rotateX(90deg); opacity: 0; }
+    to   { transform: rotateX(0deg);  opacity: 1; }
+}
+
+@keyframes flip-out {
+    from { transform: rotateX(0deg);   opacity: 1; }
+    to   { transform: rotateX(-90deg); opacity: 0; }
+}
+</style>
